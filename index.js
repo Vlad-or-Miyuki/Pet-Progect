@@ -1,29 +1,8 @@
-// let clickableElement = document.querySelector('.clickable');
-// let hiddenContent = document.querySelector('.hidden-content');
+let clickableElementWeapon = document.querySelector('.clickable-weapon');
+let hiddenContentsWeapon = document.querySelectorAll('.hidden-content-weapon');
 
-// clickableElement.addEventListener('click', function() {
-//     if (hiddenContent.style.display === 'none') {
-//         hiddenContent.style.display = 'block';
-
-//         let mainContent = document.querySelector('.main');
-//         mainContent.style.marginLeft = '150px';
-//     } else {
-//         hiddenContent.style.display = 'none';
-
-//         let mainContent = document.querySelector('.main');
-//         mainContent.style.marginLeft = '0';
-
-//         let sidebar = document.querySelector('.sidebar');
-//         sidebar.style.width = '85px';
-//     }
-// });
-
-
-let clickableElement = document.querySelector('.clickable');
-let hiddenContents = document.querySelectorAll('.hidden-content');
-
-clickableElement.addEventListener('click', function() {
-    hiddenContents.forEach(function(hiddenContent) {
+clickableElementWeapon.addEventListener('click', function() {
+    hiddenContentsWeapon.forEach(function(hiddenContent) {
         if (hiddenContent.style.display === 'none') {
             hiddenContent.style.display = 'block';
         } else {
@@ -31,3 +10,30 @@ clickableElement.addEventListener('click', function() {
         }
     });
 });
+
+let clickableElementArmor = document.querySelector('.clickable-armor');
+let hiddenContentsArmor = document.querySelectorAll('.hidden-content-armor');
+
+clickableElementArmor.addEventListener('click', function() {
+    hiddenContentsArmor.forEach(function(hiddenContent) {
+        if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'block';
+        } else {
+            hiddenContent.style.display = 'none';
+        }
+    });
+});
+
+let clickableElementOther = document.querySelector('.clickable-other');
+let hiddenContentsOther = document.querySelectorAll('.hidden-content-other');
+
+clickableElementOther.addEventListener('click', function() {
+    hiddenContentsOther.forEach(function(hiddenContent) {
+        if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'block';
+        } else {
+            hiddenContent.style.display = 'none';
+        }
+    });
+});
+
