@@ -1,3 +1,4 @@
+// кнопки для скрытия категорий сайд бара
 let clickableElementWeapon = document.querySelector('.clickable-weapon');
 let hiddenContentsWeapon = document.querySelectorAll('.hidden-content-weapon');
 
@@ -36,4 +37,34 @@ clickableElementOther.addEventListener('click', function() {
         }
     });
 });
+// кнопки для скрытия категорий сайд бара
 
+// кнопки для фильтра категорий
+const buttons = document.querySelectorAll('.button')
+const cards = document.querySelectorAll('.card')   
+
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+        const currentCategory = button.dataset.filter
+        // Здесь сработает функция
+        filter(currentCategory, cards)
+    })
+})
+
+function filter (category, items) {
+    items.forEach((item) => {
+        // проверка на соответствие категории
+        const isItemFiltered = !item.classList.contains(category)
+        // Заведем переменную для показа всех карточек в категории All
+        const isShowAll = category.toLowerCase() === 'all'
+        // Если карточка не содержит данную категорию
+        if (isItemFiltered && !isShowAll) {
+        // Добавлять класс hide
+            item.classList.add('hide')
+        // В противном случае, удалять класс hide
+        } else {
+            item.classList.remove('hide')
+      }
+    })
+  }
+// кнопки для фильтра категорий

@@ -1,14 +1,36 @@
+@font-face {
+  font-family: "Architectural";
+  src: url("fonts/Architectural.woff");
+}
+
+@font-face {
+  font-family: "Philophobia";
+  src: url("fonts/philophobia.woff");
+}
+
+@font-face {
+  font-family: "strokerusbylyajka_medium";
+  src: url("fonts/strokerusbylyajka_medium.otf");
+}
+
+@font-face {
+  font-family: "Acherus_Feral";
+  src: url("fonts/Acherus_Feral.ttf");
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #fff;
-  background-color: #000;
+  background: url(back.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
   
 a {
   color: #fff;
   text-decoration: none;
+  font-size: 33px;
 }
   
 a:hover {
@@ -18,6 +40,7 @@ a:hover {
   /* Header */
   
 .header {
+  font-family: "Acherus_Feral";
   display: flex;
   position: fixed;
   width: 100%;
@@ -29,7 +52,7 @@ a:hover {
 }
   
 .logo {
-  width: 200px;
+  width: 300px;
 }
   
 .nav {
@@ -60,20 +83,54 @@ a:hover {
   padding-right: 100px;
   min-height: 100%;
 }
-
-.categories {
-padding-top: 0px;
-}
   
 .sidebar {
-
+  font-family: "Acherus_Feral";
   display: flex;
   position: fixed;
   padding-top: 50px;
-  width: 130px;
+  width: 150px;
   height: 100%;
   margin-right: 40px;
   background-color: #333;
+}
+
+.button {
+  font-family: "Acherus_Feral";
+  background-color: var(--color-buttons);
+  color: white;
+  width: 124px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 13px;
+  border: 0px;
+}
+.button:hover {
+  color: #ccc;
+}
+
+.button_all {
+  background-color: var(--color-buttons);
+  color: white;
+}
+.filters {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.categories {
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.spisokCent {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--color-buttons);
 }
 
 ul {
@@ -84,6 +141,8 @@ ul {
 li {
   padding: 2px;
 }
+
+/* кнопки для скрытия категорий */
 
 .hidden-content-weapon {
   font-size: small;
@@ -98,4 +157,132 @@ li {
 .hidden-content-other {
   font-size: small;
   padding: 5px;
+}
+
+/* карточки и фильтр категрий */
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+  height: 250px;
+  background-color: #333;
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  padding-left: 165px;
+  padding-top: 75px;
+  color: blueviolet;
+}
+
+.hide {
+  display: none; /* скрывает элемент */
+}
+
+/* Затемнение всей страницы при открытии окна */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* разрешаем прокрутку */
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Добавляется при открытии окна */
+.modal-open {
+  display: block;
+}
+
+/* Содержимое модального окна */
+.modal-content {
+  background-color: white;
+  margin: 15% auto; /* отступ сверху и центрирование по горизонтали */
+  padding: 20px;
+  border: 1px solid black;
+  width: 80%;
+}
+
+/* Кнопка закрытия модального окна */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.photoCard{
+  width: 125px;
+  height: 210px;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 0px;
+  border-radius: 20px;
+}
+
+:root {
+  --color-master: #ff5767;
+  --color-legend: #ffdd66;
+  --color-veteran: #d968c4;
+  --color-stalker: #8d8dff;
+  --color-beginner: #70d470;
+  --color-otmichka: #dbdbdb;
+  --color-buttons: #1a1a1a;
+}
+
+.defButton {
+  font-family: "Acherus_Feral";
+  font-weight: bold;
+  font-size: 10px;
+  background-color: #00000000;
+  width: 147px;
+  border-radius: 2px;
+  height: 28px;
+  padding: 0;
+  margin: 0;
+  margin-left: 1.65px;
+  margin-right: 5px;
+  margin-top: 5px;
+  border: solid 0px black;
+}
+
+.masterButton {
+  color: var(--color-master);
+  border-bottom: solid 1px var(--color-master);
+}
+.legendButton {
+  color: var(--color-legend);
+  border-bottom: solid 1px var(--color-legend);
+}
+.stalkerButton {
+  color: var(--color-stalker);
+  border-bottom: solid 1px var(--color-stalker);
+}
+.beginnerButton {
+  color: var(--color-beginner);
+  border-bottom: solid 1px var(--color-beginner);
+}
+.otmichkaButton {
+  color: var(--color-otmichka);
+  border-bottom: solid 1px var(--color-otmichka);
+}
+.veteranButton {
+  color: var(--color-veteran);
+  border-bottom: solid 1px var(--color-veteran);
 }

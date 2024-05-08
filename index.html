@@ -11,7 +11,7 @@
 <body>
   <div class="header">
     <div class="logo">
-      <img src="logo.png" alt="Stalcraft Calculator">
+      <img src="logo.png" alt="STALCRAFT CALCULATOR">
     </div>
     <div class="nav">
       <ul>
@@ -24,32 +24,180 @@
   </div>
   <div class="sidebar">
     <div class="categories">
-      <ul>
-        <li class="clickable-weapon"><a href="#">Оружие</a></li>
-        <li class="hidden-content-weapon"><a href="#">Автоматы</a></li>
-        <li class="hidden-content-weapon"><a href="#">Пистолеты-пулемёты</a></li>
-        <li class="hidden-content-weapon"><a href="#">Пулемёты</a></li>
-        <li class="hidden-content-weapon"><a href="#">Снайперские винтовки</a></li>
-        <li class="hidden-content-weapon"><a href="#">Дробовики и ружья</a></li>
-        <li class="hidden-content-weapon"><a href="#">Пистолеты</a></li>
-        <li class="hidden-content-weapon"><a href="#">Ближний бой</a></li>
-      </ul>
-      <ul>
-        <li class="clickable-other"><a href="#">Другое</a></li>
-        <li class="hidden-content-other"><a href="#">Автоматы</a></li>
-        <li class="hidden-content-other"><a href="#">Пистолеты-пулемёты</a></li>
-        <li class="hidden-content-other"><a href="#">Пулемёты</a></li>
-      </ul>
-      <ul>
-        <li class="clickable-armor"><a href="#">Броня</a></li>
-        <li class="hidden-content-armor"><a href="#">Автоматы</a></li>
-        <li class="hidden-content-armor"><a href="#">Пистолеты-пулемёты</a></li>
-        <li class="hidden-content-armor"><a href="#">Пулемёты</a></li>
-        <li class="hidden-content-armor"><a href="#">Пистолеты</a></li>
-        <li class="hidden-content-armor"><a href="#">Ближний бой</a></li>
+      <ul class="filters">
+        <ul class="spisokCent">
+          <li class="clickable-weapon"><a href="#">Оружие</a></li>
+          <li class="hidden-content-weapon"><button class="button button_weapon-autoweapon" data-filter="autoweapon">Автоматы</button></li>
+          <li class="hidden-content-weapon"><button class="button button_weapon-pistolspul" data-filter="pistolspul">Пистолеты-пулемёты</button></li>
+          <li class="hidden-content-weapon"><button class="button button_weapon-machinegun" data-filter="machinegun">Пулемёты</button></li>
+          <li class="hidden-content-weapon"><button class="button button_weapon-sniper" data-filter="sniper">Снайперские винтовки</button></li>
+          <li class="hidden-content-weapon"><button class="button button_weapon-guns" data-filter="guns">Дробовики и ружья</button></li>
+          <li class="hidden-content-weapon"><button class="button button_weapon-pistols" data-filter="pistols">Пистолеты</button></li>
+          <li class="hidden-content-weapon"><button class="button button_weapon-melee" data-filter="melee">Ближний бой</button></li>
+        </ul>
+        <ul class="spisokCent">
+          <li class="clickable-other"><a href="#">Другое</a></li>
+          <li class="hidden-content-other"><button class="button button_other-backpacks" data-filter="backpacks">Рюкзаки и контейнеры</button></li>
+          <li class="hidden-content-other"><button class="button button_other-silencers" data-filter="silencers">Надульники и глушители</button></li>
+          <li class="hidden-content-other"><button class="button button_other-magazines" data-filter="magazines">Магазины</button></li>
+          <li class="hidden-content-other"><button class="button button_other-forearm" data-filter="forearm">Цевья и крепления</button></li>
+          <li class="hidden-content-other"><button class="button button_other-kits" data-filter="kits">Прочие обвесы</button></li>
+          <li class="hidden-content-other"><button class="button button_other-devices" data-filter="devices">Устройства</button></li>
+          <li class="hidden-content-other"><button class="button button_other-scopes" data-filter="scopes">Прицелы</button></li>
+          <li class="hidden-content-other"><button class="button button_other-skins" data-filter="skins">Скины и краски</button></li>
+          <li class="hidden-content-other"><button class="button button_other-another" data-filter="another">Прочее</button></li>
+        </ul>
+        <ul class="spisokCent">
+          <li class="clickable-armor"><a href="#">Броня</a></li>
+          <li class="hidden-content-armor"><button class="button button_armor-combat" data-filter="combat">Боевые</button></li>
+          <li class="hidden-content-armor"><button class="button button_armor-combined" data-filter="combined">Комбинированные</button></li>
+          <li class="hidden-content-armor"><button class="button button_armor-science" data-filter="science">Научные</button></li>
+        </ul>
+        <ul class="spisokCent">
+          <li><button class="button button_all" data-filter="all"><a href="#">Всё</a></button></li>
+        </ul>
       </ul>
     </div>
   </div>
+  <div class="menu">
+    <div class="central_menu">
+      <div class="container">
+        <!-- Сатурн -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/Сатурн.png" alt="Сатурн">
+          <button id="BTN_Сатурн" class="defButton masterButton">"Сатурн"</button>
+          <div id="MDL_Сатурн" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- Поношенный Сатурн -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/Поношенный Сатурн.png" alt="Поношенный Сатурн">
+          <button id="BTN_Поношенный_Сатурн" class="defButton masterButton">Поношенный "Сатурн"</button>
+          <div id="MDL_Поношенный_Сатурн" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- Повреждённый Сатурн -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/Повреждённый Сатурн.png" alt="Повреждённый Сатурн">
+          <button id="BTN_Повреждённый_Сатурн" class="defButton veteranButton">Повреждённый "Сатурн"</button>
+          <div id="MDL_Повреждённый_Сатурн" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- СЕВА -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/СЕВА.png" alt="СЕВА">
+          <button id="BTN_СЕВА" class="defButton veteranButton">"СЕВА"</button>
+          <div id="MDL_СЕВА" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- Поношенная СЕВА -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/Поношенная СЕВА.png" alt="Поношенная СЕВА">
+          <button id="BTN_Поношенная_СЕВА" class="defButton veteranButton">Поношенная "СЕВА"</button>
+          <div id="MDL_Поношенная_СЕВА" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- КИМ-99М Малахит -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/КИМ-99М Малахит.png" alt="КИМ-99М Малахит">
+          <button id="BTN_КИМ-99М_Малахит" class="defButton stalkerButton">КИМ-99М "Малахит"</button>
+          <div id="MDL_КИМ-99М_Малахит" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- Поношенный КИМ-99М Малахит -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/Поношенный КИМ-99М Малахит.png" alt="Поношенный КИМ-99М Малахит">
+          <button id="BTN_Поношенный_КИМ-99М_Малахит" class="defButton stalkerButton">Поношенный КИМ-99М "Малахит"</button>
+          <div id="MDL_Поношенный_КИМ-99М_Малахит" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- КИМ-99 Янтарь -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/КИМ-99 Янтарь.png" alt="КИМ-99 Янтарь">
+          <button id="BTN_КИМ-99_Янтарь" class="defButton beginnerButton">КИМ-99 "Янтарь"</button>
+          <div id="MDL_КИМ-99_Янтарь" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- Поношенный КИМ-99 Янтарь -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/Поношенный КИМ-99 Янтарь.png" alt="Поношенный КИМ-99 Янтарь">
+          <button id="BTN_Поношенный_КИМ-99_Янтарь" class="defButton beginnerButton">Поношенный КИМ-99 "Янтарь"</button>
+          <div id="MDL_Поношенный_КИМ-99_Янтарь" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- Заря-Б -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/Заря-Б.png" alt="Заря-Б">
+          <button id="BTN_Заря-Б" class="defButton beginnerButton">"Заря-Б"</button>
+          <div id="MDL_Заря-Б" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- ИП-4м -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/ИП-4м.png" alt="ИП-4м">
+          <button id="BTN_ИП-4м" class="defButton otmichkaButton">ИП-4м</button>
+          <div id="MDL_ИП-4м" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+        <!-- Дождевик -->
+        <div class="card science">
+          <img class="photoCard" src="items/suits/science/Дождевик.png" alt="Дождевик">
+          <button id="BTN_Дождевик" class="defButton otmichkaButton">Дождевик</button>
+          <div id="MDL_Дождевик" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Контент модального окна</p>
+              </div>
+          </div>
+        </div> <!--   -->
+      </div>
+    </div>
+  </div>
   <script src="index.js"></script>
+  <script src="modalWindows/modal.js"></script>
 </body>
 </html>
