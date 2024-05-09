@@ -2,17 +2,14 @@
   font-family: "Architectural";
   src: url("fonts/Architectural.woff");
 }
-
 @font-face {
   font-family: "Philophobia";
   src: url("fonts/philophobia.woff");
 }
-
 @font-face {
   font-family: "strokerusbylyajka_medium";
   src: url("fonts/strokerusbylyajka_medium.otf");
 }
-
 @font-face {
   font-family: "Acherus_Feral";
   src: url("fonts/Acherus_Feral.ttf");
@@ -36,8 +33,6 @@ a {
 a:hover {
   color: #ccc;
 }
-  
-  /* Header */
   
 .header {
   font-family: "Acherus_Feral";
@@ -74,9 +69,7 @@ a:hover {
 .nav a:hover {
   color: #ccc;
 }
-  
-  /* Content */
-  
+
 .content {
   display: flex;
   flex-direction: row;
@@ -107,6 +100,7 @@ a:hover {
   font-size: 13px;
   border: 0px;
 }
+
 .button:hover {
   color: #ccc;
 }
@@ -115,15 +109,18 @@ a:hover {
   background-color: var(--color-tema1);
   color: white;
 }
+
 .filters {
   padding-left: 0px;
   margin-left: 0px;
 }
+
 .categories {
   width: 140px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .spisokCent {
   margin-top: 0px;
   padding-top: 0px;
@@ -143,7 +140,6 @@ li {
 }
 
 /* кнопки для скрытия категорий */
-
 .hidden-content-weapon {
   font-size: small;
   padding: 5px;
@@ -178,7 +174,7 @@ li {
   margin: 0 0 0 0;
   padding-left: 165px;
   padding-top: 75px;
-  color: blueviolet;
+  color: var(--color-tema2);
 }
 
 .hide {
@@ -205,20 +201,25 @@ li {
 
 /* Содержимое модального окна */
 .modal-content {
+  font-family: "Acherus_Feral";
   background-color: white;
   margin: 5% auto; /* отступ сверху и центрирование по горизонтали */
-  padding: 20px;
   border: 1px solid black;
   width: 70%;
-  
+  color: white;
+  background-color: var(--color-temaModalWindows);
+  border-radius: 15px;
+  padding: 10px 10px 3px 10px;
 }
 
 /* Кнопка закрытия модального окна */
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
+  width: 20px;
+  height: 20px;
 }
 
 .close:hover,
@@ -237,6 +238,26 @@ li {
   border-radius: 20px;
 }
 
+.photoBarter{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 40px;
+  height: 40px;
+  border: solid 1px red;
+}
+
+.photCardInModal{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border: solid 1px red;
+  border-radius: 0px;
+}
+
+.contentInModal{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
 /* Все цвета */
 :root {
   --color-master: #ff5767;
@@ -247,6 +268,7 @@ li {
   --color-otmichka: #dbdbdb;
   --color-tema1: #1a1a1a;
   --color-tema2: #333;
+  --color-temaModalWindows: #404040;
 }
 
 .defButton {
