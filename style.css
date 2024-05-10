@@ -14,7 +14,14 @@
   font-family: "Acherus_Feral";
   src: url("fonts/Acherus_Feral.ttf");
 }
-
+@font-face {
+  font-family: "Limousines";
+  src: url("fonts/Champagne Limousines Bold Italic.ttf");
+}
+@font-face {
+  font-family: "Propisi";
+  src: url("fonts/Propisi.ttf");
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -207,9 +214,10 @@ li {
   border: 1px solid black;
   width: 70%;
   color: white;
-  background-color: var(--color-temaModalWindows);
+  background-color: var(--color-tema2);
   border-radius: 15px;
-  padding: 10px 10px 3px 10px;
+  padding: 10px 10px 8px 10px;
+  height: 3000px;
 }
 
 /* Кнопка закрытия модального окна */
@@ -239,23 +247,61 @@ li {
 }
 
 .photoBarter{
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  width: 40px;
-  height: 40px;
-  border: solid 1px red;
+  width: 42px;
+  height: 42px;
+  background-color: #ffdd66;
 }
 
 .photCardInModal{
+  width: 250px;
+  height: 420px;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
-  border: solid 1px red;
   border-radius: 0px;
+  background-color: #ffdd66;
+}
+
+.photoCardInInModalForPhoto {
+  width: 100px;
+  height: 168px;
+  background-color: #ffdd66;
 }
 
 .contentInModal{
-  padding: 0 0 0 0;
+  display: flex;
+  background-color: var(--color-tema1);
+}
+
+.imgBarterDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.barterForDefItem{
+  display: flex;
+  flex-direction: column;
   margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.columnNot{
+  display: flex;
+  flex-direction: row;
+}
+
+.howBarter{
+  display: flex;
+  flex-direction: row;
+}
+
+.containerHowBarter{
+  font-family: "Propisi";
+  margin: 0 0 0 0;
+  padding: 5px 0 5px 7px;
+  background-color: #ffdd66;
+  width: 51px;
+  height: 32px;
+  font-size: 25px;
 }
 
 /* Все цвета */
@@ -268,7 +314,6 @@ li {
   --color-otmichka: #dbdbdb;
   --color-tema1: #1a1a1a;
   --color-tema2: #333;
-  --color-temaModalWindows: #404040;
 }
 
 .defButton {
