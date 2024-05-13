@@ -54,7 +54,24 @@ a:hover {
 }
   
 .logo {
-  width: 300px;
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.logoImg{
+  padding: 0;
+  margin: 0;
+  width: 69px;
+  height: 69px;
+}
+
+.logoText{
+  padding: 12px 0px 10px 10px;
+  margin: 0;
+  font-size: 40px;
 }
   
 .nav {
