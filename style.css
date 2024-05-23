@@ -286,7 +286,7 @@ li {
 
 .contentInModal{
   display: flex;
-  background-color: var(--color-tema1);
+  background-color: var(--color-tema2);
 }
 
 .imgBarterDiv{
@@ -319,6 +319,50 @@ li {
   width: 51px;
   height: 32px;
   font-size: 25px;
+}
+
+.allBarter {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.oneBarterModal{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+}
+
+/* label */
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+  display: flex;
 }
 
 /* Все цвета */
