@@ -339,6 +339,7 @@ section {
 /* label */
 
 label {
+  font-size: 16px;
   height: 20px;
   background-color: var(--color-tema1);
   width: 200px;
@@ -348,7 +349,7 @@ label {
   color: #bbb;
 }
 
-input {
+.barterInput {
   margin: 0;
   padding: 0;
   display: none;
@@ -359,12 +360,12 @@ label:hover {
   cursor: pointer;
 }
 
-input:checked + label {
+.barterInput:checked + label {
   color: #555;
 }
 
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2 {
+#tab1:checked ~ #saturn_1,
+#tab2:checked ~ #saturn_2 {
   display: flex;
 }
 

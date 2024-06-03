@@ -73,35 +73,36 @@
                   <span class="close">&times;</span>
                   <div class="contentInModal">
                     <div class="oneBarterModal">
-                      <input id="tab1" type="radio" name="tabs" checked>
-                      <label for="tab1">Codepen</label>
-                      <input id="tab2" type="radio" name="tabs">
-                      <label for="tab2">Dribbble</label>
-                      <section id="content1">
+                      <input class="barterInput" id="tab1" type="radio" name="tabs" checked>
+                      <label for="tab1">Предложение 1</label>
+                      <input class="barterInput" id="tab2" type="radio" name="tabs">
+                      <label for="tab2">Предложение 2</label>
+                      <input type="number" id="skidon_Saturn" value="0" maxlength="3" onchange="handleChange(this);" />
+                      <section id="saturn_1">
                         <div class="allBarter">
                         <img class="photoCard photCardInModal" src="items/suits/science/Сатурн.png" alt="Сатурн">
                           <div class="barterForDefItem">
                             <img class="photoCardInInModalForPhoto" src="items/suits/science/Поношенный Сатурн.png" alt="Поношенный Сатурн">
                               <div class="imgBarterDiv">
                                 <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">9999</p>
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки пси маячка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Остатки_пси_маячка_Сатурн">3360</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Рыжий папоротник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Рыжий_папоротник_Сатурн"></p>
                                 </div>
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">9999</p>
+                                  <p class="containerHowBarter" id="Фрагмент_данных_Гамма_Сатурн"></p>
                                 </div>
                                 <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">9999</p>
+                                  <img class="photoBarter" src="items/barter/unpacked/Вещество 07270.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Вещество_07270_Сатурн"></p>
                                 </div>
                                 <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">9999</p>
-                                </div>
-                                <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">9999</p>
+                                  <img class="photoBarter" src="items/barter/unpacked/Аномальная сыворотка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Аномальная_сыворотка_Сатурн"></p>
                                 </div>
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
@@ -111,7 +112,7 @@
                           </div>
                         </div>
                       </section>
-                      <section id="content2">
+                      <section id="saturn_2">
                         <div class="allBarter">
                         <img class="photoCard photCardInModal" src="items/suits/science/Сатурн.png" alt="Сатурн">
                           <div class="barterForDefItem">
@@ -280,5 +281,6 @@
   </div>
   <script src="index.js"></script>
   <script src="modalWindows/modal.js"></script>
+  <script src="calculator.js"></script>
 </body>
 </html>
