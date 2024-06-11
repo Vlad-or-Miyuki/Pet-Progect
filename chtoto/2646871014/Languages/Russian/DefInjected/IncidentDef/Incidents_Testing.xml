@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TestInc.label>тест вкл</TestInc.label>
+  <TestInc.letterText>Что-то произошло</TestInc.letterText>
+  <TestInc.letterLabel>Что-то произошло</TestInc.letterLabel>
+
+  <TestInc2.label>тест вкл 2</TestInc2.label>
+  <TestInc2.letterText>Что-то произошло2</TestInc2.letterText>
+  <TestInc2.letterLabel>Что-то произошло2</TestInc2.letterLabel>
+
+
+</LanguageData>

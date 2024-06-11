@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <! - Считает мастурбацию ->
+
+  <CountOfFappin.label>завершена работа</CountOfFappin.label>
+  <CountOfFappin.description>Сколько раз я держал руку на руках.</CountOfFappin.description>
+
+
+  <! - Считает весь секс без мастурбации ->
+
+  <CountOfSex.label>общая ручная работа имела</CountOfSex.label>
+  <CountOfSex.description>Сколько раз я держал руку на руках.</CountOfSex.description>
+
+
+  <! - Считает все секс + изнасилования ->
+
+  <CountOfSexWithHumanlikes.label>общение с людьми</CountOfSexWithHumanlikes.label>
+  <CountOfSexWithHumanlikes.description>Сколько раз я общался с людьми, подобными любви.</CountOfSexWithHumanlikes.description>
+
+  <CountOfSexWithAnimals.label>работа с животными </CountOfSexWithAnimals.label>
+  <CountOfSexWithAnimals.description>Сколько раз мне приходилось держать животных на руках.</CountOfSexWithAnimals.description>
+
+  <CountOfSexWithInsects.label>рука с насекомыми</CountOfSexWithInsects.label>
+  <CountOfSexWithInsects.description>Сколько раз я держал в руках насекомых.</CountOfSexWithInsects.description>
+
+  <CountOfSexWithOthers.label>,связанное с другим</CountOfSexWithOthers.label>
+  <CountOfSexWithOthers.description>Сколько раз мне приходилось иметь дело со странными вещами.</CountOfSexWithOthers.description>
+
+
+  <! - Считает изнасилования ->
+
+  <CountOfRapedHumanlikes.label>ручные люди, похожие на</CountOfRapedHumanlikes.label>
+  <CountOfRapedHumanlikes.description>Сколько раз я держал в руках человеческие симпатии.</CountOfRapedHumanlikes.description>
+
+  <CountOfRapedAnimals.label>животные на руках</CountOfRapedAnimals.label>
+  <CountOfRapedAnimals.description>Сколько раз я держал животных на руках.</CountOfRapedAnimals.description>
+
+  <CountOfRapedInsects.label>ручные насекомые</CountOfRapedInsects.label>
+  <CountOfRapedInsects.description>Сколько раз я держал насекомых в руках.</CountOfRapedInsects.description>
+
+  <CountOfRapedOthers.label>другой</CountOfRapedOthers.label>
+  <CountOfRapedOthers.description>Сколько раз я держал в руках странные вещи.</CountOfRapedOthers.description>
+
+ <CountOfSexWithCorpse.label>трупы в руках</CountOfSexWithCorpse.label>
+  <CountOfSexWithCorpse.description>Сколько раз я держал трупы в руках.</CountOfSexWithCorpse.description>
+
+  <CountOfBeenRapedByHumanlikes.label>поддерживается людьми</CountOfBeenRapedByHumanlikes.label>
+  <CountOfBeenRapedByHumanlikes.description>Сколько раз меня поддерживали люди, подобные людям.</CountOfBeenRapedByHumanlikes.description>
+
+  <CountOfBeenRapedByAnimals.label>в руках животных</CountOfBeenRapedByAnimals.label>
+  <CountOfBeenRapedByAnimals.description>Сколько раз животные держали меня на руках.</CountOfBeenRapedByAnimals.description>
+
+  <CountOfBeenRapedByInsects.label>в руках насекомых </CountOfBeenRapedByInsects.label>
+  <CountOfBeenRapedByInsects.description>Сколько раз меня держали на руках насекомые.</CountOfBeenRapedByInsects.description>
+
+  <CountOfBeenRapedByOthers.label>принадлежит другому </CountOfBeenRapedByOthers.label>
+  <CountOfBeenRapedByOthers.description>Сколько раз меня держали на руках странные вещи.</CountOfBeenRapedByOthers.description>
+
+  <GetRapedAsComfortPrisoner.label>используется для удержания </GetRapedAsComfortPrisoner.label>
+  <GetRapedAsComfortPrisoner.description>Сколько раз меня использовали, чтобы держать кого-то на руках.</GetRapedAsComfortPrisoner.description>
+
+
+  <! - Блядь считает ->
+
+  <CountOfWhore.label>раз за деньги</CountOfWhore.label>
+  <CountOfWhore.description>Сколько раз я получал деньги из рук.</CountOfWhore.description>
+
+  <EarnedMoneyByWhore.label>серебро, заработанное на руках</EarnedMoneyByWhore.label>
+  <EarnedMoneyByWhore.description>Количество серебра, которое я заработал на руках.</EarnedMoneyByWhore.description>
+
+
+  <! - Считает роды ->
+
+  <CountOfBirthHuman.label>породил людей</CountOfBirthHuman.label>
+  <CountOfBirthHuman.description>Сколько людей я породил</CountOfBirthHuman.description>
+
+  <CountOfBirthAnimal.label>рожденные животные</CountOfBirthAnimal.label>
+  <CountOfBirthAnimal.description>Сколько животных я породил.</CountOfBirthAnimal.description>
+
+  <CountOfBirthEgg.label>рожденные яйца</CountOfBirthEgg.label>
+  <CountOfBirthEgg.description>Сколько яиц родил.</CountOfBirthEgg.description>
+
+  <CountOfCondomsUsed.label>использованные презервативы</CountOfCondomsUsed.label>
+  <CountOfCondomsUsed.description>Количество использованных мной презервативов.</CountOfCondomsUsed.description>
+
+
+</LanguageData>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<TraitDef>
+		<defName>FootSlut</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Feetholder</label>
+				<description>[PAWN_nameDef] really likes feet and prefers feetholding.</description>
+				<statOffsets>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>CumSlut</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Loose grip HH</label>
+				<description>[PAWN_nameDef] really likes giving loose grip handholding.</description>
+				<statOffsets>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<TraitDef>
+		<defName>ButtSlut</defName>
+		<commonality>0.1</commonality>
+		<degreeDatas>
+			<li>
+				<label>Backhand HH</label>
+				<description>[PAWN_nameDef] really likes getting backhand-handholded.</description>
+				<statOffsets>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+</Defs>

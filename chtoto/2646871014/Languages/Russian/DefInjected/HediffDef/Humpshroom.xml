@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Consumable item -->
+
+  <HumpShroomEffect.label>Индуцированное либидо</HumpShroomEffect.label>
+  <HumpShroomEffect.description>Эффекты афродизиака горбичного гриба.</HumpShroomEffect.description>
+
+
+  <!-- Ambrosia addiction -->
+
+  <HumpShroomTolerance.label>горбогрибная толерантность</HumpShroomTolerance.label>
+  <HumpShroomTolerance.description>Толерантность к эффектам горбичного гриба.</HumpShroomTolerance.description>
+
+  <HumpShroomAddiction.label>горбогрибная зависимость</HumpShroomAddiction.label>
+  <HumpShroomAddiction.description>Горбатый гриб влияет на зависимость.</HumpShroomAddiction.description>
+  <HumpShroomAddiction.stages.1.label>снятие</HumpShroomAddiction.stages.1.label>
+
+
+</LanguageData>

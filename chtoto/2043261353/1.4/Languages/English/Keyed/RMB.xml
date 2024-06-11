@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RJW_RMB>Interact</RJW_RMB>
+	<RJW_RMB_NoSex> refuses to hold hands with </RJW_RMB_NoSex>
+
+	<RJW_RMB_Social>Socialize</RJW_RMB_Social>
+	<RJW_RMB_Masturbate>Self holdhands</RJW_RMB_Masturbate>
+	
+	<RJW_RMB_Sex>Holdhands with </RJW_RMB_Sex>
+	<RJW_RMB_Bestiality>Holdpaws with </RJW_RMB_Bestiality>
+	
+	<RJW_RMB_Sex_Reverse>(Reverse)Holdhands with </RJW_RMB_Sex_Reverse>
+	<RJW_RMB_Bestiality_Reverse>(Reverse)Holdpaws with </RJW_RMB_Bestiality_Reverse>
+	
+	<!--Social-->
+	<RJW_RMB_Insult>Insult</RJW_RMB_Insult>
+	<RJW_RMB_SocialFight>Start a fight</RJW_RMB_SocialFight>
+	<RJW_RMB_Chat>Chat</RJW_RMB_Chat>
+	<RJW_RMB_DeepTalk>Deep talk</RJW_RMB_DeepTalk>
+	<RJW_RMB_RomanceAttempt>Attempt romance</RJW_RMB_RomanceAttempt>
+	<RJW_RMB_MarriageProposal>Make marriage proposal</RJW_RMB_MarriageProposal>
+	
+	<!--Masturbate-->
+	<RJW_RMB_Masturbate_Bed>Self holdhands on chair or bed</RJW_RMB_Masturbate_Bed>
+	<RJW_RMB_Masturbate_At>Self holdhands at</RJW_RMB_Masturbate_At>
+	<RJW_RMB_Masturbate_Here>Self holdhands here</RJW_RMB_Masturbate_Here>
+	<RJW_RMB_Masturbate_With>Self holdhands with</RJW_RMB_Masturbate_With> <!-- dildoes or something like that, someday? -->
+
+	<!--Have sex-->
+	
+	<!--Rape-->
+	<RJW_RMB_Rape>Aggressively holdhands with </RJW_RMB_Rape>
+	<RJW_RMB_Rape_Reverse>(A)(Reverse)Holdhands with </RJW_RMB_Rape_Reverse>
+	
+	<RJW_RMB_RapeCorpse>Violate corpse of </RJW_RMB_RapeCorpse>
+	<RJW_RMB_RapeCorpse_Reverse>(A)(Reverse)Violate corpse of </RJW_RMB_RapeCorpse_Reverse>
+
+	<RJW_RMB_RapeAnimal>Aggressively holdpaws with </RJW_RMB_RapeAnimal>
+	<RJW_RMB_RapeAnimal_Reverse>(A)(Reverse)Holdpaws with </RJW_RMB_RapeAnimal_Reverse>
+	<!--Poses/parts?-->
+	
+	
+	<!--stuff-->
+	<RJW_RMB_HackMechPregnancy>Hack implanted mech</RJW_RMB_HackMechPregnancy>
+</LanguageData>

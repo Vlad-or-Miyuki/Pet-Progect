@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <! - Обычные рядовые ->
+
+  <Penis.label>пенис</Penis.label>
+  <Penis.labelNoun>пенис</Penis.labelNoun>
+  <Penis.description>Пенис.</Penis.description>
+  <Penis.stages.0.label>Микро</Penis.stages.0.label>
+  <Penis.stages.1.label>Маленький</Penis.stages.1.label>
+  <Penis.stages.2.label>Средний</Penis.stages.2.label>
+  <Penis.stages.3.label>Большой</Penis.stages.3.label>
+  <Penis.stages.4.label>Огромный</Penis.stages.4.label>
+  <Penis.stages.5.label>Возвышающийся</Penis.stages.5.label>
+
+  <Vagina.label>влагалище</Vagina.label>
+  <Vagina.labelNoun>вагина</Vagina.labelNoun>
+  <Vagina.description>Влагалище.</Vagina.description>
+  <Vagina.stages.0.label>Микро</Vagina.stages.0.label>
+  <Vagina.stages.1.label>Тугой</Vagina.stages.1.label>
+  <Vagina.stages.2.label>Средний</Vagina.stages.2.label>
+  <Vagina.stages.3.label>Вмещающий</Vagina.stages.3.label>
+  <Vagina.stages.4.label>Кавернозный</Vagina.stages.4.label>
+  <Vagina.stages.5.label>Бездонный</Vagina.stages.5.label>
+
+
+  <! - Естественные анусы ->
+
+  <Anus.label>анус</Anus.label>
+  <Anus.labelNoun>анус</Anus.labelNoun>
+   <Anus.description>Анус.</Anus.description>
+   <Anus.stages.0.label>Микро</Anus.stages.0.label>
+   <Anus.stages.1.label>Плотный</Anus.stages.1.label>
+   <Anus.stages.2.label>Среднее значение</Anus.stages.2.label>
+   <Anus.stages.3.label>Размещение</Anus.stages.3.label>
+   <Anus.stages.4.label>Кавернозный</Anus.stages.4.label>
+   <Anus.stages.5.label>Бездонный</Anus.stages.5.label>
+
+
+ <! - Натуральная грудь ->
+
+  <Breasts.label>грудь</Breasts.label>
+  <Breasts.labelNoun>пара грудей</Breasts.labelNoun>
+  <Breasts.description>Пара грудей.</Breasts.description>
+  <Breasts.stages.0.label>Соски</Breasts.stages.0.label>
+  <Breasts.stages.1.label>Крошечный</Breasts.stages.1.label>
+  <Breasts.stages.2.label>Маленький</Breasts.stages.2.label>
+  <Breasts.stages.3.label>Средний</Breasts.stages.3.label>
+  <Breasts.stages.4.label>Большой</Breasts.stages.4.label>
+  <Breasts.stages.5.label>Огромный</Breasts.stages.5.label>
+  <Breasts.stages.6.label>Огромный</Breasts.stages.6.label>
+  <Breasts.stages.7.label>Массивный</Breasts.stages.7.label>
+  <Breasts.stages.8.label>Огромный</Breasts.stages.8.label>
+  <Breasts.stages.9.label>Колоссальный</Breasts.stages.9.label>
+  <Breasts.stages.10.label>Титаник</Breasts.stages.10.label>
+
+
+  <! - Натуральная грудь а точнее ее отсутствие ->
+
+  <FeaturelessChest.label>безликая грудь</FeaturelessChest.label>
+  <FeaturelessChest.labelNoun>невыразительная грудь</FeaturelessChest.labelNoun>
+  <FeaturelessChest.description>плоская грудь без сосков там, где они должны быть.</FeaturelessChest.description>
+
+
+</LanguageData>

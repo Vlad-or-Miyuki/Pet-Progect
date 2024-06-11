@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <!-- dildoes or something like that -->
+	<RJW_RMB>RJW</RJW_RMB>
+	<RJW_RMB_Social>Социализировать</RJW_RMB_Social>
+	<RJW_RMB_Masturbate>Мастурбировать</RJW_RMB_Masturbate>
+	<RJW_RMB_Sex>Заниматься сексом с</RJW_RMB_Sex>
+	<RJW_RMB_Rape>Изнасилование</RJW_RMB_Rape>
+	
+	<!--Social-->
+	<RJW_RMB_Insult>Оскорблять</RJW_RMB_Insult>
+	<RJW_RMB_SocialFight>Начать бой</RJW_RMB_SocialFight>
+	<RJW_RMB_Chat>Чат</RJW_RMB_Chat>
+	<RJW_RMB_DeepTalk>Глубокий разговор</RJW_RMB_DeepTalk>
+	<RJW_RMB_RomanceAttempt>Попытка романтики</RJW_RMB_RomanceAttempt>
+	<RJW_RMB_MarriageProposal>Сделать предложение руки и сердца</RJW_RMB_MarriageProposal>
+	
+	<!--Masturbate-->
+	<RJW_RMB_Masturbate_Bed>Мастурбировать на стуле или кровати</RJW_RMB_Masturbate_Bed>
+	<RJW_RMB_Masturbate_At>Мастурбировать на</RJW_RMB_Masturbate_At>
+	<RJW_RMB_Masturbate_Here>Мастурбировать здесь</RJW_RMB_Masturbate_Here>
+	<RJW_RMB_Masturbate_With>Мастурбировать с</RJW_RMB_Masturbate_With>
+
+	<!--Flavor text until this would actually be implemented some day if ever-->
+	<RJW_RMB_Masturbate_Fap>Фап с пенисом</RJW_RMB_Masturbate_Fap>
+	<RJW_RMB_Masturbate_Schlic>Шлик с вагиной</RJW_RMB_Masturbate_Schlic>
+	<RJW_RMB_Masturbate_Breasts>Играть с грудью</RJW_RMB_Masturbate_Breasts>
+	<RJW_RMB_Masturbate_Anal>Играть с анусом</RJW_RMB_Masturbate_Anal>
+	<RJW_RMB_Masturbate_AF>Авто-феллат</RJW_RMB_Masturbate_AF>
+	<RJW_RMB_Masturbate_BJ>Работа груди</RJW_RMB_Masturbate_BJ>
+	<RJW_RMB_Masturbate_TJV>Хвост ебет влагалище</RJW_RMB_Masturbate_TJV>
+	<RJW_RMB_Masturbate_TJA>Хвост ебет анус</RJW_RMB_Masturbate_TJA>
+	
+	
+	<!--Have sex-->
+	
+	<!--Rape-->
+	<RJW_RMB_RapeCP>Используйте для комфорта</RJW_RMB_RapeCP>
+	<RJW_RMB_RapeEnemy>Изнасилование</RJW_RMB_RapeEnemy>
+	<RJW_RMB_RapeCorpse>Нарушить труп</RJW_RMB_RapeCorpse>
+	<RJW_RMB_RapeAnimal>Изнасилование</RJW_RMB_RapeAnimal>
+	
+	<!--Poses/parts?-->
+	
+</LanguageData>

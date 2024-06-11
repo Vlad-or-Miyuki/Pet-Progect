@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--Sexuality card-->
+	<SexcardTooltip>Показать сексуальность</SexcardTooltip>
+	<WhorePrice>Диапазон цен на интимные услуги:</WhorePrice>
+	<Quirks>Причуды:</Quirks>
+	<NoQuirks>Без причуд, ваниль.</NoQuirks>
+	<MessyQuirk><![CDATA[
+{pawn} не только выделяет обильное количество пота, когда держится за руки, но и {pawn_pronoun} редко заботится о том, чтобы потом помыться {pawn_possessive}.
+]]></MessyQuirk>
+	<PodophileQuirk><![CDATA[
+{pawn} действительно любит ступни и предпочитает действия, связанные с ногами.
+]]></PodophileQuirk>
+	<TeratophileQuirk><![CDATA[
+{pawn} предпочитает некрасивых партнеров. {pawn_pronoun} также предпочел бы более крупных и диких животных, если бы {pawn_pronoun} увлекался такими вещами...
+]]></TeratophileQuirk>
+	<EndytophileQuirk><![CDATA[
+{pawn} {pawn_possessive} предпочитает не снимать одежду, когда держится за руки.
+]]></EndytophileQuirk>
+	<ExhibitionistQuirk><![CDATA[
+{pawn} любит держать руку там, где другие могут видеть.
+]]></ExhibitionistQuirk>
+	<GerontophileQuirk><![CDATA[
+{pawn} предпочитает партнеров постарше (55+ по человеческим меркам).
+]]></GerontophileQuirk>
+	<SomnophileQuirk><![CDATA[
+{pawn} предпочитает {pawn_possessive} партнеров, чтобы они спали
+]]></SomnophileQuirk>
+	<SapiosexualQuirk><![CDATA[
+{pawn} предпочитает работать с умными партнерами.
+]]></SapiosexualQuirk>
+	<FertileQuirk><![CDATA[
+{pawn} имеет необычно высокую фертильность и поэтому с большей вероятностью будет иметь детей.
+]]></FertileQuirk>
+	<InfertileQuirk><![CDATA[
+{pawn} имеет необычно низкую фертильность и поэтому маловероятно иметь детей.
+]]></InfertileQuirk>
+	<ImpregnationFetishQuirk><![CDATA[
+{pawn} действительно нравится идея о том, что кто-то забеременеет. {pawn_pronoun} предпочитает держаться за руки с партнерами, если есть вероятность беременности. {pawn_pronoun} не заботится о том, забеременеет ли {pawn_pronoun} или будет партнер {pawn_possessive}, пока сформирован babby. 
+]]></ImpregnationFetishQuirk>
+	<PregnancyFetishQuirk><![CDATA[
+{pawn} предпочитает держащихся за руки партнеров, которые явно беременны.
+]]></PregnancyFetishQuirk>
+	<IncubatorQuirk><![CDATA[
+{pawn} породил так много яиц, что тело {pawn_possessive} приспособилось к работе с ними. Увеличена скорость инкубации яиц {pawn_possessive}.
+]]></IncubatorQuirk>
+	<BreederQuirk><![CDATA[
+{pawn} рожала столько раз, что тело {pawn_possessive} приспособилось к рождению детей. Беременности {pawn_possessive} короче и дают больше потомства.
+]]></BreederQuirk>
+	<VigorousQuirk><![CDATA[
+{pawn} бодрит, держась за руки. После этого {pawn_pronoun} чувствует себя более отдохнувшим, чем раньше.
+]]></VigorousQuirk>
+	<ChitinLoverQuirk><![CDATA[
+{pawn} обладает гладкой прочностью хитинового экзоскелета. {pawn_pronoun} предпочитает паукообразных или инсектоидных партнеров.
+]]></ChitinLoverQuirk>
+	<DemonLoverQuirk><![CDATA[
+{pawn} после непослушных. {pawn_pronoun} предпочитает, чтобы партнеры {pawn_possessive} пришли из буквальных глубин ада или, по крайней мере, выглядели со стороны. 
+]]></DemonLoverQuirk>
+	<FeatherLoverQuirk><![CDATA[
+{pawn} любит этот пушистый пух. {pawn_pronoun} предпочитает партнеров-птиц или динозавров. Потому что динозавры - это птицы и у них есть перья, как {pawn_pronoun} подробно объяснит, если представится шанс.
+]]></FeatherLoverQuirk>
+	<FurLoverQuirk><![CDATA[
+{pawn} предпочитает партнера с густой, роскошной, уютно-мягкой шубой из меха.
+]]></FurLoverQuirk>
+	<PlantLoverQuirk><![CDATA[
+{pawn} любит держать за руки листья растений
+]]></PlantLoverQuirk>
+	<RobotLoverQuirk><![CDATA[
+Что лучше, 2D или 3D? {pawn} знает, что 3D-печать дает вам лучшее из обоих миров. 
+]]></RobotLoverQuirk>
+	<ScaleLoverQuirk><![CDATA[
+Кто бы не хотел держать дракона в руках? Определенно не {pawn}. {pawn} хочет держать чешуйчатого дракона в руках .
+]]></ScaleLoverQuirk>
+	<SkinLoverQuirk><![CDATA[
+{pawn} предпочитает {pawn_possessive} партнеров иметь гладкую чувствительную кожу без шерсти или чешуи. К счастью для {pawn_objective}, люди повсюду.
+]]></SkinLoverQuirk>
+	<SlimeLoverQuirk><![CDATA[
+Из-за своей скользкой, податливой и изменчивой природы слизи очень и очень хорошо держатся в руках. Как вы будете слышать снова и снова, если будете слушать речь {pawn} в течение любого промежутка времени.
+]]></SlimeLoverQuirk>
+	<SexPartWants>Хочет быть:</SexPartWants>
+</LanguageData>

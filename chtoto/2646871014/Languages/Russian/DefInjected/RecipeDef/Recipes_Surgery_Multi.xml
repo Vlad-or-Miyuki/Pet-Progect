@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- natural vaginaes -->
+
+ <AddMultiVagina.label>добавить влагалище</AddMultiVagina.label>
+  <AddMultiVagina.description>Добавляет дополнительное влагалище.</AddMultiVagina.description>
+  <AddMultiVagina.jobString>Добавление влагалища.</AddMultiVagina.jobString>
+
+  <AddMultiHorseVagina.label>добавить влагалище лошади</AddMultiHorseVagina.label>
+  <AddMultiHorseVagina.description>Добавляет дополнительное влагалище.</AddMultiHorseVagina.description>
+  <AddMultiHorseVagina.jobString>Добавление влагалища.</AddMultiHorseVagina.jobString>
+
+  <AddMultiCatVagina.label>добавить кошачье влагалище</AddMultiCatVagina.label>
+  <AddMultiCatVagina.description>Добавляет дополнительное влагалище. </AddMultiCatVagina.description>
+  <AddMultiCatVagina.jobString>Добавление влагалища.</AddMultiCatVagina.jobString>
+
+  <AddMultiDogVagina.label>добавить собачье влагалище</AddMultiDogVagina.label>
+  <AddMultiDogVagina.description>Добавляет дополнительное влагалище.</AddMultiDogVagina.description>
+  <AddMultiDogVagina.jobString>Добавление влагалища.</AddMultiDogVagina.jobString>
+
+  <AddMultiDragonVagina.label>добавить влагалище дракона</AddMultiDragonVagina.label>
+  <AddMultiDragonVagina.description>Добавляет дополнительное влагалище.</AddMultiDragonVagina.description>
+  <AddMultiDragonVagina.jobString>Добавление влагалища.</AddMultiDragonVagina.jobString>
+
+
+  <! - натуральные пенисы ->
+
+  <AddMultiPenis.label>добавить пенис</AddMultiPenis.label>
+  <AddMultiPenis.description>Добавляет дополнительный пенис.</AddMultiPenis.description>
+  <AddMultiPenis.jobString>Добавление пениса.</AddMultiPenis.jobString>
+
+  <AddMultiHorsePenis.label>добавить конский пенис</AddMultiHorsePenis.label>
+  <AddMultiHorsePenis.description>Добавляет дополнительный пенис.</AddMultiHorsePenis.description>
+  <AddMultiHorsePenis.jobString>Добавление пениса.</AddMultiHorsePenis.jobString>
+
+  <AddMultiCatPenis.label>добавить кошачий пенис</AddMultiCatPenis.label>
+  <AddMultiCatPenis.description>Добавляет дополнительный пенис.</AddMultiCatPenis.description>
+  <AddMultiCatPenis.jobString>Добавление пениса.</AddMultiCatPenis.jobString>
+
+  <AddMultiDogPenis.label>добавить собачий пенис</AddMultiDogPenis.label>
+  <AddMultiDogPenis.description>Добавляет дополнительный пенис.</AddMultiDogPenis.description>
+  <AddMultiDogPenis.jobString>Добавление пениса.</AddMultiDogPenis.jobString>
+
+  <AddMultiDragonPenis.label>добавить пенис дракона</AddMultiDragonPenis.label>
+  <AddMultiDragonPenis.description>Добавляет дополнительный пенис.</AddMultiDragonPenis.description>
+  <AddMultiDragonPenis.jobString>Добавление пениса.</AddMultiDragonPenis.jobString>
+
+  <AddMultiRaccoonPenis.label>добавить проциониновый пенис</AddMultiRaccoonPenis.label>
+  <AddMultiRaccoonPenis.description>Добавляет дополнительный пенис.</AddMultiRaccoonPenis.description>
+  <AddMultiRaccoonPenis.jobString>Добавление пениса.</AddMultiRaccoonPenis.jobString>
+
+  <AddMultiHemiPenis.label>добавить гемипенис </AddMultiHemiPenis.label>
+  <AddMultiHemiPenis.description>Добавляет дополнительный пенис.</AddMultiHemiPenis.description>
+  <AddMultiHemiPenis.jobString>Добавление пениса.</AddMultiHemiPenis.jobString>
+
+  <AddMultiCrocodilianPenis.label>добавить пенис крокодила</AddMultiCrocodilianPenis.label>
+  <AddMultiCrocodilianPenis.description>Добавляет дополнительный пенис.</AddMultiCrocodilianPenis.description>
+  <AddMultiCrocodilianPenis.jobString>Добавление пениса.</AddMultiCrocodilianPenis.jobString>
+
+
+  <! - Грудь ->
+
+  <AddMultiBreasts.label>добавить грудь</AddMultiBreasts.label>
+  <AddMultiBreasts.description>Добавляет дополнительный ряд груди.</AddMultiBreasts.description>
+  <AddMultiBreasts.jobString>Добавление груди.</AddMultiBreasts.jobString>
+
+  <AddMultiAnus.label>добавить анус</AddMultiAnus.label>
+  <AddMultiAnus.description>Добавляет дополнительный задний проход.</AddMultiAnus.description>
+  <AddMultiAnus.jobString>Добавление ануса</AddMultiAnus.jobString>
+
+
+</LanguageData>

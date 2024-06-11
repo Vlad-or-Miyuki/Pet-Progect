@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NymphJoins.label>нимфа присоединяется</NymphJoins.label>
+  <NymphVisitor.label>посетитель нимфа</NymphVisitor.label>
+  <NymphVisitorGroupEasy.label>нимфа рейд (легкий)</NymphVisitorGroupEasy.label>
+  <NymphVisitorGroupHard.label>нимфа рейд (жесткий)</NymphVisitorGroupHard.label>
+
+
+</LanguageData>

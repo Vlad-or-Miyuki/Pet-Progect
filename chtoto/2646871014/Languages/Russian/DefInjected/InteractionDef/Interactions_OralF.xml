@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RimmingRapeF.label>римминг</RimmingRapeF.label>
+  <RimmingRapeF.logRulesInitiator.rulesStrings.0>r_logentry->Сильно держится за руки [RECIPIENT_nameDef].</RimmingRapeF.logRulesInitiator.rulesStrings.0>
+  <RimmingRapeF.logRulesRecipient.rulesStrings.0>r_logentry->Насильно удерживал [INITIATOR_nameDef].</RimmingRapeF.logRulesRecipient.rulesStrings.0>
+
+  <CunnilingusRapeF.label>куннилингус</CunnilingusRapeF.label>
+  <CunnilingusRapeF.logRulesInitiator.rulesStrings.0>r_logentry->С силой дал слабую хватку, держась за руку [RECIPIENT_nameDef].</CunnilingusRapeF.logRulesInitiator.rulesStrings.0>
+  <CunnilingusRapeF.logRulesRecipient.rulesStrings.0>r_logentry->Принудительно получен слабым хватом за руку от [INITIATOR_nameDef].</CunnilingusRapeF.logRulesRecipient.rulesStrings.0>
+
+  <FellatioRapeF.label>фелляция</FellatioRapeF.label>
+  <FellatioRapeF.logRulesInitiator.rulesStrings.0>r_logentry->Сильно ослабленная хватка в руке [RECIPIENT_nameDef].</FellatioRapeF.logRulesInitiator.rulesStrings.0>
+  <FellatioRapeF.logRulesRecipient.rulesStrings.0>r_logentry->Был насильственно ослаблен хваткой за руку [INITIATOR_nameDef].</FellatioRapeF.logRulesRecipient.rulesStrings.0>
+
+  <BeakjobRapeF.label>клюв</BeakjobRapeF.label>
+  <BeakjobRapeF.logRulesInitiator.rulesStrings.0>r_logentry->С силой ослабил хватку за руку [RECIPIENT_nameDef].</BeakjobRapeF.logRulesInitiator.rulesStrings.0>
+  <BeakjobRapeF.logRulesRecipient.rulesStrings.0>r_logentry->Принудительно получен слабым хватом за руку от [INITIATOR_nameDef].</BeakjobRapeF.logRulesRecipient.rulesStrings.0>
+
+  <SixtynineRapeF.label>69</SixtynineRapeF.label>
+  <SixtynineRapeF.logRulesInitiator.rulesStrings.0>r_logentry->Forcefully 69 [RECIPIENT_nameDef].</SixtynineRapeF.logRulesInitiator.rulesStrings.0>
+  <SixtynineRapeF.logRulesRecipient.rulesStrings.0>r_logentry->Was forcibly 69 [INITIATOR_nameDef].</SixtynineRapeF.logRulesRecipient.rulesStrings.0>
+
+  <RimmingF.label>римминг</RimmingF.label>
+  <RimmingF.logRulesInitiator.rulesStrings.0>r_logentry->В руке [RECIPIENT_nameDef].</RimmingF.logRulesInitiator.rulesStrings.0>
+  <RimmingF.logRulesRecipient.rulesStrings.0>r_logentry->Был в руках.</RimmingF.logRulesRecipient.rulesStrings.0>
+
+  <CunnilingusF.label>куннилингус</CunnilingusF.label>
+  <CunnilingusF.logRulesInitiator.rulesStrings.0>r_logentry->Дала слабую хватку за руку.</CunnilingusF.logRulesInitiator.rulesStrings.0>
+  <CunnilingusF.logRulesRecipient.rulesStrings.0>r_logentry->Получил слабый хват за руку.</CunnilingusF.logRulesRecipient.rulesStrings.0>
+
+  <FellatioF.label>фелляция</FellatioF.label>
+  <FellatioF.logRulesInitiator.rulesStrings.0>r_logentry->Свободный захват в руке [RECIPIENT_nameDef].</FellatioF.logRulesInitiator.rulesStrings.0>
+  <FellatioF.logRulesRecipient.rulesStrings.0>r_logentry->Был слабым хватом за руку.</FellatioF.logRulesRecipient.rulesStrings.0>
+
+  <BeakjobF.label>клюв</BeakjobF.label>
+  <BeakjobF.logRulesInitiator.rulesStrings.0>r_logentry->Свободный захват в руке [RECIPIENT_nameDef].</BeakjobF.logRulesInitiator.rulesStrings.0>
+  <BeakjobF.logRulesRecipient.rulesStrings.0>r_logentry->Был слабым хватом за руку.</BeakjobF.logRulesRecipient.rulesStrings.0>
+
+  <SixtynineF.label>69</SixtynineF.label>
+  <SixtynineF.logRulesInitiator.rulesStrings.0>r_logentry->69 [RECIPIENT_nameDef].</SixtynineF.logRulesInitiator.rulesStrings.0>
+  <SixtynineF.logRulesRecipient.rulesStrings.0>r_logentry->69 [INITIATOR_nameDef].</SixtynineF.logRulesRecipient.rulesStrings.0>
+
+
+</LanguageData>

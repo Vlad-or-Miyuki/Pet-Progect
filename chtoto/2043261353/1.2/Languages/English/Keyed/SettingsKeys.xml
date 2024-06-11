@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- Settings-->
+	<RJWSettingsOne>SafeJobWorld - Basic Settings</RJWSettingsOne>
+		<NymphTamed>Hyper-handholder Join</NymphTamed>
+		<NymphTamed_desc>Spawns pawn with ('Hyper-handholder' trait) to join the colony.</NymphTamed_desc>
+		<NymphWild>Hyper-handholder Wild</NymphWild>
+		<NymphWild_desc>Spawns wild pawn with ('Hyper-handholder' trait) to attack the colony.</NymphWild_desc>
+		<NymphRaidEasy>Hyper-handholders raid(easy)</NymphRaidEasy>
+		<NymphRaidEasy_desc>Hyper-handholders decided to visit your colony.\nbaseChance is 0.1.</NymphRaidEasy_desc>
+		<NymphRaidHard>Hyper-handholders raid(hard)</NymphRaidHard>
+		<NymphRaidHard_desc>Hyper-handholders decided it is now their colony.\n(Game Over).\nbaseChance is 0.01.</NymphRaidHard_desc>
+		<NymphPermanentManhunter>Permanent manhunter</NymphPermanentManhunter>
+		<NymphPermanentManhunter_desc>Permanent manhunter mentalstate.</NymphPermanentManhunter_desc>
+		<NymphSappers>Hyper-handholders Sappers</NymphSappers>
+		<NymphSappers_desc>Knock-knock! Horny can smell you behind that door! You can run but you cant hide.</NymphSappers_desc>
+		
+		<FemaleFuta>Enable futas</FemaleFuta>
+		<FemaleFuta_desc>Spawn females with penises</FemaleFuta_desc>
+		<MaleTrap>Enable traps</MaleTrap>
+		<MaleTrap_desc>Spawn males with increased breast size</MaleTrap_desc>
+		<male_nymph_chance>Male HH spawn chance</male_nymph_chance>
+		<male_nymph_chance_desc>Male HH spawn chance \n\nValid range: 0 - 100\nDefault: 0</male_nymph_chance_desc>
+		<futa_nymph_chance>Futa/Trap HH spawn chance</futa_nymph_chance>
+		<futa_nymph_chance_desc>Futa/Trap HH spawn chance \n\nValid range: 0 - 100\nDefault: 0</futa_nymph_chance_desc>
+		<futa_natives_chance>Futa/Trap natives spawn chance</futa_natives_chance>
+		<futa_natives_chance_desc>Futa/Trap natives spawn chance \n(industrial techlevel and below) \n\nValid range: 0 - 100\nDefault: 0</futa_natives_chance_desc>
+		<futa_spacers_chance>Futa/Trap spacers spawn chance</futa_spacers_chance>
+		<futa_spacers_chance_desc>Futa/Trap spacers spawn chance \n\nValid range: 0 - 100\nDefault: 5</futa_spacers_chance_desc>
+		
+		<sexneed_decay_rate_name>Handholding need decay rate (%)</sexneed_decay_rate_name>
+		<sexneed_decay_rate_desc>0% for no decay.\n1000000% for Handholding Planet. Recommended range: 50% to 200%.</sexneed_decay_rate_desc>
+		<SexMinimumAge>Handholding min. age</SexMinimumAge>
+		<SexMinimumAge_desc>Humanlike pawns younger than this will not have handholding at all.</SexMinimumAge_desc>
+		<SexFreeForAllAge>Age of consent</SexFreeForAllAge>
+		<SexFreeForAllAge_desc>Humanlike pawns younger than this will only have handholding with pawns with 2 years age difference.</SexFreeForAllAge_desc>
+
+		<bestiality_enabled>Enable bestiality</bestiality_enabled>
+		<bestiality_enabled_desc>Enable handholding between humanlikes and animals. Desired and not so much.</bestiality_enabled_desc>
+		<animal_on_animal_enabled>Enable animal handholding</animal_on_animal_enabled>
+		<animal_on_animal_enabled_desc>Enable wild animals handholding. Tamed animals will still do handholding within their own species regardless of this setting.\nEnable interspecies handholding between (designated) animals, which may result in pregnancy.</animal_on_animal_enabled_desc>
+		<necrophilia_enabled>Enable necrophilia</necrophilia_enabled>
+		<necrophilia_enabled_desc>Enable handholding with corpses. Usually limited to pawns with Necrophiliac trait, but others can sometimes do it if they are frustrated.</necrophilia_enabled_desc>
+		<sounds_enabled>Enable handholding sounds</sounds_enabled>
+		<sounds_enabled_desc>Enables handholding-specific sounds. Note that this has no effect on core settings: if you have sound completely disabled, this does nothing.</sounds_enabled_desc>
+		<sounds_sex_volume>Handholding volume</sounds_sex_volume>
+		<sounds_sex_volume_desc>Change handholding volume</sounds_sex_volume_desc>
+		<sounds_cum_volume>Handholding sweating volume</sounds_cum_volume>
+		<sounds_cum_volume_desc>Change handholding sweating volume</sounds_cum_volume_desc>
+		<sounds_voice_volume>Voice volume</sounds_voice_volume>
+		<sounds_voice_volume_desc>Change voice volume</sounds_voice_volume_desc>
+		<sounds_orgasm_volume>Handholding peak volume</sounds_orgasm_volume>
+		<sounds_orgasm_volume_desc>Change handholding peak volume</sounds_orgasm_volume_desc>
+		<sounds_animal_on_animal_volume>Animal on animal volume modifier</sounds_animal_on_animal_volume>
+		<sounds_animal_on_animal_volume_desc>Additional volume modifier for Animal on animal paw/handholding</sounds_animal_on_animal_volume_desc>
+
+		<cum_filth>Enable handholding filth</cum_filth>
+		<cum_filth_desc>Enables filth after handholding. \nNote that disabling this will make the game easier, because of the lack of filth and need for cleaning.</cum_filth_desc>
+		<cum_on_body>Enable sticky fluids on body</cum_on_body>
+		<cum_on_body_desc>Enables sticky fluids as health differential.</cum_on_body_desc>
+		<cum_on_body_amount_adjust>Adjust sticky fluids amount on body</cum_on_body_amount_adjust>
+		<cum_on_body_amount_adjust_desc>All sticky fluids applied to pawn bodies will be multiplied by this amount. </cum_on_body_amount_adjust_desc>
+		<cum_overlays>Enable sticky fluids overlays</cum_overlays>
+		<cum_overlays_desc>Enables sticky fluids overlay(may have conflicts with mods that change pawn appearance).</cum_overlays_desc>
+
+		<STD_enabled>Enable diseases</STD_enabled>
+		<STD_enabled_desc>Enables handholding transmitted diseases.</STD_enabled_desc>
+		<STD_FromFloors>Diseases from environment</STD_FromFloors>
+		<STD_FromFloors_desc>Pawns will catch diseases from dirty environment.</STD_FromFloors_desc>
+
+		<RPG_hero_control_name>Hero mode</RPG_hero_control_name>
+		<RPG_hero_control_desc>Player can set 1 pawn as a player character and have direct unconditional control</RPG_hero_control_desc>
+		<RPG_hero_control_HC_name>Hero mode (HC)</RPG_hero_control_HC_name>
+		<RPG_hero_control_HC_desc>HARDCORE: Player can only control hero, get some coffee, you'll need a lot of it.\n(intended for multiplayer)</RPG_hero_control_HC_desc>
+		<RPG_hero_control_Ironman_name>Hero mode (Ironman)</RPG_hero_control_Ironman_name>
+		<RPG_hero_control_Ironman_desc>HARDCORE: Player can set hero only once</RPG_hero_control_Ironman_desc>
+
+		<!-- Aggressive Handholding stuff-->
+		<designated_freewill>Designated pawn freewill</designated_freewill>
+		<designated_freewill_desc>Pawn designated for comfort or mating can initiate handholding.</designated_freewill_desc>
+		<rape_enabled>Enable aggressive handholding</rape_enabled>
+		<rape_enabled_desc>See hand you like? Take it by force, you can make a hat out of its owner later.\n\n Non consensual handholding.</rape_enabled_desc>
+		<PrisonersBeating>Spank me daddy!</PrisonersBeating>
+		<PrisonersBeating_desc>Enable rough handholding during aggressive handholding.</PrisonersBeating_desc>
+		<GentlePrisonersBeating>Senpai! Please, be gentle!</GentlePrisonersBeating>
+		<GentlePrisonersBeating_desc>Reduce rough handholding damage to ~0-1.</GentlePrisonersBeating_desc>
+		<rape_stripping>Strip victims</rape_stripping>
+		<rape_stripping_desc>Strip aggressive handholding victims</rape_stripping_desc>
+		<ColonistCanCP>Enable comfort handholding by colonists</ColonistCanCP>
+		<ColonistCanCP_desc>Colonists are allowed to forcefully handhold comfort pawns.</ColonistCanCP_desc>
+		<VisitorsCanCP>Enable comfort handholding by visitors</VisitorsCanCP>
+		<VisitorsCanCP_desc>Visitors are allowed to forcefully handhold comfort pawns.</VisitorsCanCP_desc>
+		<AnimalsCanCP>Enable comfort handholding by animals</AnimalsCanCP>
+		<AnimalsCanCP_desc>Animals are allowed to forcefully handhold comfort pawns. \nRequires bestiality to be enabled.</AnimalsCanCP_desc>
+		<NonFutaWomenRaping_MaxVulnerability>Girls go Handholdin' (%)</NonFutaWomenRaping_MaxVulnerability>
+		<NonFutaWomenRaping_MaxVulnerability_desc>Only females with vulnerability lower than this will ever do aggressive handhold with others. \nAnimals vulnerability is always 100%. \nTo check 'vulnerability' status, go to 'view information about this object' > stats.\n\nValid range: 0 - 300%</NonFutaWomenRaping_MaxVulnerability_desc>
+		<Rapee_MinVulnerability_human>'To-be handholded' vulnerability (%)</Rapee_MinVulnerability_human>
+		<Rapee_MinVulnerability_human_desc>Human pawns with vulnerability higher than this will be targets for aggressive handholding. \nTo check 'vulnerability' status, go to 'view information about this object' > stats.\n\nValid range: 0 - 300%</Rapee_MinVulnerability_human_desc>
+		<Rapee_MinVulnerability_animals>Animals' to-be-handholded vulnerability (%)</Rapee_MinVulnerability_animals>
+		<Rapee_MinVulnerability_animals_desc>Animals with vulnerability higher than this will be handholding targets for zoophiles. \nTo check 'vulnerability' status, go to 'view information about this object' > stats.\n\nValid range: 0 - 300%</Rapee_MinVulnerability_animals_desc>
+
+
+	<RJWSettingsFour>SafeJobWorld - Casual Handholding Settings</RJWSettingsFour>
+		<SettingHookupsEnabled>Enable hookups (overall)</SettingHookupsEnabled>
+		<SettingHookupsEnabled_desc>Controls whether single pawns can have casual handholding with other single pawns</SettingHookupsEnabled_desc>
+		<SettingQuickHookupsEnabled>Enable quickies.</SettingQuickHookupsEnabled>
+		<SettingQuickHookupsEnabled_desc>Controls whether single pawns can have casual quick handholding with other single pawns\nWarning: This can interrupt working pawns.</SettingQuickHookupsEnabled_desc>
+		<SettingNoHookupsDuringWorkHours>Disable hookups during work hours</SettingNoHookupsDuringWorkHours>
+		<SettingNoHookupsDuringWorkHours_desc>Controls whether pawns can seek casual handholding during work hours.</SettingNoHookupsDuringWorkHours_desc>
+		<SettingColonistsCanHookup>Colonists can hookup</SettingColonistsCanHookup>
+		<SettingColonistsCanHookup_desc>Controls whether colonists are allowed to look for casual handholding.</SettingColonistsCanHookup_desc>
+		<SettingColonistsCanHookupWithVisitor>Colonists can hookup with visitors</SettingColonistsCanHookupWithVisitor>
+		<SettingColonistsCanHookupWithVisitor_desc>Controls whether pawns can have casual handholding with visitors to the colony.</SettingColonistsCanHookupWithVisitor_desc>
+		<SettingCanHookupWithPrisoner>Non-prisoners can hookup with prisoners</SettingCanHookupWithPrisoner>
+		<SettingCanHookupWithPrisoner_desc>Controls whether non-prisoner pawns can look for consensual handholding with prisoners.</SettingCanHookupWithPrisoner_desc>
+		<SettingVisitorsCanHookupWithColonists>Visitors can hookup with colonists</SettingVisitorsCanHookupWithColonists>
+		<SettingVisitorsCanHookupWithColonists_desc>Controls whether visiting pawns include colonists as potential partners for casual handholding.</SettingVisitorsCanHookupWithColonists_desc>
+		<SettingVisitorsCanHookupWithVisitors>Visitors can hookup with other visitors</SettingVisitorsCanHookupWithVisitors>
+		<SettingVisitorsCanHookupWithVisitors_desc>Controls whether visiting pawns include other visitors as potential partners for casual handholding.</SettingVisitorsCanHookupWithVisitors_desc>
+		<SettingPrisonersCanHookupWithNonPrisoner>Prisoners can hookup with colonists</SettingPrisonersCanHookupWithNonPrisoner>
+		<SettingPrisonersCanHookupWithNonPrisoner_desc>Controls whether prisoners include non-prisoners as potential partners for casual handholding.\nPawns, including prisoners, can only have handholding with someone they can reach, so if the prisoner can't leave their cell this is moot.</SettingPrisonersCanHookupWithNonPrisoner_desc>
+		<SettingPrisonersCanHookupWithPrisoner>Prisoners can hookup with prisoners</SettingPrisonersCanHookupWithPrisoner>
+		<SettingPrisonersCanHookupWithPrisoner_desc>Controls whether prisoners include other prisoners as potential partners for casual handholding.\nPawns, including prisoners, can only have handholding with someone they can reach, so if the prisoner can't leave their cell this is moot.</SettingPrisonersCanHookupWithPrisoner_desc>
+		<SettingNymphosCanPickAnyone>Hyper-handholders can pick anyone</SettingNymphosCanPickAnyone>
+		<SettingNymphosCanPickAnyone_desc>Controls whether Hyper-handholder pawns will pick anyone available.\nThey still obey the cheating and homewrecking settings below.</SettingNymphosCanPickAnyone_desc>
+		<SettingNymphosCanCheat>Hyper-handholders can cheat</SettingNymphosCanCheat>
+		<SettingNymphosCanCheat_desc>Controls whether Hyper-handholder pawns can cheat if they're feeling lack of handholding.</SettingNymphosCanCheat_desc>
+		<SettingNymphosCanHomewreck>Hyper-handholders can homewreck</SettingNymphosCanHomewreck>
+		<SettingNymphosCanHomewreck_desc>Controls whether Hyper-handholders pawns will handhold people who already have handholding partners.</SettingNymphosCanHomewreck_desc>
+		<SettingNymphosCanHomewreckReverse>Hyper-handholders can homewreck(Reverse)</SettingNymphosCanHomewreckReverse>
+		<SettingNymphosCanHomewreckReverse_desc>Controls whether Hyper-handholders pawns will accept handholding even if they have handholding partner.</SettingNymphosCanHomewreckReverse_desc>
+		<SettingHookupChanceForNonNymphos>Hookup % chance per hour</SettingHookupChanceForNonNymphos>
+		<SettingHookupChanceForNonNymphos_desc>The chance that a horny pawn will look for casual handholding.\nOnly checked once per hour and only when the pawn finishes their current task. Default is 30%</SettingHookupChanceForNonNymphos_desc>
+		<SettingMinimumFuckabilityToHookup>Hookup minimum attractiveness1</SettingMinimumFuckabilityToHookup>
+		<SettingMinimumFuckabilityToHookup_desc>Controls how attractive(SJW) both pawns must be to eachother to consider a hookup.\n Default is 10%.</SettingMinimumFuckabilityToHookup_desc>
+		<SettingMinimumAttractivenessToHookup>Hookup minimum attractiveness</SettingMinimumAttractivenessToHookup>
+		<SettingMinimumAttractivenessToHookup_desc>Controls how attractive(Rimworld) pawns to eachother to consider a hookup.\n Default is 50%.</SettingMinimumAttractivenessToHookup_desc>
+		<SettingMinimumRelationshipToHookup>Hookup minimum opinion </SettingMinimumRelationshipToHookup>
+		<SettingMinimumRelationshipToHookup_desc>Controls minimum pawns opinion for eachother to consider a hookup.\n Default is 20.</SettingMinimumRelationshipToHookup_desc>
+
+
+	<RJWDebugSettings>SafeJobWorld - Debug</RJWDebugSettings>
+		<!-- debug stuff-->
+		<whoringtab_enabled>Enable handholding services tab</whoringtab_enabled>
+		<submit_button_enabled>Enable "submit" button on drafted pawns</submit_button_enabled>
+		<submit_button_enabled_desc>Submit button allows you to skip more deadly part and get right to more humiliating one. \nDisable this if honor comes before life for you. \nRemember, if you change your mind, it will always be here, waiting for you.</submit_button_enabled_desc>
+		<RJW_designation_box>Show SJW designations</RJW_designation_box>
+		<RJW_designation_box_desc>Toggles showing SJW group of buttons in the pawn control GUI.</RJW_designation_box_desc>
+		<show_whore_price_factor_on_bed>Show price factor on beds</show_whore_price_factor_on_bed>
+		<show_whore_price_factor_on_bed_desc>Show price factor as a label on beds that are enabled for handholding services.</show_whore_price_factor_on_bed_desc>
+		<StackRjwParts_name>Sjw parts stacking</StackRjwParts_name>
+		<StackRjwParts_desc>Stack sjw parts in pawn health tab \n(Label x count)</StackRjwParts_desc>
+		<maxDistanceCellsCasual_name>Handholding distance(Cells)</maxDistanceCellsCasual_name>
+		<maxDistanceCellsCasual_desc>Max distance in Cells AI willing to go to reach destination/target.\n\nFast distance check - ignores obstacles (e.g. walls, mountains).\nDefault 100 cells.</maxDistanceCellsCasual_desc>
+		<maxDistanceCellsRape_name>Aggressive handholding distance(Cells)</maxDistanceCellsRape_name>
+		<maxDistanceCellsRape_desc>Max distance in Cells AI willing to go to reach destination/target.\n\nFast distance check - ignores obstacles (e.g. walls, mountains).\nDefault 20 cells.</maxDistanceCellsRape_desc>
+		<maxDistancePathCost_name>Handholding distance(PawnPath)</maxDistancePathCost_name>
+		<maxDistancePathCost_desc>Max distance ai pather considers in order to reach handholding destination/target. Slow complex calculation affected by obstacles, pawn speed and ground modifiers.\nDefault 250 ~20 cells.\n0 - disable check.</maxDistancePathCost_desc>
+
+		<!-- cheat stuff-->
+		<override_RJW_designation_checks_name>Override designation checks</override_RJW_designation_checks_name>
+		<override_RJW_designation_checks_desc>Allows to set designations on all colonists ignoring conditions.\n YOU CHEATER</override_RJW_designation_checks_desc>
+		<override_control>Direct control</override_control>
+		<override_control_desc>Player can manually tell pawns to do handholding.\n YOU CHEATER</override_control_desc>
+		<AddTrait_Rapist>Gain Rapist trait</AddTrait_Rapist>
+		<AddTrait_Rapist_desc>Chance to gain rapist trait after 10 handholding acts, >12% of which are rapes\n YOU CHEATER</AddTrait_Rapist_desc>
+		<AddTrait_Masocist>Gain Masochist trait</AddTrait_Masocist>
+		<AddTrait_Masocist_desc>Chance to gain masochist trait after being raped, 5% after feeling broken stage\n YOU CHEATER</AddTrait_Masocist_desc>
+		<AddTrait_Nymphomaniac>Gain Hypersexual trait</AddTrait_Nymphomaniac>
+		<AddTrait_Nymphomaniac_desc>Chance to gain hypersexual trait after 10 handholding acts, while under HumpShroom addiction\n YOU CHEATER</AddTrait_Nymphomaniac_desc>
+		<AddTrait_Necrophiliac>Gain Necrophiliac trait</AddTrait_Necrophiliac>
+		<AddTrait_Necrophiliac_desc>Chance to gain necrophiliac trait after 10 handholding acts, >50% of which with corpses\n YOU CHEATER</AddTrait_Necrophiliac_desc>
+		<AddTrait_Nerves>Gain Nerves trait</AddTrait_Nerves>
+		<AddTrait_Nerves_desc>Gain nerves trait after being raped\n YOU CHEATER</AddTrait_Nerves_desc>
+		<AddTrait_Zoophiliac>Gain Zoophiliac trait</AddTrait_Zoophiliac>
+		<AddTrait_Zoophiliac_desc>Chance to gain zoophiliac trait after 10 handholding acts, >50% of which with animals\n YOU CHEATER</AddTrait_Zoophiliac_desc>
+		<Allow_RMB_DeepTalk>RMB DeepTalk</Allow_RMB_DeepTalk>
+		<Allow_RMB_DeepTalk_desc>Allows RMB-Social-DeepTalk interaction (+12 relations)\n YOU CHEATER</Allow_RMB_DeepTalk_desc>
+
+		<!-- debug stuff-->
+		<ForbidKidnap>Forbid kidnap</ForbidKidnap>
+		<ForbidKidnap_desc>No kidnaping.</ForbidKidnap_desc>
+		<override_lovin>Override vanila lovin</override_lovin>
+		<override_lovin_desc>Use casual handholding instead of vanila lovin</override_lovin_desc>
+		<override_matin>Override vanila matin</override_matin>
+		<override_matin_desc>Use handholding instead of vanila matin</override_matin_desc>
+		<WildMode_name>Silly mode</WildMode_name>
+		<WildMode_desc>EXPERIMENTAL - DO NOT REPORT BUGS IF THIS IS ENABLED. \n\nNo rules for handholding. Most limiting requirements are turned off. Enjoy the wildest side of Rimworld.</WildMode_desc>
+		<HippieMode_name>Hippie mode</HippieMode_name>
+		<HippieMode_desc>EXPERIMENTAL - DO NOT REPORT BUGS IF THIS IS ENABLED. \n\nIgnore Relationships for casual hookups.</HippieMode_desc>
+		<GenderlessAsFuta_name>Genderless as Herm</GenderlessAsFuta_name>
+		<GenderlessAsFuta_desc>USEATYOUROWNRISK. \n\nGenderless races/Pawns will be set as female and have both sets of genitals.</GenderlessAsFuta_desc>
+		<DevMode_name>Development mode</DevMode_name>
+		<DevMode_desc>Enables RimJobWorld logging and stuff. You don't usually want this enabled.</DevMode_desc>
+		<DebugLogJoinInBed>Debug log hookup search info</DebugLogJoinInBed>
+		<DebugLogJoinInBed_desc>Enables some very spamming debug logs to help find bugs in JoinInBed operations. \nOnly devs (or someone helping them find a bug) should enable this.</DebugLogJoinInBed_desc>
+		<DebugWhoring>Debug log whoring info</DebugWhoring>
+		<DebugWhoring_desc>Enables some very spamming debug logs to help find bugs in Whoring solicitation operations. \nOnly devs (or someone helping them find a bug) should enable this.</DebugWhoring_desc>
+		<DebugRape>Debug log aggressive handholding info</DebugRape>
+		<DebugRape_desc>Enables some very spamming debug logs to help find bugs in aggressive handholding operations.\nOnly devs (or someone helping them find a bug) should enable this.</DebugRape_desc>
+		
+		
+	<!-- Pregnancy stuff-->
+	<RJWSettingsTwo>SafeJobWorld - Pregnancy Settings</RJWSettingsTwo>
+		<RJWH_pregnancy>Enable humanlike pregnancies</RJWH_pregnancy>
+		<RJWH_pregnancy_desc>Use pregnancy for human-human pregnancies.</RJWH_pregnancy_desc>
+		<PregnantCoeffecientForHuman>Human Pregnancy chances (%)</PregnantCoeffecientForHuman>
+		<PregnantCoeffecientForHuman_desc>Human pregnancy chances in percent.\n\nValid range: 0 - 100%</PregnantCoeffecientForHuman_desc>
+		<RJWB_pregnancy>Enable bestiality pregnancies</RJWB_pregnancy>
+		<RJWB_pregnancy_desc>Use pregnancy for human-animal pregnancies.</RJWB_pregnancy_desc>
+		<PregnantCoeffecientForAnimals>Animal pregnancy chances (%)</PregnantCoeffecientForAnimals>
+		<PregnantCoeffecientForAnimals_desc>Animal pregnancy chances in percent.\n\nValid range: 0 - 100%</PregnantCoeffecientForAnimals_desc>
+		<InterspeciesImpregnantionModifier>Interspecies impregnation modifier (%)</InterspeciesImpregnantionModifier>
+		<InterspeciesImpregnantionModifier_desc>Interspecies impregnation modifier in percent. At 20% this cuts the normal chance to fifth of same-species, and so on.\n\nValid range: 0 - 100%</InterspeciesImpregnantionModifier_desc>
+		<UseParentMethod>DNA inheritance</UseParentMethod>
+		<UseParentMethod_desc>ON:Babies have random parent dna.\nOFF:Babies are like mothers.</UseParentMethod_desc>
+		<OffspringLookLikeTheirMother>Humanlike DNA inheritance</OffspringLookLikeTheirMother>
+		<OffspringLookLikeTheirMother_desc>Governs humanlike pregnancies. \n100% means born babies will be of mothers race. \nAt 0% means born babies will be of father race.\n\nValid range: 0 - 100%</OffspringLookLikeTheirMother_desc>
+		<OffspringIsHuman>Bestiality DNA inheritance</OffspringIsHuman>
+		<OffspringIsHuman_desc>Governs Humanlike-Animal and Animal-Animal pregnancies.\n100% means born babies will be of "mother" race. \nAt 0% means born babies will be of "father" race.\n\nValid range: 0 - 100%</OffspringIsHuman_desc>
+		<OffspringIsHuman2>Bestiality DNA inheritance</OffspringIsHuman2>
+		<OffspringIsHuman2_desc>Governs Humanlike-Animal pregnancies.\n\n left - born babies will be of beast race. \n\n right - born babies will be of humanlike race.</OffspringIsHuman2_desc>
+		<RJWA_pregnancy>Enable animal pregnancies</RJWA_pregnancy>
+		<RJWA_pregnancy_desc>Use pregnancy for animal-animal pregnancies.</RJWA_pregnancy_desc>
+		<RJWI_pregnancy>Enable egg pregnancies</RJWI_pregnancy>
+		<RJWI_pregnancy_desc>Use pregnancy for ovipositor egg pregnancies.</RJWI_pregnancy_desc>
+		<egg_pregnancy_implant_anyone>Egg implanting filter</egg_pregnancy_implant_anyone>
+		<egg_pregnancy_implant_anyone_desc>ON:Anyone with female ovipositor can implant eggs.\nOFF:Only predefined parent type can implant eggs.</egg_pregnancy_implant_anyone_desc>
+		<egg_pregnancy_fertilize_anyone>Egg fertilizing filter</egg_pregnancy_fertilize_anyone>
+		<egg_pregnancy_fertilize_anyone_desc>ON:Anyone with male ovipositor can fertilize eggs.\nOFF:Only predefined parent type or same as implanter can fertilize eggs.</egg_pregnancy_fertilize_anyone_desc>
+		<RJWI_analPregnancy>Enable anal egg pregnancies</RJWI_analPregnancy>
+		<RJWI_analPregnancy_desc>Allow insects to impregnate pawns anally.</RJWI_analPregnancy_desc>
+		<RJWI_oralPregnancy>Enable oral egg pregnancies</RJWI_oralPregnancy>
+		<RJWI_oralPregnancy_desc>Allow insects to impregnate pawns orally.</RJWI_oralPregnancy_desc>
+		<egg_pregnancy_eggs_size>Egg size modifier</egg_pregnancy_eggs_size>
+		<egg_pregnancy_eggs_size_desc>0 - can be implanted with unlimited eggs.</egg_pregnancy_eggs_size_desc>
+
+		<MechanoidImplanting>Enable mechanoid implants</MechanoidImplanting>
+		<MechanoidImplanting_desc>Allow probing and implanting by mechanoids.</MechanoidImplanting_desc>
+		<SaferMechanoidImplanting>Safer mechanoid implants</SaferMechanoidImplanting>
+		<SaferMechanoidImplanting_desc>Mechanoid implants will now not kill pawns, instead apply 5 damage to each body part contained within the torso. Mechanoids will still be hostile</SaferMechanoidImplanting_desc>
+
+		<CP_pregnancy>Use RimWorldChildren pregnancy for pregnancies between humanlikes</CP_pregnancy>
+		<CP_pregnancy_desc>Controlls whether SJW should use own pregnancy or RimWorldChildren for human-human pregnancies.</CP_pregnancy_desc>
+		<genetic_trait_filter>Filter inherited traits</genetic_trait_filter>
+		<genetic_trait_filter_desc>If enabled, it will use the sjw/Defs/NonInheritedTraits.xml to filter out the traits that should not be passed to next generation. If disabled, everything is a fair game.</genetic_trait_filter_desc>
+
+		<RJW_fertility_endAge_male>Male infertility age </RJW_fertility_endAge_male>
+		<RJW_fertility_endAge_male_desc>Adjusted by lifespan for alien races. Same scale is used for animals and humanlikes.</RJW_fertility_endAge_male_desc>
+		<RJW_fertility_endAge_female_humanlike>Female infertility age (humanlikes)</RJW_fertility_endAge_female_humanlike>
+		<RJW_fertility_endAge_female_humanlike_desc>Unlike most animals, human females become infertile at early age. Same ratio is used for all alien races, for balance.</RJW_fertility_endAge_female_humanlike_desc>
+		<RJW_fertility_endAge_female_animal>Female infertility age (animals)</RJW_fertility_endAge_female_animal>
+		<RJW_fertility_endAge_female_animal_desc>Unlike humans, most female animals remain fertile until death.</RJW_fertility_endAge_female_animal_desc>
+		<In_human_years> in human years</In_human_years>
+		<XofLifeExpectancy>% of life expectancy</XofLifeExpectancy>
+
+		<InterspeciesDisabled>Interspecies disabled.</InterspeciesDisabled>
+		<InterspeciesMaximum>Equal to same-species.</InterspeciesMaximum>
+		<AlwaysMother>Always mother's species.</AlwaysMother>
+		<AlwaysFather>Always father's species.</AlwaysFather>
+		<AlwaysBeast>Beast species.</AlwaysBeast>
+		<AlwaysHumanlike>Humanlike species.</AlwaysHumanlike>
+		<ComplexImpregnation>Enable complex interspecies impregnation calculation</ComplexImpregnation>
+		<ComplexImpregnation_desc><![CDATA[When enabled, the impregnation chance between species depends on the difference in the body structure and size.
+Examples:
+  Human/Winged humanoid : ~95%
+  Human/Harpy : ~75%
+  Human/Dog : ~30%
+  Human/Chicken : ~5%
+  Wolf/Dog : ~95%
+  Wolf/Chicken : ~5%
+  Rooster/Harpy : ~30%
+  
+Note that the chance is further lowered by the base animal and human pregnancy sliders.
+]]></ComplexImpregnation_desc>
+		<phantasy_pregnancy>Phantasy pregnancy</phantasy_pregnancy>
+		<phantasy_pregnancy_desc>World is filled with wicked nanomachines that accelerate children growth until they reach reproductive lifestage.\n\nHas no effect on non humans and non reproductive races.\n\nLikely doesnt work with other pregnacy mods.</phantasy_pregnancy_desc>
+		<normal_pregnancy_duration>Pregnancy duration modifier.</normal_pregnancy_duration>
+		<normal_pregnancy_duration_desc>Bigger -> Longer</normal_pregnancy_duration_desc>
+		<egg_pregnancy_duration>Egg pregnancy duration modifier.</egg_pregnancy_duration>
+		<egg_pregnancy_duration_desc>Bigger -> Longer.</egg_pregnancy_duration_desc>
+
+	<!-- sex types -->
+	<RJWSettingsThree>SafeJobWorld - Handholding Settings</RJWSettingsThree>
+		<SexTypeFrequency>Handholding type frequency:\n[Higher = more common]</SexTypeFrequency>
+		<vaginal>Palm-handholding</vaginal>
+		<vaginal_desc>Frequency of palm-handholding.\n\nValid range: 1 - 200\nDefault: 120</vaginal_desc>
+		<cunnilingus>Loose grip</cunnilingus>
+		<cunnilingus_desc>Frequency of loose grip handholding.\n\nValid range: 1 - 200\nDefault: 80</cunnilingus_desc>
+		<anal>Backhand-handholding</anal>
+		<anal_desc>Frequency of backhand-handholding.\n\nValid range: 1 - 200\nDefault: 80</anal_desc>
+		<rimming>Handholding frequency</rimming>
+		<rimming_desc>Frequency of handholding.\n\nValid range: 1 - 200\nDefault: 40</rimming_desc>
+		<fellatio>Handholding frequency</fellatio>
+		<fellatio_desc>Frequency of handholding.\n\nValid range: 1 - 200\nDefault: 80</fellatio_desc>
+		<handjob>Finger grabing</handjob>
+		<handjob_desc>Frequency of finger grabing handholding.\n\nValid range: 1 - 200\nDefault: 80</handjob_desc>
+		<mutual_masturbation>Fingers intertwined</mutual_masturbation>
+		<mutual_masturbation_desc>Frequency of fingers intertwined handholding.\n\nValid range: 1 - 200\nDefault: 70</mutual_masturbation_desc>
+		<double_penetration>Top and bottom</double_penetration>
+		<double_penetration_desc>Frequency of top and bottom handholding.\n\nValid range: 1 - 200\nDefault:60</double_penetration_desc>
+		<breastjob>Over-the-shoulder</breastjob>
+		<breastjob_desc>Frequency of over-the-shoulder handholding.\n\nValid range: 1 - 200\nDefault: 50</breastjob_desc>
+		<fingering>One-finger</fingering>
+		<fingering_desc>Frequency of one-finger handholding.\n\nValid range: 1 - 200\nDefault: 50</fingering_desc>
+		<scissoring>Down-facing palm holding</scissoring>
+		<scissoring_desc>Frequency of down-facing palm handholding.\n\nValid range: 1 - 200\nDefault: 50</scissoring_desc>
+		<footjob>Handholding frequency</footjob>
+		<footjob_desc>Frequency of handholding.\n\nValid range: 1 - 200\nDefault: 30</footjob_desc>
+		<fisting>Wrist-grab</fisting>
+		<fisting_desc>Frequency of wrist-grab handholding.\n\nValid range: 1 - 200\nDefault: 30</fisting_desc>
+		<sixtynine>Fingers intertwined</sixtynine>
+		<sixtynine_desc>Frequency of fingers intertwined handholding.\n\nValid range: 1 - 200\nDefault: 69</sixtynine_desc>
+		<FapEverywhere>Solo everywhere</FapEverywhere>
+		<FapEverywhere_desc>Pawn will self handhold where it wants.</FapEverywhere_desc>
+		<FapInBed>Solo in bed</FapInBed>
+		<FapInBed_desc>Pawn will self handhold in its bed.</FapInBed_desc>
+		<FapInBelts>Fapping with genitals blocked</FapInBelts>
+		<FapInBelts_desc>Pawn can masturbate while having their genitals blocked.</FapInBelts_desc>
+		<FapInArmbinders>Fapping with hands blocked</FapInArmbinders>
+		<FapInArmbinders_desc>Pawn can masturbate while having their hands blocked.</FapInArmbinders_desc>
+		
+		<Malesex>Allowed male handholding: </Malesex>
+		<FeMalesex>Allowed female handholding: </FeMalesex>
+		<AllowedSex.All>All</AllowedSex.All>
+		<AllowedSex.Homo>Gay</AllowedSex.Homo>
+		<AllowedSex.Nohomo>Straight</AllowedSex.Nohomo>
+		
+		<SexClothing>Clothing for handholding: </SexClothing>
+		<SexClothingNude>Nude</SexClothingNude>
+		<SexClothingHeadwear>Headwear only</SexClothingHeadwear>
+		<SexClothingFull>Fully clothed</SexClothingFull>
+		
+		<RapeAttemptAlert>Aggressive handholding attempt alert: </RapeAttemptAlert>
+		<RapeAttemptAlertAlways>Always enabled</RapeAttemptAlertAlways>
+		<RapeAttemptAlertHumanlike>Only if target is humanlike</RapeAttemptAlertHumanlike>
+		<RapeAttemptAlertColonist>Only if target is colonist</RapeAttemptAlertColonist>
+		<RapeAttemptAlertSilent>Only show notification</RapeAttemptAlertSilent>
+		<RapeAttemptAlertDisabled>Disabled</RapeAttemptAlertDisabled>
+		
+		<RapeAlert>Aggressive handholding alert: </RapeAlert>
+		<RapeAlertAlways>Always enabled</RapeAlertAlways>
+		<RapeAlertHumanlike>Only if target is humanlike</RapeAlertHumanlike>
+		<RapeAlertColonist>Only if target is colonist</RapeAlertColonist>
+		<RapeAlertSilent>Only show notification</RapeAlertSilent>
+		<RapeAlertDisabled>Disabled</RapeAlertDisabled>
+
+		<RapeAlertCP>Show for CP</RapeAlertCP>
+		<RapeAlertCP_desc>Show alert when pawn designated for comforting is getting handholded.</RapeAlertCP_desc>
+		<RapeAlertBreeding>Show for animal handholding</RapeAlertBreeding>
+		<RapeAlertBreeding_desc>Show alert when pawn designated for breeding is getting handholded.</RapeAlertBreeding_desc>
+		
+		<SexualitySpread1>Sexuality spread source: </SexualitySpread1>
+		<SexualitySpread2>Sexuality generation spread for SJW.\nTHIS IS FOR handholding ONLY\nHAS NO EFFECT ON RELATIONSHIP</SexualitySpread2>
+		<SexualitySpreadVanilla>[Imported from Vanilla Rimworld]</SexualitySpreadVanilla>
+		<SexualitySpreadPsychology>[Imported from Psychology]</SexualitySpreadPsychology>
+		<SexualitySpreadIndividuality>[imported from [SYR]Individuality]</SexualitySpreadIndividuality>
+		
+		<SexualityAsexual>  Asexual: </SexualityAsexual>
+		<SexualityPansexual>  Pansexual: </SexualityPansexual>
+		<SexualityHeterosexual>  Heterosexual: </SexualityHeterosexual>
+		<SexualityBisexual>  Bisexual: </SexualityBisexual>
+		<SexualityGay>  Gay: </SexualityGay>
+		
+		<SexualityAsexual_desc>Low or non-existent handholding drive, generally not interested in handholding.</SexualityAsexual_desc>
+		<SexualityPansexual_desc>Pansexuals disregard gender entirely.</SexualityPansexual_desc>
+		<SexualityHeterosexual_desc>Heterosexuals are attracted to 'opposite' sex.</SexualityHeterosexual_desc>
+		<SexualityBisexual_desc>Bisexuals are attracted to both males and females.</SexualityBisexual_desc>
+		<SexualityGay_desc>Homosexuals are attracted to same sex.</SexualityGay_desc>
+
+		<MaxQuirks>Max quirks</MaxQuirks>
+		<MaxQuirks_desc>Max quirks pawn can get when created.</MaxQuirks_desc>
+</LanguageData>

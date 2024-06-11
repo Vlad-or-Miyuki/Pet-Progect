@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AnalSexF.label>держать за руку</AnalSexF.label>
+  <AnalSexF.logRulesInitiator.rulesStrings.0>r_logentry->Держал за руку [RECIPIENT_nameDef].</AnalSexF.logRulesInitiator.rulesStrings.0>
+  <AnalSexF.logRulesRecipient.rulesStrings.0>r_logentry->Держал за руку [INITIATOR_nameDef].</AnalSexF.logRulesRecipient.rulesStrings.0>
+
+  <VaginalSexF.label>держать за руку</VaginalSexF.label>
+  <VaginalSexF.logRulesInitiator.rulesStrings.0>r_logentry->Держал за руку [RECIPIENT_nameDef].</VaginalSexF.logRulesInitiator.rulesStrings.0>
+  <VaginalSexF.logRulesRecipient.rulesStrings.0>r_logentry->Держал за руку [INITIATOR_nameDef].</VaginalSexF.logRulesRecipient.rulesStrings.0>
+
+  <HandjobF.label>мастурбирует</HandjobF.label>
+  <HandjobF.logRulesInitiator.rulesStrings.0>r_logentry->мастурбирует [RECIPIENT_nameDef].</HandjobF.logRulesInitiator.rulesStrings.0>
+  <HandjobF.logRulesRecipient.rulesStrings.0>r_logentry->Получил мастурбирует от [INITIATOR_nameDef].</HandjobF.logRulesRecipient.rulesStrings.0>
+
+  <FootjobF.label>футфетиш</FootjobF.label>
+  <FootjobF.logRulesInitiator.rulesStrings.0>r_logentry->Дал футфетиш [RECIPIENT_nameDef].</FootjobF.logRulesInitiator.rulesStrings.0>
+  <FootjobF.logRulesRecipient.rulesStrings.0>r_logentry->Получил футфетиш от [INITIATOR_nameDef].</FootjobF.logRulesRecipient.rulesStrings.0>
+
+  <FingeringF.label>Фингеринг</FingeringF.label>
+  <FingeringF.logRulesInitiator.rulesStrings.0>r_logentry->Фингеринг [RECIPIENT_nameDef].</FingeringF.logRulesInitiator.rulesStrings.0>
+  <FingeringF.logRulesRecipient.rulesStrings.0>r_logentry->Был Фингеринг [INITIATOR_nameDef].</FingeringF.logRulesRecipient.rulesStrings.0>
+
+  <FistingF.label>фистинг</FistingF.label>
+  <FistingF.logRulesInitiator.rulesStrings.0>r_logentry->В руке [RECIPIENT_nameDef].</FistingF.logRulesInitiator.rulesStrings.0>
+  <FistingF.logRulesRecipient.rulesStrings.0>r_logentry->Был в руках.</FistingF.logRulesRecipient.rulesStrings.0>
+
+  <BreastjobF.label>работа груди</BreastjobF.label>
+  <BreastjobF.logRulesInitiator.rulesStrings.0>r_logentry->Сделайте грудную операцию, чтобы [RECIPIENT_nameDef].</BreastjobF.logRulesInitiator.rulesStrings.0>
+  <BreastjobF.logRulesRecipient.rulesStrings.0>r_logentry->Получила от [INITIATOR_nameDef].</BreastjobF.logRulesRecipient.rulesStrings.0>
+
+  <DoublePenetrationF.label>двойное удержание</DoublePenetrationF.label>
+  <DoublePenetrationF.logRulesInitiator.rulesStrings.0>r_logentry->С двумя руками [RECIPIENT_nameDef].</DoublePenetrationF.logRulesInitiator.rulesStrings.0>
+  <DoublePenetrationF.logRulesRecipient.rulesStrings.0>r_logentry->Обе руки в руках.</DoublePenetrationF.logRulesRecipient.rulesStrings.0>
+
+  <ScissoringF.label>стрижка</ScissoringF.label>
+  <ScissoringF.logRulesInitiator.rulesStrings.0>r_logentry->Нарезанный ножницами [RECIPIENT_nameDef].</ScissoringF.logRulesInitiator.rulesStrings.0>
+  <ScissoringF.logRulesRecipient.rulesStrings.0>r_logentry->Нарезанный ножницами [INITIATOR_nameDef].</ScissoringF.logRulesRecipient.rulesStrings.0>
+
+  <MutualMasturbationF.label>взаимная мастурбация</MutualMasturbationF.label>
+  <MutualMasturbationF.logRulesInitiator.rulesStrings.0>r_logentry->Вовлечены во взаимное владение.</MutualMasturbationF.logRulesInitiator.rulesStrings.0>
+  <MutualMasturbationF.logRulesRecipient.rulesStrings.0>r_logentry->Вовлечены во взаимное владение .</MutualMasturbationF.logRulesRecipient.rulesStrings.0>
+
+
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <rjw_vatgrown_sex_slave.label>Выращенный из НДС секс-раб</rjw_vatgrown_sex_slave.label>
+  <rjw_vatgrown_sex_slave.description>[PAWN_nameDef] был создан, чтобы быть секс-игрушкой, а не человеком. В течение периода выращивания [PAWN_possessive] [PAWN_pronoun] обучался множеству социальных и сексуальных навыков, чтобы удовлетворить любые запросы своих владельцев.</Rjw_vatgrown_sex_slave.description>
+
+  <rjw_feisty.label>Злая нимфа</rjw_feisty.label>
+  <rjw_feisty.description>[PAWN_nameDef] по своей природе завоеватель и ударит вас в лицо, если вы попытаетесь сказать «Нет» продвижению [PAWN_possessive].</rjw_feisty.description>
+
+  <rjw_curious.label>Любопытная нимфа</rjw_curious.label>
+  <rjw_curious.description>[PAWN_nameDef] любит создавать разные вещи, особенно те, которые доставляют новые впечатления.</rjw_curious.description>
+
+  <rjw_tender.label>Нежная нимфа</rjw_tender.label>
+  <rjw_tender.description>[PAWN_nameDef] обладает парой очаровательных глаз, а голос [PAWN_possessive] мягкий и сладкий. Из-за [PAWN_possessive] предыдущей работы медсестрой [PAWN_pronoun] неплохо ухаживает за людьми.</Rjw_tender.description>
+
+  <rjw_chatty.label>Болтливая нимфа</rjw_chatty.label>
+  <rjw_chatty.description>Никто не может быть разговорчивее [PAWN_nameDef]. [PAWN_pronoun] обладает гибким языком, острым умом и горячими губами.</Rjw_chatty.description>
+
+  <rjw_broken.label>Сломанная нимфа</rjw_broken.label>
+  <rjw_broken.description>[PAWN_nameDef] пострадал от ужасных вещей, [PAWN_pronoun] выглядит довольно изможденным.</rjw_broken.description>
+
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SexAbility.label>способность заниматься секом</SexAbility.label>
+   <SexAbility.description>Измеряет, способна ли пешка заниматься сексом, и насколько хорошо они это делают.</SexAbility.description>
+
+   <SexSatisfaction.label>удовлетворение</SexSatisfaction.label>
+   <SexSatisfaction.description>Определяет, какое удовлетворение получает пешка от занятия сексом.</SexSatisfaction.description>
+
+   <Vulnerability.label>уязвимость</Vulnerability.label>
+   <Vulnerability.description>Измеряет вероятность того, что пешка будет использована</Vulnerability.description>
+
+   <SexFrequency.label>Сила ебли</SexFrequency.label>
+   <SexFrequency.description>Измеряет, насколько активно пешка долбит дырочку.</SexFrequency.description>
+
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Hediff_Submitting.label>Простирание себя</Hediff_Submitting.label>
+  <Hediff_Submitting.description>Отправка.</Hediff_Submitting.description>
+
+
+  <!-- prevents 10 job stacks error, also improves perfomance since we dont do all the rape checks -->
+
+  <Hediff_RapeEnemyCD.label>Агрессивная перезарядка захвата рук</Hediff_RapeEnemyCD.label>
+  <Hediff_RapeEnemyCD.description>"Кто следующий?"</Hediff_RapeEnemyCD.description>
+
+
+</LanguageData>

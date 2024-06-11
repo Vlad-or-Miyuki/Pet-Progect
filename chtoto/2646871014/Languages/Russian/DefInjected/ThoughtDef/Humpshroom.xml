@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <! - Расходный материал ->
+
+   <HumpShroomEffect.stages.0.label>Послевкусие амброзии</HumpShroomEffect.stages.0.label>
+   <HumpShroomEffect.stages.0.description>На вкус забавный.</HumpShroomEffect.stages.0.description>
+
+
+   <! - Зависимость от амброзии ->
+
+   <HumpShroomWithdrawal.stages.1.label>Отрыв от амброзии</HumpShroomWithdrawal.stages.1.label>
+   <HumpShroomWithdrawal.stages.1.description>Я там ничего не чувствую.</HumpShroomWithdrawal.stages.1.description>
+
+
+</LanguageData>

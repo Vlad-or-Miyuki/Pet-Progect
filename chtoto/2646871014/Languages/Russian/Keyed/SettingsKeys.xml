@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- Settings-->
+	<RJWSettingsOne>SafeJobWorld - Основные настройки</RJWSettingsOne>
+		<NymphTamed>Соединение с гиперпользователем</NymphTamed>
+		<NymphTamed_desc>Создает пешку с (чертой «Гиперхендхолдер»), чтобы присоединиться к колонии.</NymphTamed_desc>
+		<NymphWild>Гипер-хэндхолдер. Дикий</NymphWild>
+		<NymphWild_desc>Создает дикую пешку с (чертой `` Гиперручный держатель ''), чтобы атаковать колонию.</NymphWild_desc>
+		<NymphRaidEasy>Рейд гипер-хендхолдеров (легкий)</NymphRaidEasy>
+		<NymphRaidEasy_desc>Гиперхендхолдеры решили посетить вашу колонию. Вероятность 0,1.</NymphRaidEasy_desc>
+		<NymphRaidHard>Рейд гипер-хендхолдеров (сложный)</NymphRaidHard>
+		<NymphRaidHard_desc>Гипер-держатели рук решили, что теперь это их колония.(Игра окончена). базовый шанс равен 0,01.</NymphRaidHard_desc>
+		<NymphPermanentManhunter>Постоянный охотник за людьми</NymphPermanentManhunter>
+		<NymphPermanentManhunter_desc>Ментальное состояние постоянного охотника за людьми.</NymphPermanentManhunter_desc>
+		<NymphSappers>Гиперхендхолдеры Саперы</NymphSappers>
+		<NymphSappers_desc>Тук-тук! Возбужденный чует тебя за этой дверью! Вы можете бежать, но не можете спрятаться.</NymphSappers_desc>
+		
+		<FemaleFuta>Включить фута</FemaleFuta>
+		<FemaleFuta_desc>Создавать самок с пенисами</FemaleFuta_desc>
+		<MaleTrap>Включить ловушки</MaleTrap>
+		<MaleTrap_desc>Создавать самцов с увеличенным размером груди</MaleTrap_desc>
+		<male_nymph_chance>Шанс появления самца HH</male_nymph_chance>
+		<male_nymph_chance_desc>Вероятность появления мужского ДХ Допустимый диапазон: 0 - 100 По умолчанию: 0</male_nymph_chance_desc>
+		<futa_nymph_chance>Шанс появления Futa / Trap HH</futa_nymph_chance>
+		<futa_nymph_chance_desc>Допустимый диапазон вероятности появления Фута/ловушки HH: 0 - 100 Default: 0</futa_nymph_chance_desc>
+		<futa_natives_chance>Шанс появления туземцев Фута/ловушки</futa_natives_chance>
+		<futa_natives_chance_desc>Шанс появления уроженцев Фута/ловушки (уровень промышленных технологий и ниже)  Допустимый диапазон: 0 - 100 по умолчанию: 0</futa_natives_chance_desc>
+		<futa_spacers_chance>Шанс появления спейсеров Фута/ловушки</futa_spacers_chance>
+		<futa_spacers_chance_desc>Вероятность появления проставок Futa/Trap Допустимый диапазон: 0 - 100 по умолчанию: 5</futa_spacers_chance_desc>
+		
+		<sexneed_decay_rate_name>Скорость распада потребности в ручном управлении (%)</sexneed_decay_rate_name>
+		<sexneed_decay_rate_desc>0% для отсутствия распада. 1000000% за Планету, держащую в руках. Рекомендуемый диапазон: от 50% до 200%.</sexneed_decay_rate_desc>
+		<SexMinimumAge>Рука, держащая мою. возраст</SexMinimumAge>
+		<SexMinimumAge_desc>Человекоподобные пешки моложе этого возраста вообще не будут держать руки.</SexMinimumAge_desc>
+		<SexFreeForAllAge>Возраст согласия</SexFreeForAllAge>
+		<SexFreeForAllAge_desc>Человекоподобные пешки младше этого будут держаться за руки только с пешками с разницей в возрасте 2 года.</SexFreeForAllAge_desc>
+
+		<bestiality_enabled>Включить зоофилию</bestiality_enabled>
+		<bestiality_enabled_desc>Включите ручное управление между людьми и животными. Желанный и не очень.</bestiality_enabled_desc>
+		<animal_on_animal_enabled>Включить удержание животного за руку</animal_on_animal_enabled>
+		<animal_on_animal_enabled_desc>Включите удержание диких животных за руки. Прирученные животные по-прежнему будут держаться за руки в пределах своего вида, независимо от этого параметра. включите межвидовое удержание за руки между (назначенными) животными, что может привести к беременности.</animal_on_animal_enabled_desc>
+		<necrophilia_enabled>Включить некрофилию</necrophilia_enabled>
+		<necrophilia_enabled_desc>Включите удержание рук с трупами. Обычно ограничивается пешками с чертой некрофила, но другие иногда могут сделать это, если они расстроены.</necrophilia_enabled_desc>
+		<sounds_enabled>Включить звуки удерживания за руку</sounds_enabled>
+		<sounds_enabled_desc>Включает звуки, специфичные для удержания руки. Обратите внимание, что это никак не влияет на основные настройки: если у вас полностью отключен звук, это ничего не даст.</sounds_enabled_desc>
+		<sounds_sex_volume>Объем удержания в руке</sounds_sex_volume>
+		<sounds_sex_volume_desc>Измените громкость удержания руки</sounds_sex_volume_desc>
+		<sounds_cum_volume>Рука, удерживающая объем потоотделения</sounds_cum_volume>
+		<sounds_cum_volume_desc>Измените объем потоотделения, удерживаемый руками</sounds_cum_volume_desc>
+		<sounds_voice_volume>Громкость голоса</sounds_voice_volume>
+		<sounds_voice_volume_desc>Измените громкость голоса</sounds_voice_volume_desc>
+		<sounds_orgasm_volume>Рука, удерживающая пиковую громкость</sounds_orgasm_volume>
+		<sounds_orgasm_volume_desc>Измените пиковую громкость удержания руки</sounds_orgasm_volume_desc>
+		<sounds_animal_on_animal_volume>Модификатор объема животного на животном</sounds_animal_on_animal_volume>
+		<sounds_animal_on_animal_volume_desc>Дополнительный модификатор громкости для животного на лапе животного, удерживающего руку</sounds_animal_on_animal_volume_desc>
+
+		<cum_filth>Включить грязь с рук</cum_filth>
+		<cum_filth_desc>Позволяет удалять грязь после удержания руками. обратите внимание, что отключение этого сделает игру проще из-за отсутствия грязи и необходимости в очистке.</cum_filth_desc>
+		<cum_on_body>Позволяют липким жидкостям на теле</cum_on_body>
+		<cum_on_body_desc>Позволяет использовать липкие жидкости в качестве отличительного признака здоровья.</cum_on_body_desc>
+		<cum_on_body_amount_adjust>Отрегулируйте количество липкой жидкости на теле</cum_on_body_amount_adjust>
+		<cum_on_body_amount_adjust_desc>Все липкие жидкости, нанесенные на тела пешек, будут умножены на это количество. </cum_on_body_amount_adjust_desc>
+		<cum_overlays>Включить наложение липких жидкостей</cum_overlays>
+		<cum_overlays_desc>Включает наложение липких жидкостей (могут возникать конфликты с модами, изменяющими внешний вид пешки).</cum_overlays_desc>
+
+		<STD_enabled>Включить болезни</STD_enabled>
+		<STD_enabled_desc>Позволяет держать в руках болезни, передающиеся половым путем.</STD_enabled_desc>
+		<STD_FromFloors>Болезни из окружающей среды</STD_FromFloors>
+		<STD_FromFloors_desc>Пешки будут заражаться болезнями от грязной окружающей среды.</STD_FromFloors_desc>
+
+		<RPG_hero_control_name>Режим героя</RPG_hero_control_name>
+		<RPG_hero_control_desc>Игрок может установить 1 пешку в качестве персонажа игрока и иметь прямой безусловный контроль</RPG_hero_control_desc>
+		<RPG_hero_control_HC_name>Режим героя (HC)</RPG_hero_control_HC_name>
+		<RPG_hero_control_HC_desc>ХАРДКОР: Игрок может управлять только героем, возьмите немного кофе, его вам понадобится много (предназначено для мультиплеера)</RPG_hero_control_HC_desc>
+		<RPG_hero_control_Ironman_name>Режим героя (Железный человек)</RPG_hero_control_Ironman_name>
+		<RPG_hero_control_Ironman_desc>ХАРДКОР: игрок может установить героя только один раз</RPG_hero_control_Ironman_desc>
+
+		<!-- Aggressive Handholding stuff-->
+		<designated_freewill>Назначенная пешка по доброй воле</designated_freewill>
+		<designated_freewill_desc>Пешка, предназначенная для комфорта или спаривания, может инициировать удержание руки.</designated_freewill_desc>
+		<rape_enabled>Включить агрессивное удержание руки</rape_enabled>
+		<rape_enabled_desc>Видишь руку, которая тебе нравится? Возьмите его силой, позже вы сможете сделать шляпу из его владельца. Несогласованное рукопожатие.</rape_enabled_desc>
+		<PrisonersBeating>Отшлепай меня, папочка!</PrisonersBeating>
+		<PrisonersBeating_desc>Включить грубое удержание руки во время агрессивного удержания руки.</PrisonersBeating_desc>
+		<GentlePrisonersBeating>Сэмпай! Пожалуйста, будь нежен!</GentlePrisonersBeating>
+		<GentlePrisonersBeating_desc>Уменьшите урон от грубого удержания руки до ~0-1.</GentlePrisonersBeating_desc>
+		<rape_stripping>Жертвы раздевания</rape_stripping>
+		<rape_stripping_desc>Раздевайте агрессивно держащих за руки жертв</rape_stripping_desc>
+		<ColonistCanCP>Обеспечить комфортное удержание колонистами за руки</ColonistCanCP>
+		<ColonistCanCP_desc>Колонистам разрешается насильно удерживать комфортные пешки.</ColonistCanCP_desc>
+		<VisitorsCanCP>Обеспечить комфортное удержание руки посетителями</VisitorsCanCP>
+		<VisitorsCanCP_desc>Посетителям разрешается насильно удерживать комфортные пешки в руках.</VisitorsCanCP_desc>
+		<AnimalsCanCP>Обеспечивают комфортное удержание рук животными</AnimalsCanCP>
+		<AnimalsCanCP_desc>Животным разрешается насильно удерживать комфортные пешки. требуется, чтобы зоофилия была включена.</AnimalsCanCP_desc>
+		<NonFutaWomenRaping_MaxVulnerability>Девушки идут, Держась за руки' (%)</NonFutaWomenRaping_MaxVulnerability>
+		<NonFutaWomenRaping_MaxVulnerability_desc>Только женщины с уязвимостью ниже этой когда-либо будут вести себя агрессивно по отношению к другим. Уязвимость животных всегда составляет 100%. чтобы проверить статус "уязвимость", перейдите в раздел "просмотр информации об этом объекте" > статус. Допустимый диапазон: 0 - 300%</NonFutaWomenRaping_MaxVulnerability_desc>
+		<Rapee_MinVulnerability_human>'Уязвимость, которую нужно держать за руку" (%)</Rapee_MinVulnerability_human>
+		<Rapee_MinVulnerability_human_desc>Человеческие пешки с уязвимостью выше этой будут мишенями для агрессивного удержания рук. чтобы проверить статус "уязвимость", перейдите в раздел "просмотр информации об этом объекте" > статистика. Допустимый диапазон: 0 - 300%</Rapee_MinVulnerability_human_desc>
+		<Rapee_MinVulnerability_animals>Уязвимость животных, которых нужно держать в руках (%)</Rapee_MinVulnerability_animals>
+		<Rapee_MinVulnerability_animals_desc>Животные с более высокой уязвимостью, чем эта, будут мишенями для зоофилов, держащих их за руки. чтобы проверить статус "уязвимость", перейдите в раздел "просмотр информации об этом объекте" > статистика. Допустимый диапазон: 0 - 300%</Rapee_MinVulnerability_animals_desc>
+
+
+	<RJWSettingsFour>SafeJobWorld - Настройки случайного удержания рук</RJWSettingsFour>
+		<SettingHookupsEnabled>Включить подключения (в целом)</SettingHookupsEnabled>
+		<SettingHookupsEnabled_desc>Определяет, могут ли одиночные пешки случайно держаться за руки с другими одиночными пешками</SettingHookupsEnabled_desc>
+		<SettingQuickHookupsEnabled>Включить быстрые действия.</SettingQuickHookupsEnabled>
+		<SettingQuickHookupsEnabled_desc>Определяет, могут ли одиночные пешки случайно быстро держать руку с другими одиночными пешками предупреждение: Это может прервать работу пешек.</SettingQuickHookupsEnabled_desc>
+		<SettingNoHookupsDuringWorkHours>Отключать подключения в рабочее время</SettingNoHookupsDuringWorkHours>
+		<SettingNoHookupsDuringWorkHours_desc>Контролирует, могут ли пешки искать случайного рукопожатия в рабочее время.</SettingNoHookupsDuringWorkHours_desc>
+		<SettingColonistsCanHookup>Колонисты могут подключаться</SettingColonistsCanHookup>
+		<SettingColonistsCanHookup_desc>Контролирует, разрешено ли колонистам искать случайное рукопожатие.</SettingColonistsCanHookup_desc>
+		<SettingColonistsCanHookupWithVisitor>Колонисты могут общаться с посетителями</SettingColonistsCanHookupWithVisitor>
+		<SettingColonistsCanHookupWithVisitor_desc>Контролирует, могут ли пешки непринужденно держаться за руки с посетителями колонии.</SettingColonistsCanHookupWithVisitor_desc>
+		<SettingCanHookupWithPrisoner>Лица, не являющиеся заключенными, могут общаться с заключенными</SettingCanHookupWithPrisoner>
+		<SettingCanHookupWithPrisoner_desc>Контролирует, могут ли пешки, не являющиеся заключенными, искать согласованного рукопожатия с заключенными.</SettingCanHookupWithPrisoner_desc>
+		<SettingVisitorsCanHookupWithColonists>Посетители могут пообщаться с колонистами</SettingVisitorsCanHookupWithColonists>
+		<SettingVisitorsCanHookupWithColonists_desc>Контролирует, включают ли посещающие пешки колонистов в качестве потенциальных партнеров для случайного рукопожатия.</SettingVisitorsCanHookupWithColonists_desc>
+		<SettingVisitorsCanHookupWithVisitors>Посетители могут общаться с другими посетителями</SettingVisitorsCanHookupWithVisitors>
+		<SettingVisitorsCanHookupWithVisitors_desc>Контролирует, включают ли посещающие пешки других посетителей в качестве потенциальных партнеров для случайного рукопожатия.</SettingVisitorsCanHookupWithVisitors_desc>
+		<SettingPrisonersCanHookupWithNonPrisoner>Заключенные могут общаться с колонистами</SettingPrisonersCanHookupWithNonPrisoner>
+		<SettingPrisonersCanHookupWithNonPrisoner_desc>Контролирует, включают ли заключенные лиц, не являющихся заключенными, в качестве потенциальных партнеров для случайного рукопожатия. Пешки, включая заключенных, могут держаться за руки только с тем, до кого они могут дотянуться, поэтому, если заключенный не может покинуть свою камеру, это спорно.</SettingPrisonersCanHookupWithNonPrisoner_desc>
+		<SettingPrisonersCanHookupWithPrisoner>Заключенные могут общаться с заключенными</SettingPrisonersCanHookupWithPrisoner>
+		<SettingPrisonersCanHookupWithPrisoner_desc>Контролирует, включают ли заключенные других заключенных в качестве потенциальных партнеров для случайного рукопожатия. Пешки, включая заключенных, могут держаться за руки только с тем, до кого они могут дотянуться, поэтому, если заключенный не может покинуть свою камеру, это спорно.</SettingPrisonersCanHookupWithPrisoner_desc>
+		<SettingNymphosCanPickAnyone>Обладатели гипер-рук могут выбрать любого</SettingNymphosCanPickAnyone>
+		<SettingNymphosCanPickAnyone_desc>Определяет, выберут ли пешки с Гипер-хендхолдером кого-либо из доступных. они по-прежнему подчиняются приведенным ниже настройкам обмана и возвращения домой.</SettingNymphosCanPickAnyone_desc>
+		<SettingNymphosCanCheat>Обладатели гипер-рук могут обманывать</SettingNymphosCanCheat>
+		<SettingNymphosCanCheat_desc>Контролирует, могут ли пешки с Гипер-держателем рук жульничать, если они чувствуют недостаток удержания рук.</SettingNymphosCanCheat_desc>
+		<SettingNymphosCanHomewreck>Держатели гипер-рук могут потерпеть крушение дома</SettingNymphosCanHomewreck>
+		<SettingNymphosCanHomewreck_desc>Контролирует, будут ли пешки с гипер-держателями рук удерживать людей, у которых уже есть партнеры по удержанию рук.</SettingNymphosCanHomewreck_desc>
+		<SettingNymphosCanHomewreckReverse>Держатели гипер-рук могут вернуться домой (реверс)</SettingNymphosCanHomewreckReverse>
+		<SettingNymphosCanHomewreckReverse_desc>Определяет, будут ли пешки с гипер-держателями рук принимать рукопожатие, даже если у них есть партнер, держащий руку.</SettingNymphosCanHomewreckReverse_desc>
+		<SettingHookupChanceForNonNymphos>Вероятность подключения % в час</SettingHookupChanceForNonNymphos>
+		<SettingHookupChanceForNonNymphos_desc>Вероятность того, что возбужденная пешка будет искать случайного рукопожатия. проверяется только один раз в час и только тогда, когда пешка заканчивает свою текущую задачу. Значение по умолчанию равно 30%</SettingHookupChanceForNonNymphos_desc>
+		<SettingMinimumFuckabilityToHookup>Минимальная привлекательность для перепихона 1</SettingMinimumFuckabilityToHookup>
+		<SettingMinimumFuckabilityToHookup_desc>Определяет, насколько привлекательными (SJW) должны быть обе пешки друг для друга, чтобы рассмотреть возможность подключения. Значение по умолчанию равно 10%.</SettingMinimumFuckabilityToHookup_desc>
+		<SettingMinimumAttractivenessToHookup>Минимальная привлекательность для перепихона</SettingMinimumAttractivenessToHookup>
+		<SettingMinimumAttractivenessToHookup_desc>Определяет, насколько привлекательны пешки (Rimworld) друг для друга, чтобы рассмотреть возможность подключения. Значение по умолчанию равно 50%.</SettingMinimumAttractivenessToHookup_desc>
+		<SettingMinimumRelationshipToHookup>Минимальное мнение о перепихоне </SettingMinimumRelationshipToHookup>
+		<SettingMinimumRelationshipToHookup_desc>Контролирует минимальное мнение пешек друг о друге, чтобы рассмотреть возможность подключения. Значение по умолчанию равно 20.</SettingMinimumRelationshipToHookup_desc>
+
+
+	<RJWDebugSettings>SafeJobWorld - Отладка</RJWDebugSettings>
+		<!-- debug stuff-->
+		<whoringtab_enabled>Вкладка "Включить услуги по удержанию рук"</whoringtab_enabled>
+		<submit_button_enabled>Включить кнопку "отправить" на задрафтованных пешках</submit_button_enabled>
+		<submit_button_enabled_desc>Кнопка "Отправить" позволяет вам пропустить более смертоносную часть и перейти сразу к более унизительной. отключите это, если честь для вас важнее жизни. Помните, если вы передумаете, это всегда будет здесь, ожидая вас.</submit_button_enabled_desc>
+		<RJW_designation_box>Показать обозначения SJW</RJW_designation_box>
+		<RJW_designation_box_desc>Переключает отображение группы кнопок SJW в графическом интерфейсе управления пешкой.</RJW_designation_box_desc>
+		<show_whore_price_factor_on_bed>Показать ценовой фактор на кровати</show_whore_price_factor_on_bed>
+		<show_whore_price_factor_on_bed_desc>Показывать ценовой коэффициент в виде метки на кроватях, на которых разрешены услуги удержания.</show_whore_price_factor_on_bed_desc>
+		<StackRjwParts_name>Штабелирование деталей Sjw</StackRjwParts_name>
+		<StackRjwParts_desc>Складывайте детали sjw на закладке состояния закладок (количество меток x)</StackRjwParts_desc>
+		<maxDistanceCellsCasual_name>Расстояние удержания руки (ячейки)</maxDistanceCellsCasual_name>
+		<maxDistanceCellsCasual_desc>Максимальное расстояние в ячейках, которое ИИ готов пройти, чтобы достичь цели назначения. Быстрая проверка расстояния - игнорирует препятствия (например, стены, горы). По умолчанию 100 ячеек.</maxDistanceCellsCasual_desc>
+		<maxDistanceCellsRape_name>Агрессивное расстояние удержания руки (ячейки)</maxDistanceCellsRape_name>
+		<maxDistanceCellsRape_desc>Максимальное расстояние в ячейках, которое ИИ готов пройти, чтобы достичь цели назначения. Быстрая проверка расстояния - игнорирует препятствия (например, стены, горы). По умолчанию 20 ячеек.</maxDistanceCellsRape_desc>
+		<maxDistancePathCost_name>Расстояние удержания руки (Пешечный путь)</maxDistancePathCost_name>
+		<maxDistancePathCost_desc>Максимальное расстояние, которое ai pather учитывает для того, чтобы достичь цели удержания руки. Медленный сложный расчет, на который влияют препятствия, скорость пешки и модификаторы грунта. По умолчанию 250 ~20 ячеек.  0 - отключить проверку.</maxDistancePathCost_desc>
+
+		<!-- cheat stuff-->
+		<override_RJW_designation_checks_name>Oпроверка обозначения Переопределение</override_RJW_designation_checks_name>
+		<override_RJW_designation_checks_desc>Позволяет устанавливать обозначения для всех колонистов, игнорируя условия.</override_RJW_designation_checks_desc>
+		<override_control>Прямое управление</override_control>
+		<override_control_desc>Игрок может вручную указывать пешкам, чтобы они держали руки.</override_control_desc>
+		<AddTrait_Rapist>Приобретите черты насильника</AddTrait_Rapist>
+		<AddTrait_Rapist_desc>Шанс получить черту насильника после 10 актов рукоприкладства, >12% из которых - изнасилования</AddTrait_Rapist_desc>
+		<AddTrait_Masocist>Приобретите черты мазохиста</AddTrait_Masocist>
+		<AddTrait_Masocist_desc>Шанс приобрести черты мазохиста после изнасилования, 5% после того, как почувствуешь себя сломленным.</AddTrait_Masocist_desc>
+		<AddTrait_Nymphomaniac>Приобретите гиперсексуальную черту</AddTrait_Nymphomaniac>
+		<AddTrait_Nymphomaniac_desc>Шанс приобрести гиперсексуальную черту после 10 актов удержания за руки, находясь под воздействием пристрастия к сексу</AddTrait_Nymphomaniac_desc>
+		<AddTrait_Necrophiliac>Приобретите черту некрофила</AddTrait_Necrophiliac>
+		<AddTrait_Necrophiliac_desc>Шанс получить черту некрофила после 10 действий по удержанию рук, >50% из которых с трупами</AddTrait_Necrophiliac_desc>
+		<AddTrait_Nerves>Приобретите черту нервозности</AddTrait_Nerves>
+		<AddTrait_Nerves_desc>Приобрети черту нервозности после того, как тебя изнасиловали</AddTrait_Nerves_desc>
+		<AddTrait_Zoophiliac>Приобретите зоофилическую черту</AddTrait_Zoophiliac>
+		<AddTrait_Zoophiliac_desc>Шанс приобрести зоофилическую черту после 10 действий по удержанию рук, >50% из которых с животными, которых</AddTrait_Zoophiliac_desc>
+		<Allow_RMB_DeepTalk>Глубокий разговор в юанях</Allow_RMB_DeepTalk>
+		<Allow_RMB_DeepTalk_desc>Позволяет взаимодействовать с глубоким разговором в социальных сетях в юанях (+12 отношений)</Allow_RMB_DeepTalk_desc>
+
+		<!-- debug stuff-->
+		<ForbidKidnap>Запретить похищение</ForbidKidnap>
+		<ForbidKidnap_desc>Нет похищения.</ForbidKidnap_desc>
+		<override_lovin>Переопределить любовь к ванили</override_lovin>
+		<override_lovin_desc>Используйте небрежное рукопожатие вместо любви к ванили</override_lovin_desc>
+		<override_matin>Переопределить ванильный утренник</override_matin>
+		<override_matin_desc>Используйте ручное удержание вместо ванильного матина</override_matin_desc>
+		<WildMode_name>Глупый режим</WildMode_name>
+		<WildMode_desc>ЭКСПЕРИМЕНТАЛЬНЫЙ - НЕ СООБЩАТЬ ОБ ОШИБКАХ, ЕСЛИ ЭТО ВКЛЮЧЕНО. Никаких правил для рукопожатия. Большинство ограничивающих требований отключены. Наслаждайтесь самой дикой стороной Rimworld.</WildMode_desc>
+		<HippieMode_name>Режим хиппи</HippieMode_name>
+		<HippieMode_desc>ЭКСПЕРИМЕНТАЛЬНЫЙ - НЕ СООБЩАТЬ ОБ ОШИБКАХ, ЕСЛИ ЭТО ВКЛЮЧЕНО. Игнорируйте отношения ради случайных связей.</HippieMode_desc>
+		<GenderlessAsFuta_name>Бесполый, как Гермиона</GenderlessAsFuta_name>
+		<GenderlessAsFuta_desc>ИСПОЛЬЗУЙТЕ НА СВОЙ СТРАХ И РИСК. Бесполые расы / Пешки будут установлены как женские и будут иметь оба набора гениталий.</GenderlessAsFuta_desc>
+		<DevMode_name>Режим разработки</DevMode_name>
+		<DevMode_desc>Позволяет регистрировать мир лизания жопы и все такое. Обычно вы не хотите, чтобы это было включено.</DevMode_desc>
+		<DebugLogJoinInBed>Поиск информации о подключении к журналу отладки</DebugLogJoinInBed>
+		<DebugLogJoinInBed_desc>Включает некоторые очень распространяющие спам журналы отладки, чтобы помочь найти ошибки в операциях объединения. \только разработчики (или кто-то, кто помогает им найти ошибку) должны включить это.</DebugLogJoinInBed_desc>
+		<DebugWhoring>Отладочный журнал информация о блуде</DebugWhoring>
+		<DebugWhoring_desc>Включает некоторые очень распространяющие спам журналы отладки, чтобы помочь найти ошибки в операциях по привлечению проституток. \только разработчики (или кто-то, кто помогает им найти ошибку) должны включить это.</DebugWhoring_desc>
+		<DebugRape>Журнал отладки агрессивная информация о удержании руки</DebugRape>
+		<DebugRape_desc>Включает некоторые очень распространяющие спам журналы отладки, чтобы помочь найти ошибки в агрессивных операциях удержания рук.\только разработчики (или кто-то, кто помогает им найти ошибку) должны включить это.</DebugRape_desc>
+		
+		
+	<!-- Pregnancy stuff-->
+	<RJWSettingsTwo>SafeJobWorld - Настройки беременности</RJWSettingsTwo>
+		<RJWH_pregnancy>Разрешить человеческую беременность</RJWH_pregnancy>
+		<RJWH_pregnancy_desc>Используйте беременность для беременностей от человека к человеку.</RJWH_pregnancy_desc>
+		<PregnantCoeffecientForHuman>Шансы на беременность у человека (%)</PregnantCoeffecientForHuman>
+		<PregnantCoeffecientForHuman_desc>Шансы на беременность у человека в процентах. Допустимый диапазон: 0 - 100%</PregnantCoeffecientForHuman_desc>
+		<RJWB_pregnancy>Включить зоофилию беременность</RJWB_pregnancy>
+		<RJWB_pregnancy_desc>Используйте беременность для беременностей человека и животных.</RJWB_pregnancy_desc>
+		<PregnantCoeffecientForAnimals>Шансы на беременность у животных (%)</PregnantCoeffecientForAnimals>
+		<PregnantCoeffecientForAnimals_desc>Вероятность беременности животных в процентах. Допустимый диапазон: 0 - 100% </PregnantCoeffecientForAnimals_desc>
+		<InterspeciesImpregnantionModifier>Модификатор межвидовой пропитки (%)</InterspeciesImpregnantionModifier>
+		<InterspeciesImpregnantionModifier_desc>Модификатор межвидовой пропитки в процентах. При 20% это снижает нормальный шанс до пятой части одного вида и т. Д. Допустимый диапазон: 0 - 100%</InterspeciesImpregnantionModifier_desc>
+		<UseParentMethod>Наследование ДНК </UseParentMethod>
+		<UseParentMethod_desc>ВКЛ: Младенцы имеют случайную родительскую ДНК. ВЫКЛ: Младенцы похожи на матерей.</UseParentMethod_desc>
+		<OffspringLookLikeTheirMother>Человеческое наследование ДНК</OffspringLookLikeTheirMother>
+		<OffspringLookLikeTheirMother_desc> Управляет человеческими беременностями. 100% означает, что рожденные дети будут от матери. 0% означает, что рожденные дети будут от отца. Допустимый диапазон: 0 - 100%.</OffspringLookLikeTheirMother_desc>
+		<OffspringIsHuman>Наследование ДНК животных</OffspringIsHuman>
+		<OffspringIsHuman_desc>Управляет беременностями человека, подобного Животному, и Животного с Животным. 100% означает, что рожденные дети будут принадлежать к расе "матери".  Значение 0% означает, что рожденные дети будут принадлежать к расе "отца". Допустимый диапазон: 0 - 100%</OffspringIsHuman_desc>
+		<OffspringIsHuman2>Наследование ДНК скотоложства</OffspringIsHuman2>
+		<OffspringIsHuman2_desc>Управляет беременностями человекоподобных животных. рожденные слева дети будут принадлежать к расе зверей. правильно рожденные дети будут принадлежать к человеческой расе.</OffspringIsHuman2_desc>
+		<RJWA_pregnancy>Обеспечить беременность животных</RJWA_pregnancy>
+		<RJWA_pregnancy_desc>Используйте беременность для животных -беременность у животных.</RJWA_pregnancy_desc>
+		<RJWI_pregnancy>Обеспечить яйцеклеточную беременность</RJWI_pregnancy>
+		<RJWI_pregnancy_desc>Используйте беременность для беременности яйцекладущими.</RJWI_pregnancy_desc>
+		<egg_pregnancy_implant_anyone>Фильтр для имплантации яйцеклетки</egg_pregnancy_implant_anyone>
+		<egg_pregnancy_implant_anyone_desc>ON:Любой человек с женским яйцекладом может имплантировать яйцеклетки.\nOFF:Только определенный родительский тип может имплантировать яйцеклетки.</egg_pregnancy_implant_anyone_desc>
+		<egg_pregnancy_fertilize_anyone>Оплодотворять яйцеклетки может только заранее определенный родительский тип или тот же, что и у имплантанта</egg_pregnancy_fertilize_anyone>
+		<egg_pregnancy_fertilize_anyone_desc>ON:Любой, у кого есть мужской яйцекладущий орган, может оплодотворять яйцеклетки.\nOFF:Только предопределенный родительский тип или такой же, как имплантер, может оплодотворять яйцеклетки.</egg_pregnancy_fertilize_anyone_desc>
+		<RJWI_analPregnancy>Включить анальную яйцеклеточную беременность</RJWI_analPregnancy>
+		<RJWI_analPregnancy_desc>Позвольте насекомым анально пропитывать пешки.</RJWI_analPregnancy_desc>
+		<RJWI_oralPregnancy>Обеспечить оральную яйцеклеточную беременность</RJWI_oralPregnancy>
+		<RJWI_oralPregnancy_desc>Разрешить насекомым оплодотворять пешки орально.</RJWI_oralPregnancy_desc>
+		<egg_pregnancy_eggs_size>Модификатор размера яйца</egg_pregnancy_eggs_size>
+		<egg_pregnancy_eggs_size_desc>0 - может быть имплантировано неограниченное количество яйцеклеток.</egg_pregnancy_eggs_size_desc>
+
+		<MechanoidImplanting>Включить механоидные имплантаты</MechanoidImplanting>
+		<MechanoidImplanting_desc>Позволяют проводить зондирование и имплантацию механоидами.</MechanoidImplanting_desc>
+		<SaferMechanoidImplanting>Более безопасные механоидные имплантаты</SaferMechanoidImplanting>
+		<SaferMechanoidImplanting_desc>Механоидные имплантаты теперь не будут убивать лапы, вместо этого нанося 5 единиц урона каждой части тела, содержащейся в туловище. Механоиды по-прежнему будут враждебны</SaferMechanoidImplanting_desc>
+
+		<CP_pregnancy>Используйте беременность для беременностей между людьми</CP_pregnancy>
+		<CP_pregnancy_desc>Контролирует, следует ли SJW использовать собственную беременность или детей RimWorld для беременностей между людьми.</CP_pregnancy_desc>
+		<genetic_trait_filter>Фильтровать унаследованные черты</genetic_trait_filter>
+		<genetic_trait_filter_desc>Если он включен, он будет использовать sjw/Defs/NonInheritedTraits.xml чтобы отфильтровать черты, которые не должны передаваться следующему поколению. Если отключено, все идет по правилам.</genetic_trait_filter_desc>
+
+		<RJW_fertility_endAge_male>Возраст мужского бесплодия</RJW_fertility_endAge_male>
+		<RJW_fertility_endAge_male_desc>Скорректировано по продолжительности жизни для инопланетных рас. Та же шкала используется для животных и подобных им людей.</RJW_fertility_endAge_male_desc>
+		<RJW_fertility_endAge_female_humanlike>Возраст женского бесплодия (по человеческим меркам)</RJW_fertility_endAge_female_humanlike>
+		<RJW_fertility_endAge_female_humanlike_desc>В отличие от большинства животных, человеческие самки становятся бесплодными в раннем возрасте. Такое же соотношение используется для всех инопланетных рас, для баланса.</RJW_fertility_endAge_female_humanlike_desc>
+		<RJW_fertility_endAge_female_animal>Возраст женского бесплодия (животные)</RJW_fertility_endAge_female_animal>
+		<RJW_fertility_endAge_female_animal_desc>В отличие от людей, большинство самок животных остаются фертильными до самой смерти.</RJW_fertility_endAge_female_animal_desc>
+		<In_human_years>в человеческих годах</In_human_years>
+		<XofLifeExpectancy>% от ожидаемой продолжительности жизни</XofLifeExpectancy>
+
+		<InterspeciesDisabled>Межвидовые отключены.</InterspeciesDisabled>
+		<InterspeciesMaximum>Равно одному виду.</InterspeciesMaximum>
+		<AlwaysMother>Всегда род матери.</AlwaysMother>
+		<AlwaysFather>Всегда отцовский вид.</AlwaysFather>
+		<AlwaysBeast>Виды зверей.</AlwaysBeast>
+		<AlwaysHumanlike>Человекоподобные виды.</AlwaysHumanlike>
+		<ComplexImpregnation>Включить сложный расчет межвидовой пропитки</ComplexImpregnation>
+		<ComplexImpregnation_desc><![CDATA[When enabled, the impregnation chance between species depends on the difference in the body structure and size.
+Examples:
+  Human/Winged humanoid : ~95%
+  Human/Harpy : ~75%
+  Human/Dog : ~30%
+  Human/Chicken : ~5%
+  Wolf/Dog : ~95%
+  Wolf/Chicken : ~5%
+  Rooster/Harpy : ~30%
+  
+Note that the chance is further lowered by the base animal and human pregnancy sliders.
+]]></ComplexImpregnation_desc>
+		<phantasy_pregnancy>Фантазия беременности</phantasy_pregnancy>
+		<phantasy_pregnancy_desc>Мир наполнен злыми наномашинами, которые ускоряют рост детей до тех пор, пока они не достигнут стадии репродуктивной жизни.Не оказывает влияния на нечеловеков и не репродуктивные расы.Скорее всего, не работает с другими модами для беременных.</phantasy_pregnancy_desc>
+		<normal_pregnancy_duration>Модификатор продолжительности беременности.</normal_pregnancy_duration>
+		<normal_pregnancy_duration_desc>Больше -> Длиннее</normal_pregnancy_duration_desc>
+		<egg_pregnancy_duration>Модификатор продолжительности яйцеклеточной беременности.</egg_pregnancy_duration>
+		<egg_pregnancy_duration_desc>Больше -> Длиннее.</egg_pregnancy_duration_desc>
+
+	<!-- sex types -->
+	<RJWSettingsThree>SafeJobWorld - Настройки удержания рук</RJWSettingsThree>
+		<SexTypeFrequency>Тип удержания руки частота[Выше = более распространенный]</SexTypeFrequency>
+		<vaginal>Удержание ладонью-рукой</vaginal>
+		<vaginal_desc>Частота удержания ладони в руке.Valid range: 1 - 200 Default: 120</vaginal_desc>
+		<cunnilingus>Ослабленный захват</cunnilingus>
+		<cunnilingus_desc>Частота удержания руки свободным хватом.Valid range: 1 - 200 Default: 80</cunnilingus_desc>
+		<anal>Удар слева -удержание руки</anal>
+		<anal_desc>Частота ударов слева-удержание руки.Valid range: 1 - 200 Default: 80</anal_desc>
+		<rimming>Частота удержания за руку</rimming>
+		<rimming_desc>Частота удержания руки.Valid range: 1 - 200 Default: 40</rimming_desc>
+		<fellatio>Частота удержания за руку</fellatio>
+		<fellatio_desc>Частота удержания руки.Valid range: 1 - 200 Default: 80</fellatio_desc>
+		<handjob>Захват пальца</handjob>
+		<handjob_desc>Частота захвата пальца удержания руки.Valid range: 1 - 200 Default: 80</handjob_desc>
+		<mutual_masturbation>Пальцы переплелись</mutual_masturbation>
+		<mutual_masturbation_desc>Частота переплетения пальцев, удерживающих руку.Valid range: 1 - 200 Default: 70</mutual_masturbation_desc>
+		<double_penetration>Верх и низ</double_penetration>
+		<double_penetration_desc>Частота удержания верхней и нижней рук.Valid range: 1 - 200 Default:60</double_penetration_desc>
+		<breastjob>Через плечо</breastjob>
+		<breastjob_desc>Частота удержания руки за плечом.Valid range: 1 - 200 Default: 50</breastjob_desc>
+		<fingering>Одним пальцем</fingering>
+		<fingering_desc>Частота удержания руки одним пальцем.Valid range: 1 - 200 Default: 50</fingering_desc>
+		<scissoring>Ладонь, обращенная вниз, удерживающая</scissoring>
+		<scissoring_desc>Частота удержания руки ладонью вниз.Valid range: 1 - 200 Default: 50</scissoring_desc>
+		<footjob>Частота удержания за руку</footjob>
+		<footjob_desc>Частота удержания руки.Valid range: 1 - 200 Default: 30</footjob_desc>
+		<fisting>Захват за запястье</fisting>
+		<fisting_desc>Частота удержания руки с захватом запястья.Valid range: 1 - 200 Default: 30</fisting_desc>
+		<sixtynine>Пальцы переплелись</sixtynine>
+		<sixtynine_desc>Частота переплетения пальцев, удерживающих руку.Valid range: 1 - 200 Default: 69</sixtynine_desc>
+		<FapEverywhere>Соло везде</FapEverywhere>
+		<FapEverywhere_desc>Пешка будет самостоятельно перемещаться туда, куда она хочет.</FapEverywhere_desc>
+		<FapInBed>Соло в постели</FapInBed>
+		<FapInBed_desc>Пешка будет самодостаточна в своей постели.</FapInBed_desc>
+		<FapInBelts>Трахаться с заблокированными гениталиями</FapInBelts>
+		<FapInBelts_desc>Пешка может мастурбировать, когда ее гениталии заблокированы.</FapInBelts_desc>
+		<FapInArmbinders>Дрочка с заблокированными руками</FapInArmbinders>
+		<FapInArmbinders_desc>Пешка может мастурбировать, когда ее руки заблокированы.</FapInArmbinders_desc>
+		
+		<Malesex>Допускается мужское удержание за руку: </Malesex>
+		<FeMalesex>Допускается женское держание за руку: </FeMalesex>
+		<AllowedSex.All>Все</AllowedSex.All>
+		<AllowedSex.Homo>Гомосексуал</AllowedSex.Homo>
+		<AllowedSex.Nohomo>Прямой</AllowedSex.Nohomo>
+		
+		<SexClothing>Одежда для рук: </SexClothing>
+		<SexClothingNude>Обнаженный</SexClothingNude>
+		<SexClothingHeadwear>Только головной убор</SexClothingHeadwear>
+		<SexClothingFull>Полностью одетый</SexClothingFull>
+		
+		<RapeAttemptAlert>Предупреждение об агрессивной попытке удержания рукиt: </RapeAttemptAlert>
+		<RapeAttemptAlertAlways>Всегда включен</RapeAttemptAlertAlways>
+		<RapeAttemptAlertHumanlike>Только если цель похожа на человека</RapeAttemptAlertHumanlike>
+		<RapeAttemptAlertColonist>Только если цель - колонист</RapeAttemptAlertColonist>
+		<RapeAttemptAlertSilent>Показывать только уведомление</RapeAttemptAlertSilent>
+		<RapeAttemptAlertDisabled>Нетрудоспособный</RapeAttemptAlertDisabled>
+		
+		<RapeAlert>Агрессивное оповещение о захвате рук: </RapeAlert>
+		<RapeAlertAlways>Всегда включен</RapeAlertAlways>
+		<RapeAlertHumanlike>Только если цель похожа на человека</RapeAlertHumanlike>
+		<RapeAlertColonist>Только если цель - колонист</RapeAlertColonist>
+		<RapeAlertSilent>Показывать только уведомление</RapeAlertSilent>
+		<RapeAlertDisabled>Нетрудоспособный</RapeAlertDisabled>
+
+		<RapeAlertCP>Шоу для CP</RapeAlertCP>
+		<RapeAlertCP_desc>Показывать оповещение, когда пешка, предназначенная для утешения, становится ручной.</RapeAlertCP_desc>
+		<RapeAlertBreeding>Шоу для удержания животных на руках</RapeAlertBreeding>
+		<RapeAlertBreeding_desc>Показывать оповещение, когда пешка, предназначенная для разведения, становится ручной.</RapeAlertBreeding_desc>
+		
+		<SexualitySpread1>Источник распространения сексуальности:</SexualitySpread1>
+		<SexualitySpread2>Поколение сексуальности распространилось на SJW. ЭТО ТОЛЬКО ДЛЯ РУКОВОДСТВА НЕ ВЛИЯЕТ НА ОТНОШЕНИЯ</SexualitySpread2>
+		<SexualitySpreadVanilla>[Импортировано из Vanilla Rimworld]</SexualitySpreadVanilla>
+		<SexualitySpreadPsychology>[Заимствовано из психологии]</SexualitySpreadPsychology>
+		<SexualitySpreadIndividuality>[импортировано из[SYR]Индивидуальность]</SexualitySpreadIndividuality>
+		
+		<SexualityAsexual>Бесполое:</SexualityAsexual>
+		<SexualityPansexual>Пансексуальный:</SexualityPansexual>
+		<SexualityHeterosexual>Гетеросексуальный:</SexualityHeterosexual>
+		<SexualityBisexual>Бисексуал:</SexualityBisexual>
+		<SexualityGay>Гей:</SexualityGay>
+		
+		<SexualityAsexual_desc>Низкий или отсутствующий привод для удержания руки, как правило, не заинтересован в удержании руки.</SexualityAsexual_desc>
+		<SexualityPansexual_desc>Пансексуалы полностью игнорируют пол.</SexualityPansexual_desc>
+		<SexualityHeterosexual_desc>Гетеросексуалов привлекает "противоположный" пол.</SexualityHeterosexual_desc>
+		<SexualityBisexual_desc>Бисексуалов привлекают как мужчины, так и женщины.</SexualityBisexual_desc>
+		<SexualityGay_desc>Гомосексуалистов привлекает тот же секс.</SexualityGay_desc>
+
+		<MaxQuirks>Макс причуды</MaxQuirks>
+		<MaxQuirks_desc>Максимальное количество причуд, которое можно получить при создании.</MaxQuirks_desc>
+</LanguageData>

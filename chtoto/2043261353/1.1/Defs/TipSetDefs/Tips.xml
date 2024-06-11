@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TipSetDef>
+		<defName>SJWTips</defName>
+		<tips>
+			<!-- Misc -->
+			<li>Wash you hands after handholding.</li>
+			<li>Wash you hands before handholding.</li>
+			<li>#StayAtHome</li>
+		</tips>
+	</TipSetDef>
+</Defs>

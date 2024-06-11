@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <! - Используется для отслеживания клиентов, чтобы шлюха не выпрашивала повторно одного и того же гостя ->
+
+   <RJWFailedSolicitation.stages.0.label>пытался снять меня</RJWFailedSolicitation.stages.0.label>
+
+
+   <! - То же, что и выше, но для колонистов ->
+
+   <RJWTurnedDownWhore.stages.0.label>меня беспокоил</RJWTurnedDownWhore.stages.0.label>
+
+   <SleptInBrothel.stages.0.label>спал в борделе</SleptInBrothel.stages.0.label>
+   <SleptInBrothel.stages.0.description>Фу, все листы были липкими.</SleptInBrothel.stages.0.description>
+   <SleptInBrothel.stages.1.label>спал в борделе!</SleptInBrothel.stages.1.label>
+   <SleptInBrothel.stages.1.description>Мне просто нравится это место, запах, звуки.</SleptInBrothel.stages.1.description>
+
+
+</LanguageData>

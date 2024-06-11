@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+	<identifier>SafeJobWorld</identifier>
+	<version>5.3.9</version>
+	<dependencies>
+		<li>HugsLib</li>
+	</dependencies>
+	<incompatibleWith />
+	<loadAfter>
+		<li>HugsLib</li>
+	</loadAfter>
+	<suggests>
+	</suggests>
+</Manifest>

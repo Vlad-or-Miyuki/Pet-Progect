@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Remove privates -->
+
+  <RemoveGenitals.label>удалить гениталии</RemoveGenitals.label>
+   <RemoveGenitals.description>Удаляет гениталии.</RemoveGenitals.description>
+   <RemoveGenitals.jobString>Удаление гениталий.</RemoveGenitals.jobString>
+
+
+  <!-- <RecipeDef ParentName="SexReassignmentP">
+		<defName>Удалить Пенис</defName>
+		<label>удалить гениталии</label>
+		<description>Удаляет пенис.</description>
+		<workerClass>rjw.Recipe_RemovePenis</workerClass>
+		<jobString>Удаляет пенис.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SexReassignmentV">
+		<defName>Удалить Влагалище</defName>
+		<label>Удалить Влагалище</label>
+		<description>Удалить Влагалище.</description>
+		<workerClass>rjw.Recipe_RemoveVagina</workerClass>
+		<jobString>Удалить Влагалище.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef> -->
+
+  <RemoveBreasts.label>удалить грудь</RemoveBreasts.label>
+   <RemoveBreasts.description>Удаляет грудь.</RemoveBreasts.description>
+   <RemoveBreasts.jobString>Удаление груди.</RemoveBreasts.jobString>
+
+   <RemoveAnus.label>удалить анус </RemoveAnus.label>
+   <RemoveAnus.description>Удаляет анус.</RemoveAnus.description>
+   <RemoveAnus.jobString>Удаление ануса.</RemoveAnus.jobString>
+
+   <RemoveUdder.label>удалить вымя</RemoveUdder.label>
+   <RemoveUdder.description>Удаляет вымя.</RemoveUdder.description>
+   <RemoveUdder.jobString>Удаление вымени.</RemoveUdder.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TalkTopicsSex.rulePack.rulesStrings.0>Тема Разговора Любая -> [Поговорим на тему Секс]</TalkTopicsSex.rulePack.rulesStrings.0>
+  <TalkTopicsSex.rulePack.rulesStrings.1>Поговорим на тему Секс (p = 0,08) -> [тем для обсуждения]</TalkTopicsSex.rulePack.rulesStrings.1>
+  <TalkTopicsSex.rulePack.rulesStrings.2>Тема разговора Тяжелая (p = 0,08) -> связь между [тем для обсуждения] и [тем для обсуждения]</TalkTopicsSex.rulePack.rulesStrings.2>
+  <TalkTopicsSex.rulePack.rulesStrings.3>Тема разговора Тяжелая (p = 0,08) -> связь между [тем для обсуждения] и [тем для обсуждения]</TalkTopicsSex.rulePack.rulesStrings.3>
+  <TalkTopicsSex.rulePack.rulesStrings.4>Тема разговора Тяжелая (p = 0,08) -> связь между [тем для обсуждения] и [тем для обсуждения]</TalkTopicsSex.rulePack.rulesStrings.4>
+  <TalkTopicsSex.rulePack.rulesStrings.5>Тема разговора Тяжелая (p = 0.16) -> связь между [тема разговора тяжелый] и [тем для обсуждения]</TalkTopicsSex.rulePack.rulesStrings.5>
+  <TalkTopicsSex.rulePack.rulesStrings.6>Тема разговора Тяжелая (p = 0,16) -> связь между [тема разговора тяжелый] и [тем для обсуждения]</TalkTopicsSex.rulePack.rulesStrings.6>
+  <TalkTopicsSex.rulePack.rulesStrings.7>Тема разговора Тяжелая (p = 0,16) -> связь между [тема разговора тяжелый] и [тем для обсуждения]</TalkTopicsSex.rulePack.rulesStrings.7>
+
+
+</LanguageData>

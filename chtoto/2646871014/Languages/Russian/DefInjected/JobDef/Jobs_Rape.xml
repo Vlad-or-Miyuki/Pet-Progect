@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GettinRaped.reportString>получаешь за руки.</GettinRaped.reportString>
+  <RapeComfortPawn.reportString>держать за руку' CP</RapeComfortPawn.reportString>
+  <RandomRape.reportString>случайным образом держась за руки</RandomRape.reportString>
+  <RapeEnemy.reportString>Держать за руку.' Врага</RapeEnemy.reportString>
+  <RapeEnemyByInsect.reportString>Держать за руку' Врага</RapeEnemyByInsect.reportString>
+  <RapeEnemyByAnimal.reportString>Держать за руку' Врага</RapeEnemyByAnimal.reportString>
+  <RapeEnemyByMech.reportString>Держать за руку' Врага</RapeEnemyByMech.reportString>
+  <RapeEnemyToParasite.reportString>Держать за руку' Врага</RapeEnemyToParasite.reportString>
+
+
+</LanguageData>
