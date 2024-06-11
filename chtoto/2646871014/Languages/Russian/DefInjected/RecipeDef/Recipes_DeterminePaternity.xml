@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <DeterminePaternity.label>проверить отцовство</DeterminePaternity.label>
-  <DeterminePaternity.description>Определяет, беременна ли колонистка, и пытается выяснить, кто ее отец.</DeterminePaternity.description>
-  <DeterminePaternity.jobString>Проверить отцовство.</DeterminePaternity.jobString>
-
-
-</LanguageData>

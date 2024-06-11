@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <DeterminePregnancy.label>проверить беременность</DeterminePregnancy.label>
-  <DeterminePregnancy.description>Определяет, беременна ли колонистка или нет, и есть ли какие-либо отклонения от нормы при беременности.</DeterminePregnancy.description>
-  <DeterminePregnancy.jobString>Проверить беременность.</DeterminePregnancy.jobString>
-
-
-</LanguageData>
