@@ -64,7 +64,7 @@ function filter (category, items) {
         // В противном случае, удалять класс hide
         } else {
             item.classList.remove('hide')
-      }
+    }
     })
-  }
+}
 // кнопки для фильтра категорий

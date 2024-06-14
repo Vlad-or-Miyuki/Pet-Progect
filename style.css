@@ -180,6 +180,10 @@ li {
   padding: 5px;
 }
 
+.hidden-content-saturn {
+  
+}
+
 /* карточки и фильтр категрий */
 .card {
   display: flex;
@@ -230,7 +234,7 @@ li {
   background-color: var(--color-otmichka);
   margin: 5% auto; /* отступ сверху и центрирование по горизонтали */
   border: 1px solid black;
-  width: 70%;
+  width: 55%;
   color: var(--color-otmichka);
   background-color: var(--color-tema2);
   border-radius: 15px;
@@ -294,6 +298,7 @@ li {
   flex-direction: column;
   border-radius: 15px;
   background-color: var(--color-tema1);
+  margin-bottom: 10px;
 }
 
 .imgBarterDiv{
@@ -378,8 +383,11 @@ label:hover {
   background-color: var(--color-tema3);
 }
 
-#tab1:checked ~ #saturn_1,
-#tab2:checked ~ #saturn_2 {
+#tab1:checked ~ #saturn_1 {
+  display: flex;
+}
+#tab2:checked ~ #saturn_2,
+#tab3:checked ~ #saturn_3 {
   display: flex;
 }
 
@@ -448,6 +456,7 @@ label:hover {
   padding-left: 8px;
   font-size: 24px;
   font-weight: 100;
+  width: 600px;
 }
 
 .skidkaOnBarter{
@@ -501,4 +510,23 @@ input::-webkit-inner-spin-button {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   padding-left: 10px;
+}
+.cNameCostume {
+  display: flex;
+}
+
+.imeetsa {  
+  display: flex;
+  justify-content: center;
+  font-family: "Acherus_Feral";
+  background-color: var(--color-tema3);
+  color: var(--color-master);
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 100;
+  width: 150px;
+  margin-right: 0px;
+  margin-left: auto;
 }

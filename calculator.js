@@ -26,3 +26,15 @@ function handleChange(skidon) {
     document.getElementById("Цена_Сатурн").innerHTML = procent(Цена_Сатурн, saturn)
 }
 
+let clickableElementSaturn = document.querySelector('.clickable-saturn');
+let hiddenContentsSaturn = document.querySelectorAll('.hidden-content-saturn');
+
+clickableElementSaturn.addEventListener('click', function() {
+    hiddenContentsSaturn.forEach(function(hiddenContent) {
+        if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'block';
+        } else {
+            hiddenContent.style.display = 'none';
+        }
+    });
+});

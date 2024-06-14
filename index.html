@@ -68,14 +68,15 @@
           <button id="BTN_Сатурн" class="defButton masterButton">"Сатурн"</button>
           <div id="MDL_Сатурн" class="modal">
               <div class="modal-content">
-                  <span class="close">&times;</span>
+                  <!-- <span class="close">&times;</span> -->
                   <div class="contentInModal">
-                    <h1 class="nameCostume">Сатурн</h1>
-                    <div class="oneBarterModal">
+                    <div class="cNameCostume">
+                      <h1 class="nameCostume">Сатурн</h1>
+                      <div class="clickable-saturn imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-saturn">
                       <input class="barterInput" id="tab1" type="radio" name="tabs" checked>
                       <label for="tab1">Предложение 1</label>
-                      <input class="barterInput" id="tab2" type="radio" name="tabs">
-                      <label for="tab2">Предложение 2</label>
                       <input type="number" class="skidkaOnBarter" id="skidon_Saturn" value="0" maxlength="3" onchange="handleChange(this);" />
                       <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
                       <section id="saturn_1">
@@ -108,7 +109,54 @@
                           </div>
                         </div>
                       </section>
+                    </div>
+                    <div class="hidden-content-saturn">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="Цена_Сатурн">2268120</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contentInModal">
+                    <h1 class="nameCostume">ПоношенныйСатурн</h1>
+                    <div class="oneBarterModal">
+                      <input class="barterInput" id="tab2" type="radio" name="tabs_2" checked>
+                      <label for="tab2">Предложение 1</label>
+                      <input class="barterInput" id="tab3" type="radio" name="tabs_2">
+                      <label for="tab3">Предложение 2</label>
+                      <input type="number" class="skidkaOnBarter" id="skidon_Saturn" value="0" maxlength="3" onchange="handleChange(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
                       <section id="saturn_2">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Сатурн.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/Поношенный Сатурн.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки пси маячка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Остатки_пси_маячка_Сатурн">3360</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Рыжий папоротник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Рыжий_папоротник_Сатурн">1930</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Фрагмент_данных_Гамма_Сатурн">660</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Вещество 07270.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Вещество_07270_Сатурн">2900</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Аномальная сыворотка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Аномальная_сыворотка_Сатурн">55</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section id="saturn_3">
                         <div class="allBarter">
                         <img class="photoCard photCardInModal" src="items/suits/science/Сатурн.png" alt="Сатурн">
                           <div class="barterForDefItem">
