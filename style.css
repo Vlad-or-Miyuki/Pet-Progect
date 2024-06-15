@@ -184,6 +184,10 @@ li {
   
 }
 
+.hidden-content-ponSaturn {
+  
+}
+
 /* карточки и фильтр категрий */
 .card {
   display: flex;
@@ -245,6 +249,7 @@ li {
 
 /* Кнопка закрытия модального окна */
 .close {
+  display: none;
   color: var(--color-otmichka);
   float: right;
   font-size: 20px;
@@ -520,7 +525,7 @@ input::-webkit-inner-spin-button {
   justify-content: center;
   font-family: "Acherus_Feral";
   background-color: var(--color-tema3);
-  color: var(--color-master);
+  color: var(--color-otmichka);
   margin: 0;
   padding: 0;
   border-radius: 15px;

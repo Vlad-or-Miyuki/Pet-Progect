@@ -38,3 +38,16 @@ clickableElementSaturn.addEventListener('click', function() {
         }
     });
 });
+
+let clickableElementPonSaturn = document.querySelector('.clickable-ponSaturn');
+let hiddenContentsPonSaturn = document.querySelectorAll('.hidden-content-ponSaturn');
+
+clickableElementPonSaturn.addEventListener('click', function() {
+    hiddenContentsPonSaturn.forEach(function(hiddenContent) {
+        if (hiddenContent.style.display === 'none') {
+            hiddenContent.style.display = 'block';
+        } else {
+            hiddenContent.style.display = 'none';
+        }
+    });
+});
