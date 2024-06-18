@@ -69,17 +69,18 @@
           <div id="MDL_Сатурн" class="modal">
               <div class="modal-content">
                   <span class="close">&times;</span>
+                  <!-- Сатурн -->
                   <div class="contentInModal">
                     <div class="cNameCostume">
-                      <h1 class="nameCostume">Сатурн</h1>
+                      <h1 class="base-name-costume color-master">Сатурн</h1>
                       <div class="clickable-saturn imeetsa">Уже есть</div>
                     </div>
                     <div class="oneBarterModal hidden-content-saturn">
-                      <input class="barterInput" id="tab1" type="radio" name="tabs" checked>
-                      <label for="tab1">Предложение 1</label>
-                      <input type="number" class="skidkaOnBarter" id="skidon_Saturn" value="0" maxlength="3" onchange="handleChange(this);" />
+                      <input class="barterInput" id="barter-offer-saturn-tab-1" type="radio" name="barter-offer-saturn-tabs" checked>
+                      <label for="barter-offer-saturn-tab-1">Предложение 1</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_saturn" value="0" maxlength="3" oninput="handleChangeSaturn(this);" />
                       <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
-                      <section id="saturn_1">
+                      <section id="barter-offer-saturn-1">
                         <div class="allBarter">
                         <img class="photoCard photCardInModal" src="items/suits/science/Сатурн.png" alt="Сатурн">
                           <div class="barterForDefItem">
@@ -87,23 +88,23 @@
                               <div class="imgBarterDiv">
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Остатки пси маячка.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Остатки_пси_маячка_Сатурн">3360</p>
+                                  <p class="containerHowBarter" id="remnants-psi-beacon-saturn-1">3360</p>
                                 </div>
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Рыжий папоротник.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Рыжий_папоротник_Сатурн">1930</p>
+                                  <p class="containerHowBarter" id="red-fern-saturn-1">1930</p>
                                 </div>
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Фрагмент_данных_Гамма_Сатурн">660</p>
+                                  <p class="containerHowBarter" id="fragment-gamma-data-saturn-1">660</p>
                                 </div>
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Вещество 07270.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Вещество_07270_Сатурн">2900</p>
+                                  <p class="containerHowBarter" id="substance-07270-saturn-1">2900</p>
                                 </div>
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Аномальная сыворотка.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Аномальная_сыворотка_Сатурн">55</p>
+                                  <p class="containerHowBarter" id="abnormal-serum-saturn-1">55</p>
                                 </div>
                               </div>
                           </div>
@@ -113,23 +114,27 @@
                     <div class="hidden-content-saturn">
                       <div class="howBarter">
                         <p class="containerHowBarter costCostume">Стоимость: </p>
-                        <p class="containerHowBarter moneyForCostume" id="Цена_Сатурн">2268120</p>
+                        <p class="containerHowBarter moneyForCostume" id="price-saturn-1">2268120</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">100-Рентген/Группировка: 7</p>
                       </div>
                     </div>
                   </div>
+                  <!-- Поношенный сатурн -->
                   <div class="contentInModal">
                     <div class="cNameCostume">
-                      <h1 class="nameCostume">Поношенный Сатурн</h1>
-                      <div class="clickable-ponSaturn imeetsa">Уже есть</div>
+                      <h1 class="base-name-costume color-master">Поношенный Сатурн</h1>
+                      <div class="clickable-shabby-saturn imeetsa">Уже есть</div>
                     </div>
-                    <div class="oneBarterModal hidden-content-ponSaturn">
-                      <input class="barterInput" id="tab2" type="radio" name="tabs_2" checked>
-                      <label for="tab2">Предложение 1</label>
-                      <input class="barterInput" id="tab3" type="radio" name="tabs_2">
-                      <label for="tab3">Предложение 2</label>
-                      <input type="number" class="skidkaOnBarter" id="skidon_Saturn" value="0" maxlength="3" onchange="handleChange(this);" />
+                    <div class="oneBarterModal hidden-content-shabby-saturn">
+                      <input class="barterInput" id="barter-offer-shabby-saturn-tab-1" type="radio" name="barter-offer-shabby-saturn-tabs" checked>
+                      <label for="barter-offer-shabby-saturn-tab-1">Предложение 1</label>
+                      <input class="barterInput" id="barter-offer-shabby-saturn-tab-2" type="radio" name="barter-offer-shabby-saturn-tabs">
+                      <label for="barter-offer-shabby-saturn-tab-2">Предложение 2</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_shabby-saturn" value="0" maxlength="3" oninput="handleChangeShabbySaturn(this);" />
                       <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
-                      <section id="saturn_2">
+                      <section id="barter-offer-shabby-saturn-1">
                         <div class="allBarter">
                         <img class="photoCard photCardInModal" src="items/suits/science/Поношенный Сатурн.png" alt="Сатурн">
                           <div class="barterForDefItem">
@@ -137,67 +142,572 @@
                               <div class="imgBarterDiv">
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Остатки пси маячка.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Остатки_пси_маячка_ПСатурн">1820</p>
+                                  <p class="containerHowBarter" id="remnants-psi-beacon-shabby-saturn-1">1820</p>
                                 </div>
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Рыжий папоротник.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Рыжий_папоротник_ПСатурн">1050</p>
+                                  <p class="containerHowBarter" id="red-fern-shabby-saturn-1">1050</p>
                                 </div>
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Фрагмент_данных_Гамма_ПСатурн">360</p>
+                                  <p class="containerHowBarter" id="fragment-gamma-data-shabby-saturn-1">360</p>
                                 </div>
                                 <div class="howBarter">
                                   <img class="photoBarter" src="items/barter/unpacked/Вещество 07270.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Вещество_07270_ПСатурн">1570</p>
+                                  <p class="containerHowBarter" id="substance-07270-shabby-saturn-1">1570</p>
                                 </div>
                                 <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Аномальная сыворотка.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter" id="Аномальная_сыворотка_ПСатурн">10</p>
+                                  <img class="photoBarter" src="items/barter/unpacked/Аномальная сыворотка.png" alt="Аномальная сыворотка">
+                                  <p class="containerHowBarter" id="abnormal-serum-shabby-saturn-1">10</p>
                                 </div>
                               </div>
                           </div>
                         </div>
                       </section>
-                      <section id="saturn_3">
+                      <section id="barter-offer-shabby-saturn-2">
                         <div class="allBarter">
-                        <img class="photoCard photCardInModal" src="items/suits/science/Сатурн.png" alt="Сатурн">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Поношенный Сатурн.png" alt="Сатурн">
                           <div class="barterForDefItem">
-                            <img class="photoCardInInModalForPhoto" src="items/suits/science/Поношенный Сатурн.png" alt="Поношенный Сатурн">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/Повреждённый Сатурн.png" alt="Поношенный Сатурн">
                               <div class="imgBarterDiv">
                                 <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">9999</p>
+                                  <img class="photoBarter" src="items/barter/unpacked/лимбоплазма.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="limboplasm-shabby-saturn-2">24</p>
                                 </div>
                                 <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">8888</p>
+                                  <img class="photoBarter" src="items/barter/unpacked/горьколистник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="bitterleaf-shabby-saturn-2">1160</p>
                                 </div>
                                 <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">99129</p>
+                                  <img class="photoBarter" src="items/barter/unpacked/лямбда.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="fragment-lambda-data-shabby-saturn-2">264</p>
                                 </div>
                                 <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">9999</p>
+                                  <img class="photoBarter" src="items/barter/unpacked/лим.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="lim-shabby-saturn-2">930</p>
                                 </div>
                                 <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">9999</p>
-                                </div>
-                                <div class="howBarter">
-                                  <img class="photoBarter" src="items/barter/unpacked/Фрагмент данных Гамма.png" alt="Фрагмент данных Гамма">
-                                  <p class="containerHowBarter">9999</p>
+                                  <img class="photoBarter" src="items/barter/unpacked/Аномальная сыворотка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="abnormal-serum-shabby-saturn-2">10</p>
                                 </div>
                               </div>
                           </div>
                         </div>
                       </section>
                     </div>
-                    <div class="hidden-content-ponSaturn">
+                    <div class="hidden-content-shabby-saturn">
                       <div class="howBarter">
                         <p class="containerHowBarter costCostume">Стоимость: </p>
-                        <p class="containerHowBarter moneyForCostume" id="Цена_Сатурн">1224700</p>
+                        <p class="containerHowBarter moneyForCostume" id="price-shabby-saturn-1">1224700</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">100-Рентген/Группировка: 5</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Повреждённый сатурн -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-veteran">Повреждённый Сатурн</h1>
+                      <div class="clickable-damaged-saturn imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-damaged-saturn">
+                      <input class="barterInput" id="barter-offer-damaged-saturn-tab-1" type="radio" name="barter-offer-damaged-saturn-tabs" checked>
+                      <label for="barter-offer-damaged-saturn-tab-1">Предложение 1</label>
+                      <input class="barterInput" id="barter-offer-damaged-saturn-tab-2" type="radio" name="barter-offer-damaged-saturn-tabs">
+                      <label for="barter-offer-damaged-saturn-tab-2">Предложение 2</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_damaged-saturn" value="0" maxlength="3" oninput="handleChangeDamagedSaturn(this)" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-damaged-saturn-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Повреждённый Сатурн.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/СЕВА.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки пси маячка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="remnants-psi-beacon-damaged-saturn-1">1010</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Рыжий папоротник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="red-fern-damaged-saturn-1">590</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/бета.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="fragment-beta-data-damaged-saturn-1">270</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Вещество 07270.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="substance-07270-damaged-saturn-1">880</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section id="barter-offer-damaged-saturn-2">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Повреждённый Сатурн.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/аметист.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки пси маячка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="remnants_psi_beacon-damaged-saturn-2">940</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Рыжий папоротник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="red_fern-damaged-saturn-2">540</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/бета.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="fragment-beta-data-damaged-saturn-2">330</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Вещество 07270.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="substance_07270-damaged-saturn-2">810</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-damaged-saturn">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price-damaged-saturn-1">634830</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">100-Рентген/Группировка: 3</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- СЕВА -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-veteran">СЕВА</h1>
+                      <div class="clickable-seva imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-seva">
+                      <input class="barterInput" id="barter-offer-seva-tab-1" type="radio" name="barter-offer-seva-tabs" checked>
+                      <label for="barter-offer-seva-tab-1">Предложение 1</label>
+                      <input class="barterInput" id="barter-offer-seva-tab-2" type="radio" name="barter-offer-seva-tabs">
+                      <label for="barter-offer-seva-tab-2">Предложение 2</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_seva" value="0" maxlength="3" onchange="handleChangeSeva(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-seva-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/СЕВА.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/Поношенная СЕВА.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки пси маячка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="remnants-psi-beacon-seva">550</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Рыжий папоротник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="red-fern-seva">320</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/бета.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="fragment-beta-data-seva">243</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Вещество 07270.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="substance-07270-seva">480</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section id="barter-offer-seva-2">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/СЕВА.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/Поношенная СЕВА.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/лимбоплазма.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="limboplasm-seva">8</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/горьколистник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="bitterleaf-seva">350</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/лямбда.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="fragment-lambda-data-seva">80</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/лим.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="lim-seva">279</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-seva">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price-seva">595380</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">100-Рентген/Группировка: 1</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Поношенная СЕВА -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-veteran">Поношенная СЕВА</h1>
+                      <div class="clickable-shabby-seva imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-shabby-seva">
+                      <input class="barterInput" id="barter-offer-shabby-seva-tab-1" type="radio" name="barter-offer-shabby-seva-tabs" checked>
+                      <label for="barter-offer-shabby-seva-tab-1">Предложение 1</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_shabby-seva" value="0" maxlength="3" onchange="handleChangeShabbySeva(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-shabby-seva-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Поношенная СЕВА.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/КИМ-99М Малахит.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки аккумулятора.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="battery-remains-shabby-seva">330</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Северный мох.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="northern-moss-seva">443</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/бета.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="fragment-beta-data-shabby-seva">134</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/дурман камень.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="datura-stone-shabby-seva">510</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-shabby-seva">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price-shabby-seva">102690</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">Бар: 6</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Малахит -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-stalker">КИМ-99М Малахит</h1>
+                      <div class="clickable-KIM99M-malahit imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-KIM99M-malahit">
+                      <input class="barterInput" id="barter-offer-KIM99M-malahit-tab-1" type="radio" name="barter-offer-KIM99M-malahit-tabs" checked>
+                      <label for="barter-offer-KIM99M-malahit-tab-1">Предложение 1</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_malahit" value="0" maxlength="3" onchange="handleChangeMalahi(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-KIM99M-malahit-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/КИМ-99М Малахит.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/Поношенный КИМ-99М Малахит.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки радиопередатчика.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="remnants-radio-transmitter-malahit">151</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Росток чернобыльской ромашки.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="sprout-chernobyl-chamomile-seva">248</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Альфа.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="fragment-alfa-data-malahit">114</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Рассольник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="rassolnik-malahit">147</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-KIM99M-malahit">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price-malahit">54560</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">Бар: 4</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Поношенный малахит -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-stalker">Поношенный КИМ-99М Малахит</h1>
+                      <div class="clickable-shabby-KIM99M-malahit imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-shabby-KIM99M-malahit">
+                      <input class="barterInput" id="barter-offer-shabby-KIM99M-malahit-tab-1" type="radio" name="barter-offer-shabby-KIM99M-malahit-tabs" checked>
+                      <label for="barter-offer-shabby-KIM99M-malahit-tab-1">Предложение 1</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_shabby-KIM99M-malahit" value="0" maxlength="3" onchange="handleChange(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-shabby-KIM99M-malahit-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Поношенный КИМ-99М Малахит.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/КИМ-99 Янтарь.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки радиопередатчика.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Остатки_пси_маячка_ПСатурн">183</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Росток чернобыльской ромашки.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Рыжий_папоротник_ПСатурн">180</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Альфа.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Фрагмент_данных_Гамма_ПСатурн">33</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Рассольник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Вещество_07270_ПСатурн">97</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-shabby-KIM99M-malahit">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price_saturn">54070</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">Бар: 2</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Янтарь -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-beginner">КИМ-99 Янтарь</h1>
+                      <div class="clickable-KIM99-yantar imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-KIM99-yantar">
+                      <input class="barterInput" id="barter-offer-KIM99-yantar-tab-1" type="radio" name="barter-offer-KIM99-yantar-tabs" checked>
+                      <label for="barter-offer-KIM99-yantar-tab-1">Предложение 1</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_KIM99-yantar" value="0" maxlength="3" onchange="handleChange(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-KIM99-yantar-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/КИМ-99 Янтарь.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/Поношенный КИМ-99 Янтарь.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки медной проволоки.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Остатки_пси_маячка_ПСатурн">28</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Корень вонючка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Рыжий_папоротник_ПСатурн">16</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Срачник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Фрагмент_данных_Гамма_ПСатурн">13</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-KIM99-yantar">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price_saturn">3880</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">АТП: 4</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Поношенный янтарь -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-beginner">Поношенный КИМ-99 Янтарь</h1>
+                      <div class="clickable-shabby-KIM99-yantar imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-shabby-KIM99-yantar">
+                      <input class="barterInput" id="barter-offer-shabby-KIM99-yantar-tab-1" type="radio" name="barter-offer-shabby-KIM99-yantar-tabs" checked>
+                      <label for="barter-offer-shabby-KIM99-yantar-tab-1">Предложение 1</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_shabby-KIM99-yantar" value="0" maxlength="3" onchange="handleChange(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-shabby-KIM99-yantar-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Поношенный КИМ-99 Янтарь.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/Заря-Б.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки медной проволоки.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Остатки_пси_маячка_ПСатурн">35</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Корень вонючка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Рыжий_папоротник_ПСатурн">20</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Срачник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Фрагмент_данных_Гамма_ПСатурн">16</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-shabby-KIM99-yantar">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price_saturn">4850</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">АТП: 3</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Заря-Б -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-beginner">Заря-Б</h1>
+                      <div class="clickable-zaryaB imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-zaryaB">
+                      <input class="barterInput" id="barter-offer-zaryaB-tab-1" type="radio" name="barter-offer-zaryaB-tabs" checked>
+                      <label for="barter-offer-zaryaB-tab-1">Предложение 1</label>
+                      <input class="barterInput" id="barter-offer-zaryaB-tab-2" type="radio" name="barter-offer-zaryaB-tabs" checked>
+                      <label for="barter-offer-zaryaB-tab-2">Предложение 1</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_zaryaB" value="0" maxlength="3" onchange="handleChange(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-zaryaB-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Заря-Б.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Корень вонючка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Остатки_пси_маячка_ПСатурн">25</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Срачник.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Рыжий_папоротник_ПСатурн">20</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section id="barter-offer-zaryaB-2">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Заря-Б.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/ИП-4м.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Остатки медной проволоки.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Остатки_пси_маячка_ПСатурн">12</p>
+                                </div>
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Корень вонючка.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Рыжий_папоротник_ПСатурн">10</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-zaryaB">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price_saturn">6110</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">АТП: 1</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ИП-4м -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-otmichka">ИП-4м</h1>
+                      <div class="clickable-IP4m imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-IP4m">
+                      <input class="barterInput" id="barter-offer-IP4m-tab-1" type="radio" name="barter-offer-IP4m-tabs" checked>
+                      <label for="barter-offer-IP4m-tab-1">Предложение 1</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_IP4m" value="0" maxlength="3" onchange="handleChange(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-IP4m-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/ИП-4м.png" alt="Сатурн">
+                          <div class="barterForDefItem">
+                            <img class="photoCardInInModalForPhoto" src="items/suits/science/Дождевик.png" alt="Поношенный Сатурн">
+                              <div class="imgBarterDiv">
+                                <div class="howBarter">
+                                  <img class="photoBarter" src="items/barter/unpacked/Зеленая плесень.png" alt="Фрагмент данных Гамма">
+                                  <p class="containerHowBarter" id="Остатки_пси_маячка_ПСатурн">26</p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-IP4m">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price_saturn">2780</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">Ставка Атамана: 4</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Дождевик -->
+                  <div class="contentInModal">
+                    <div class="cNameCostume">
+                      <h1 class="base-name-costume color-otmichka">Дождевик</h1>
+                      <div class="clickable-dozhdevik imeetsa">Уже есть</div>
+                    </div>
+                    <div class="oneBarterModal hidden-content-dozhdevik">
+                      <input class="barterInput" id="barter-offer-dozhdevik-tab-1" type="radio" name="barter-offer-dozhdevik-tabs" checked>
+                      <label for="barter-offer-dozhdevik-tab-1">Предложение 1</label>
+                      <input type="number" class="skidkaOnBarter" id="discount_dozhdevik" value="0" maxlength="3" onchange="handleChange(this);" />
+                      <div class="skidkaOnBarter prostoSkidka">Ваша скидка:</div>
+                      <section id="barter-offer-dozhdevik-1">
+                        <div class="allBarter">
+                        <img class="photoCard photCardInModal" src="items/suits/science/Дождевик.png" alt="Сатурн">
+                        </div>
+                      </section>
+                    </div>
+                    <div class="hidden-content-dozhdevik">
+                      <div class="howBarter">
+                        <p class="containerHowBarter costCostume">Стоимость: </p>
+                        <p class="containerHowBarter moneyForCostume" id="price_saturn">410</p>
+                      </div>
+                      <div class="container-base-level">
+                        <p class="base-level">Ставка Атамана: 1</p>
                       </div>
                     </div>
                   </div>

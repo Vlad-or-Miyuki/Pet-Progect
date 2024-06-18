@@ -230,12 +230,11 @@ li {
   background-color: var(--color-otmichka);
   margin: 5% auto; /* отступ сверху и центрирование по горизонтали */
   border: 1px solid black;
-  width: 55%;
+  width: 45%;
   color: var(--color-otmichka);
   background-color: var(--color-tema2);
   border-radius: 15px;
   padding: 10px 10px 8px 10px;
-  height: 3000px;
   border-top-right-radius: 15px;
 }
 
@@ -380,11 +379,55 @@ label:hover {
   background-color: var(--color-tema3);
 }
 
-#tab1:checked ~ #saturn_1 {
+#barter-offer-saturn-tab-1:checked ~ #barter-offer-saturn-1 {
   display: flex;
 }
-#tab2:checked ~ #saturn_2,
-#tab3:checked ~ #saturn_3 {
+#barter-offer-shabby-saturn-tab-1:checked ~ #barter-offer-shabby-saturn-1,
+#barter-offer-shabby-saturn-tab-2:checked ~ #barter-offer-shabby-saturn-2 {
+  display: flex;
+}
+
+#barter-offer-damaged-saturn-tab-1:checked ~ #barter-offer-damaged-saturn-1,
+#barter-offer-damaged-saturn-tab-2:checked ~ #barter-offer-damaged-saturn-2 {
+  display: flex;
+}
+
+#barter-offer-seva-tab-1:checked ~ #barter-offer-seva-1,
+#barter-offer-seva-tab-2:checked ~ #barter-offer-seva-2 {
+  display: flex;
+}
+
+#barter-offer-shabby-seva-tab-1:checked ~ #barter-offer-shabby-seva-1,
+#barter-offer-shabby-seva-tab-2:checked ~ #barter-offer-shabby-seva-2 {
+  display: flex;
+}
+
+#barter-offer-KIM99M-malahit-tab-1:checked ~ #barter-offer-KIM99M-malahit-1 {
+  display: flex;
+}
+
+#barter-offer-shabby-KIM99M-malahit-tab-1:checked ~ #barter-offer-shabby-KIM99M-malahit-1 {
+  display: flex;
+}
+
+#barter-offer-KIM99-yantar-tab-1:checked ~ #barter-offer-KIM99-yantar-1 {
+  display: flex;
+}
+
+#barter-offer-shabby-KIM99-yantar-tab-1:checked ~ #barter-offer-shabby-KIM99-yantar-1 {
+  display: flex;
+}
+
+#barter-offer-zaryaB-tab-1:checked ~ #barter-offer-zaryaB-1,
+#barter-offer-zaryaB-tab-2:checked ~ #barter-offer-zaryaB-2 {
+  display: flex;
+}
+
+#barter-offer-IP4m-tab-1:checked ~ #barter-offer-IP4m-1 {
+  display: flex;
+}
+
+#barter-offer-dozhdevik-tab-1:checked ~ #barter-offer-dozhdevik-1 {
   display: flex;
 }
 
@@ -443,10 +486,28 @@ label:hover {
   border-bottom: solid 1px var(--color-veteran);
 }
 
-.nameCostume {
+.color-legend {
+  color: var(--color-legend);
+}
+.color-master {
+  color: var(--color-master);
+}
+.color-veteran {
+  color: var(--color-veteran);
+}
+.color-stalker {
+  color: var(--color-stalker);
+}
+.color-beginner {
+  color: var(--color-beginner);
+}
+.color-otmichka {
+  color: var(--color-otmichka);
+}
+
+.base-name-costume {
   font-family: "Acherus_Feral";
   background-color: var(--color-tema1);
-  color: var(--color-master);
   margin: 0;
   padding: 0;
   border-radius: 15px;
@@ -494,7 +555,6 @@ input::-webkit-inner-spin-button {
   font-size: 20px;
   width: 240px;
   border-radius: 0px;
-  border-bottom-left-radius: 15px;
   padding-left: 10px;
 }
 .prostoSkidka {
@@ -526,4 +586,26 @@ input::-webkit-inner-spin-button {
   width: 150px;
   margin-right: 0px;
   margin-left: auto;
+}
+
+.container-base-level {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.base-level{
+  margin: 0 0 0 0;
+  padding: 5px 7px 5px 7px;
+  background-color: var(--color-tema3);
+  color: var(--color-otmichka);
+  height: 32px;
+  font-family: "Acherus_Feral";
+  font-size: 20px;
+  border-radius: 0px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 10px;
 }
