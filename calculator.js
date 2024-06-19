@@ -187,13 +187,131 @@ function handleChangeMalahit(discount) {
     let discount_sprout_chernobyl_chamomile_malahit = procent(sprout_chernobyl_chamomile_malahit, discount_malahit)
     let discount_fragment_alfa_data_malahit = procent(fragment_alfa_data_malahit, discount_malahit)
     let discount_rassolnik_malahit = procent(rassolnik_malahit, discount_malahit)
-    let discount_price_malahit = procent(price_malahite, discount_malahit)
+    let discount_price_malahit = procent(price_malahit, discount_malahit)
     document.getElementById("remnants-radio-transmitter-malahit").innerHTML = discount_remnants_radio_transmitter_malahit
-    document.getElementById("sprout-chernobyl-chamomile-seva").innerHTML = discount_sprout_chernobyl_chamomile_malahit
+    document.getElementById("sprout-chernobyl-chamomile-malahit").innerHTML = discount_sprout_chernobyl_chamomile_malahit
     document.getElementById("fragment-alfa-data-malahit").innerHTML = discount_fragment_alfa_data_malahit
     document.getElementById("rassolnik-malahit").innerHTML = discount_rassolnik_malahit
     document.getElementById("price-malahit").innerHTML = discount_price_malahit
 }
+
+let remnants_radio_transmitter_shabby_malahit = 183;
+let sprout_chernobyl_chamomile_shabby_malahit = 443;
+let fragment_alfa_data_shabby_malahit = 134;
+let rassolnik_shabby_malahit = 97;
+let price_shabby_malahit = 54070
+
+function handleChangeShabbyMalahit(discount) {
+    const discount_shabby_malahit = (document.getElementById("discount_shabby-malahit")).value
+    if (discount.value[0] === '0') discount.value = 0;
+    if (discount.value < 0) discount.value = 0;
+    if (discount.value > 100) discount.value = 100;
+    if (discount.value === '') discount.value = 0
+    let discount_remnants_radio_transmitter_shabby_malahit = procent(remnants_radio_transmitter_shabby_malahit, discount_shabby_malahit)
+    let discount_sprout_chernobyl_chamomile_shabby_malahit = procent(sprout_chernobyl_chamomile_shabby_malahit, discount_shabby_malahit)
+    let discount_fragment_alfa_data_shabby_malahit = procent(fragment_alfa_data_shabby_malahit, discount_shabby_malahit)
+    let discount_rassolnik_shabby_malahit = procent(rassolnik_shabby_malahit, discount_shabby_malahit)
+    let discount_price_shabby_malahit = procent(price_shabby_malahit, discount_shabby_malahit)
+    document.getElementById("remnants-radio-transmitter-shabby-malahit").innerHTML = discount_remnants_radio_transmitter_shabby_malahit
+    document.getElementById("sprout-chernobyl-chamomile-shabby-malahit").innerHTML = discount_sprout_chernobyl_chamomile_shabby_malahit
+    document.getElementById("fragment-alfa-data-shabby-malahit").innerHTML = discount_fragment_alfa_data_shabby_malahit
+    document.getElementById("rassolnik-shabby-malahit").innerHTML = discount_rassolnik_shabby_malahit
+    document.getElementById("price-shabby-malahit").innerHTML = discount_price_shabby_malahit
+}
+
+let remnants_copper_wire_yantar = 28;
+let stinky_root_yantar = 16;
+let srachnik_yantar = 13;
+let price_yantar = 3880
+
+function handleChangeYantar(discount) {
+    const discount_yantar = (document.getElementById("discount_yantar")).value
+    if (discount.value[0] === '0') discount.value = 0;
+    if (discount.value < 0) discount.value = 0;
+    if (discount.value > 100) discount.value = 100;
+    if (discount.value === '') discount.value = 0
+    let discount_remnants_copper_wire_yantar = procent(remnants_copper_wire_yantar, discount_yantar)
+    let discount_stinky_root_yantar = procent(stinky_root_yantar, discount_yantar)
+    let discount_srachnik_yantar = procent(srachnik_yantar, discount_yantar)
+    let discount_price_yantar = procent(price_yantar, discount_yantar)
+    document.getElementById("remnants-radio-transmitter-yantar").innerHTML = discount_remnants_copper_wire_yantar
+    document.getElementById("sprout-chernobyl-chamomile-yantar").innerHTML = discount_stinky_root_yantar
+    document.getElementById("fragment-alfa-data-yantar").innerHTML = discount_srachnik_yantar
+    document.getElementById("price-yantar").innerHTML = discount_price_yantar
+}
+
+let remnants_copper_wire_shabby_yantar = 35;
+let stinky_root_shabby_yantar = 20;
+let srachnik_shabby_yantar = 16;
+let price_shabby_yantar = 1850
+
+function handleChangeShabbyYantar(discount) {
+    const discount_shabby_yantar = (document.getElementById("discount_shabby-yantar")).value
+    if (discount.value[0] === '0') discount.value = 0;
+    if (discount.value < 0) discount.value = 0;
+    if (discount.value > 100) discount.value = 100;
+    if (discount.value === '') discount.value = 0
+    let discount_remnants_copper_wire_shabby_yantar = procent(remnants_copper_wire_shabby_yantar, discount_shabby_yantar)
+    let discount_stinky_root_shabby_yantar = procent(stinky_root_shabby_yantar, discount_shabby_yantar)
+    let discount_srachnik_shabby_yantar = procent(srachnik_shabby_yantar, discount_shabby_yantar)
+    let discount_price_shabby_yantar = procent(price_shabby_yantar, discount_shabby_yantar)
+    document.getElementById("remnants-copper_wire-shabby-yantar").innerHTML = discount_remnants_copper_wire_shabby_yantar
+    document.getElementById("stinky-root-shabby-yantar").innerHTML = discount_stinky_root_shabby_yantar
+    document.getElementById("srachnik-shabby-yantar").innerHTML = discount_srachnik_shabby_yantar
+    document.getElementById("price-shabby-yantar").innerHTML = discount_price_shabby_yantar
+}
+
+let stinky_root_zaryab = 25;
+let srachnik_zaryab = 20;
+let price_zaryab = 6110
+let stinky_root_zaryab_2 = 12;
+let srachnik_zaryab_2 = 10;
+
+function handleChangeZaryab(discount) {
+    const discount_zaryab = (document.getElementById("discount_zaryab")).value
+    if (discount.value[0] === '0') discount.value = 0;
+    if (discount.value < 0) discount.value = 0;
+    if (discount.value > 100) discount.value = 100;
+    if (discount.value === '') discount.value = 0
+    let discount_stinky_root_zaryab = procent(stinky_root_zaryab, discount_zaryab)
+    let discount_srachnik_zaryab = procent(srachnik_zaryab, discount_zaryab)
+    let discount_price_zaryab = procent(price_zaryab, discount_zaryab)
+    document.getElementById("stinky-root-zaryab").innerHTML = discount_stinky_root_zaryab
+    document.getElementById("srachnik-zaryab").innerHTML = discount_srachnik_zaryab
+    document.getElementById("price-zaryab").innerHTML = discount_price_zaryab
+    let discount_stinky_root_zaryab_2 = procent(stinky_root_zaryab_2, discount_zaryab)
+    let discount_srachnik_zaryab_2 = procent(srachnik_zaryab_2, discount_zaryab)
+    document.getElementById("stinky-root-zaryab-2").innerHTML = discount_stinky_root_zaryab_2
+    document.getElementById("srachnik-zaryab-2").innerHTML = discount_srachnik_zaryab_2
+}
+
+let green_mold_IP4m = 26;
+let price_IP4m = 2780
+
+function handleChangeIP4m(discount) {
+    const discount_IP4m = (document.getElementById("discount_IP4m")).value
+    if (discount.value[0] === '0') discount.value = 0;
+    if (discount.value < 0) discount.value = 0;
+    if (discount.value > 100) discount.value = 100;
+    if (discount.value === '') discount.value = 0
+    let discount_green_mold_IP4m = procent(green_mold_IP4m, discount_IP4m)
+    let discount_price_IP4m = procent(price_IP4m, discount_IP4m)
+    document.getElementById("green_mold-IP4m").innerHTML = discount_green_mold_IP4m
+    document.getElementById("price-IP4m").innerHTML = discount_price_IP4m
+}
+
+let price_dozhdevik = 410
+
+function handleChangeDozhdevik(discount) {
+    const discount_dozhdevik = (document.getElementById("discount_dozhdevik")).value
+    if (discount.value[0] === '0') discount.value = 0;
+    if (discount.value < 0) discount.value = 0;
+    if (discount.value > 100) discount.value = 100;
+    if (discount.value === '') discount.value = 0
+    let discount_price_dozhdevik = procent(price_dozhdevik, discount_dozhdevik)
+    document.getElementById("price-dozhdevik").innerHTML = discount_price_dozhdevik
+}
+
 
 
 

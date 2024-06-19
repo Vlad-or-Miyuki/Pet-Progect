@@ -471,3 +471,105 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.querySelector('#MDL_АМБ_17');
+    document.querySelector('#BTN_АМБ_17').addEventListener('click', openModal);
+    function openModal() {
+        modal.classList.add('modal-open');
+        attachModalEvents();
+    }
+    function attachModalEvents() {
+        modal.querySelector('.close').addEventListener('click', closeModal);
+        document.addEventListener('keydown', handleEscape);
+        modal.addEventListener('click', handleOutside);
+    }
+    function closeModal() {
+        modal.classList.remove('modal-open');
+        detachModalEvents();
+    }
+    function detachModalEvents() {
+        modal.querySelector('.close').removeEventListener('click', closeModal);
+        document.removeEventListener('keydown', handleEscape);
+        modal.removeEventListener('click', handleOutside);
+    }
+    function handleEscape(event) {
+        if (event.key === 'Escape') {
+            closeModal();
+        }
+    }
+    function handleOutside(event) {
+        const isClickInside = !!event.target.closest('.modal-content');
+        if (!isClickInside) {
+            closeModal();
+        }
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.querySelector('#MDL_Glock-17');
+    document.querySelector('#BTN_Glock-17').addEventListener('click', openModal);
+    function openModal() {
+        modal.classList.add('modal-open');
+        attachModalEvents();
+    }
+    function attachModalEvents() {
+        modal.querySelector('.close').addEventListener('click', closeModal);
+        document.addEventListener('keydown', handleEscape);
+        modal.addEventListener('click', handleOutside);
+    }
+    function closeModal() {
+        modal.classList.remove('modal-open');
+        detachModalEvents();
+    }
+    function detachModalEvents() {
+        modal.querySelector('.close').removeEventListener('click', closeModal);
+        document.removeEventListener('keydown', handleEscape);
+        modal.removeEventListener('click', handleOutside);
+    }
+    function handleEscape(event) {
+        if (event.key === 'Escape') {
+            closeModal();
+        }
+    }
+    function handleOutside(event) {
+        const isClickInside = !!event.target.closest('.modal-content');
+        if (!isClickInside) {
+            closeModal();
+        }
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.querySelector('#MDL_TRI-zip');
+    document.querySelector('#BTN_TRI-zip').addEventListener('click', openModal);
+    function openModal() {
+        modal.classList.add('modal-open');
+        attachModalEvents();
+    }
+    function attachModalEvents() {
+        modal.querySelector('.close').addEventListener('click', closeModal);
+        document.addEventListener('keydown', handleEscape);
+        modal.addEventListener('click', handleOutside);
+    }
+    function closeModal() {
+        modal.classList.remove('modal-open');
+        detachModalEvents();
+    }
+    function detachModalEvents() {
+        modal.querySelector('.close').removeEventListener('click', closeModal);
+        document.removeEventListener('keydown', handleEscape);
+        modal.removeEventListener('click', handleOutside);
+    }
+    function handleEscape(event) {
+        if (event.key === 'Escape') {
+            closeModal();
+        }
+    }
+    function handleOutside(event) {
+        const isClickInside = !!event.target.closest('.modal-content');
+        if (!isClickInside) {
+            closeModal();
+        }
+    }
+});
