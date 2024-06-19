@@ -1,2 +1,2 @@
-Добро пожаловать в бесплатный калькулятор по игре STALCRAFT
+Добро пожаловать в бесплатный калькулятор по игре STALCRAFT, здесь вы можете сосчитать необходимую стоимость и колличество бартера для нужного вам снаряжения.
 презентация: https://docs.google.com/presentation/d/1FTpiET4gE5rdTZK0yARc13HVWtzmEbHs72gwHgVrmUw/edit#slide=id.g202c234f5e1_1_12
