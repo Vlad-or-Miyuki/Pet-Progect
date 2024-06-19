@@ -1,0 +1,687 @@
+@font-face {
+  font-family: "Architectural";
+  src: url("fonts/Architectural.woff");
+}
+@font-face {
+  font-family: "Philophobia";
+  src: url("fonts/philophobia.woff");
+}
+@font-face {
+  font-family: "strokerusbylyajka_medium";
+  src: url("fonts/strokerusbylyajka_medium.otf");
+}
+@font-face {
+  font-family: "Acherus_Feral";
+  src: url("fonts/Acherus_Feral.ttf");
+}
+@font-face {
+  font-family: "Limousines";
+  src: url("fonts/Champagne Limousines Bold Italic.ttf");
+}
+@font-face {
+  font-family: "Propisi";
+  src: url("fonts/Propisi.ttf");
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--color-otmichka);
+  background: url(back.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+a {
+  color: var(--color-otmichka);
+  text-decoration: none;
+  font-size: 33px;
+}
+
+a:hover {
+  color: var(--color-forHoverButtons);
+}
+
+.header {
+  font-family: "Acherus_Feral";
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-tema1);
+  z-index: 1;
+}
+  
+.logo {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.logoImg{
+  padding: 0;
+  margin: 0;
+  width: 69px;
+  height: 69px;
+}
+
+.logoText{
+  padding: 12px 0px 10px 10px;
+  margin: 0;
+  font-size: 40px;
+}
+  
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+.nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+  
+.nav a {
+  color: var(--color-otmichka);
+  text-decoration: none;
+}
+  
+.nav a:hover {
+  color: var(--color-otmichka);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding-right: 100px;
+  min-height: 100%;
+}
+  
+.sidebar {
+  font-family: "Acherus_Feral";
+  display: flex;
+  position: fixed;
+  padding-top: 50px;
+  width: 150px;
+  height: 100%;
+  margin-right: 40px;
+  background-color: var(--color-tema2);
+}
+
+.button {
+  font-family: "Acherus_Feral";
+  background-color: var(--color-buttons);
+  color: var(--color-otmichka);
+  width: 124px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  font-size: 13px;
+  border: 0px;
+}
+
+.button:hover {
+  color: var(--color-forHoverButtons);
+}
+
+.button_all {
+  background-color: var(--color-tema1);
+  color: var(--color-otmichka);
+}
+
+.filters {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.categories {
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spisokCent {
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--color-tema1);
+}
+
+ul {
+  padding-left: 1px;
+  list-style-type: none;
+}
+
+li {
+  padding: 2px;
+}
+
+/* кнопки для скрытия категорий */
+.hidden-content-weapon {
+  font-size: small;
+  padding: 5px;
+}
+
+.hidden-content-armor {
+  font-size: small;
+  padding: 5px;
+}
+
+.hidden-content-other {
+  font-size: small;
+  padding: 5px;
+}
+
+/* карточки и фильтр категрий */
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 150px;
+  height: 250px;
+  background-color: var(--color-tema2);
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  padding-left: 165px;
+  padding-top: 75px;
+  color: var(--color-tema2);
+}
+
+.hide {
+  display: none; /* скрывает элемент */
+}
+
+/* Затемнение всей страницы при открытии окна */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* разрешаем прокрутку */
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Добавляется при открытии окна */
+.modal-open {
+  display: block;
+}
+
+/* Содержимое модального окна */
+.modal-content {
+  font-family: "Acherus_Feral";
+  background-color: var(--color-otmichka);
+  margin: 5% auto; /* отступ сверху и центрирование по горизонтали */
+  border: 1px solid black;
+  width: 45%;
+  color: var(--color-otmichka);
+  background-color: var(--color-tema2);
+  border-radius: 15px;
+  padding: 10px 10px 8px 10px;
+  border-top-right-radius: 15px;
+}
+
+/* Кнопка закрытия модального окна */
+.close {
+  display: none;
+  color: var(--color-otmichka);
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.photoCard{
+  width: 125px;
+  height: 210px;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 0px;
+  border-radius: 20px;
+}
+
+.photoBarter{
+  width: 42px;
+  height: 42px;
+  background-color: var(--color-tema3);
+}
+
+.photCardInModal{
+  width: 250px;
+  height: 420px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  border-radius: 0px;
+  background-color: var(--color-tema3);
+}
+
+.previous-level-barter {
+  width: 100px;
+  height: 168px;
+  background-color: var(--color-tema3);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.contentInModal{
+  font-family: "Acherus_Feral";
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: var(--color-tema1);
+  margin-bottom: 10px;
+}
+
+.imgBarterDiv{
+  display: flex;
+  flex-direction: column;
+}
+
+.barterForDefItem{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.columnNot{
+  display: flex;
+  flex-direction: row;
+}
+
+.howBarter{
+  display: flex;
+  flex-direction: row;
+}
+
+.containerHowBarter{
+  font-family: "Propisi";
+  margin: 0 0 0 0;
+  padding: 5px 0 5px 7px;
+  background-color: var(--color-tema3);
+  width: 51px;
+  height: 32px;
+  font-size: 25px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.allBarter {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.oneBarterModal{
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: none;
+}
+
+/* label */
+
+label {
+  font-size: 16px;
+  height: 20px;
+  background-color: var(--color-tema1);
+  width: 200px;
+  margin: 0;
+  padding: 0px 15px 0px 15px;
+  font-weight: 300;
+  color: var(--color-otmichka);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.barterInput {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+label:hover {
+  color: var(--color-forHoverButtons);
+  background-color: var(--color-tema2);
+  box-shadow: 10px var(--color-tema3);
+  cursor: pointer;
+}
+
+.barterInput:checked + label {
+  color: var(--color-otmichka);
+  background-color: var(--color-tema3);
+}
+
+#barter-offer-saturn-tab-1:checked ~ #barter-offer-saturn-1 {
+  display: flex;
+}
+#barter-offer-shabby-saturn-tab-1:checked ~ #barter-offer-shabby-saturn-1,
+#barter-offer-shabby-saturn-tab-2:checked ~ #barter-offer-shabby-saturn-2 {
+  display: flex;
+}
+
+#barter-offer-damaged-saturn-tab-1:checked ~ #barter-offer-damaged-saturn-1,
+#barter-offer-damaged-saturn-tab-2:checked ~ #barter-offer-damaged-saturn-2 {
+  display: flex;
+}
+
+#barter-offer-seva-tab-1:checked ~ #barter-offer-seva-1,
+#barter-offer-seva-tab-2:checked ~ #barter-offer-seva-2 {
+  display: flex;
+}
+
+#barter-offer-shabby-seva-tab-1:checked ~ #barter-offer-shabby-seva-1,
+#barter-offer-shabby-seva-tab-2:checked ~ #barter-offer-shabby-seva-2 {
+  display: flex;
+}
+
+#barter-offer-KIM99M-malahit-tab-1:checked ~ #barter-offer-KIM99M-malahit-1 {
+  display: flex;
+}
+
+#barter-offer-shabby-KIM99M-malahit-tab-1:checked ~ #barter-offer-shabby-KIM99M-malahit-1 {
+  display: flex;
+}
+
+#barter-offer-KIM99-yantar-tab-1:checked ~ #barter-offer-KIM99-yantar-1 {
+  display: flex;
+}
+
+#barter-offer-shabby-KIM99-yantar-tab-1:checked ~ #barter-offer-shabby-KIM99-yantar-1 {
+  display: flex;
+}
+
+#barter-offer-zaryaB-tab-1:checked ~ #barter-offer-zaryaB-1,
+#barter-offer-zaryaB-tab-2:checked ~ #barter-offer-zaryaB-2 {
+  display: flex;
+}
+
+#barter-offer-IP4m-tab-1:checked ~ #barter-offer-IP4m-1 {
+  display: flex;
+}
+
+#barter-offer-dozhdevik-tab-1:checked ~ #barter-offer-dozhdevik-1 {
+  display: flex;
+}
+
+/* Все цвета */
+:root {
+  --color-master: #ff5767;
+  --color-legend: #ffdd66;
+  --color-veteran: #d968c4;
+  --color-stalker: #8d8dff;
+  --color-beginner: #70d470;
+  --color-otmichka: #dbdbdb;
+  --color-tema1: #1a1a1a;
+  --color-tema2: #333;
+  --color-tema3: #0a0a0a;
+  --color-forHoverButtons: white;
+}
+
+.defButton {
+  font-family: "Acherus_Feral";
+  font-weight: bold;
+  font-size: 10px;
+  background-color: #00000000;
+  width: 147px;
+  border-radius: 2px;
+  height: 28px;
+  padding: 0;
+  margin: 0;
+  margin-left: 1.65px;
+  margin-right: 5px;
+  margin-top: 5px;
+  border: solid 0px black;
+}
+
+.masterButton {
+  color: var(--color-master);
+  border-bottom: solid 1px var(--color-master);
+}
+.legendButton {
+  color: var(--color-legend);
+  border-bottom: solid 1px var(--color-legend);
+}
+.stalkerButton {
+  color: var(--color-stalker);
+  border-bottom: solid 1px var(--color-stalker);
+}
+.beginnerButton {
+  color: var(--color-beginner);
+  border-bottom: solid 1px var(--color-beginner);
+}
+.otmichkaButton {
+  color: var(--color-otmichka);
+  border-bottom: solid 1px var(--color-otmichka);
+}
+.veteranButton {
+  color: var(--color-veteran);
+  border-bottom: solid 1px var(--color-veteran);
+}
+
+.color-legend {
+  color: var(--color-legend);
+}
+.color-master {
+  color: var(--color-master);
+}
+.color-veteran {
+  color: var(--color-veteran);
+}
+.color-stalker {
+  color: var(--color-stalker);
+}
+.color-beginner {
+  color: var(--color-beginner);
+}
+.color-otmichka {
+  color: var(--color-otmichka);
+}
+
+.base-name-costume {
+  font-family: "Acherus_Feral";
+  background-color: var(--color-tema1);
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  padding-left: 8px;
+  font-size: 24px;
+  font-weight: 100;
+  width: 600px;
+}
+
+.skidkaOnBarter{
+  outline: none;
+  float: right;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 0px;
+  width: 40px;
+  height: 20px;
+  background-color: var(--color-tema3);
+  color: var(--color-otmichka);
+  text-align: justify;
+  padding: 0;
+  font-size: 14px;
+}
+
+.skidkaOnBarter:focus {
+  border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.moneyForCostume{
+  width: 100px;
+  font-size: 25px;
+  padding-left: 0px;
+}
+
+.costCostume{
+  text-align: justify;
+  font-family: "Acherus_Feral";
+  font-size: 20px;
+  width: 240px;
+  border-radius: 0px;
+  padding-left: 10px;
+}
+.prostoSkidka {
+  text-align: justify;
+  font-size: 14px;
+  height: 20px;
+  width: 100px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-left: 10px;
+}
+.cNameCostume {
+  display: flex;
+}
+
+.imeetsa {  
+  display: flex;
+  justify-content: center;
+  font-family: "Acherus_Feral";
+  background-color: var(--color-tema3);
+  color: var(--color-otmichka);
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 100;
+  width: 150px;
+  margin-right: 0px;
+  margin-left: auto;
+  cursor: pointer
+}
+
+.imeetsa:hover {
+  color: var(--color-forHoverButtons)
+}
+
+.container-base-level {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.base-level{
+  margin: 0 0 0 0;
+  padding: 5px 7px 5px 7px;
+  background-color: var(--color-tema3);
+  color: var(--color-otmichka);
+  height: 32px;
+  font-family: "Acherus_Feral";
+  font-size: 20px;
+  border-radius: 0px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 10px;
+}
+
+.container-how-barter-absolute{
+  font-family: "Propisi";
+  margin: 0 0 0 0;
+  padding-bottom: 10px;
+  background-color: var(--color-tema3);
+  width: 110px;
+  height: 32px;
+  font-size: 25px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.how-barter-absolute{
+  font-family: "Propisi";
+  margin: 0 0 0 0;
+  padding: 5px 0 5px 7px;
+  background-color: var(--color-tema3);
+  width: 200px;
+  height: 32px;
+  font-size: 25px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-right: 20px;
+}
+
+.photo-barter-absolute{
+  width: 42px;
+  height: 42px;
+  background-color: var(--color-tema3);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.count-packed-barter{
+  font-family: "Acherus_Feral";
+  outline: none;
+  float: right;
+  border-radius: 15px;
+  text-align: center;
+  border: 0px;
+  width: 60px;
+  height: 42px;
+  background-color: var(--color-tema3);
+  color: var(--color-otmichka);
+  text-align: justify;
+  font-size: 14px;
+  padding-left: 53px;
+}
+
+.count-packed-barter:focus {
+  border: none;
+}
+
+.how-barter-need {
+  font-family: "Propisi";
+  margin: 0 0 0 0;
+  padding: 5px 50px 5px 50px;
+  background-color: var(--color-tema3);
+  height: 32px;
+  font-size: 25px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-right: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
